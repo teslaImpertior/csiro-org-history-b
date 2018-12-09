@@ -8015,6 +8015,9 @@ From their Web site, November 2002: "As a leading global research enterprise, CS
     prov:generatedAtTime "2000-07-01"^^xsd:date ;
     foaf:name "CSIRO Livestock Industries"^^xsd:string .
 
+##########################################################################################
+##########################################################################################	
+	
 csiro:P005808b a org:Organization ;
 	dc:description "The CSIRO Advisory Council provided advice to the CSIRO Executive on fund allocation, general work of the CSIRO and on investigation and research carried out by CSIRO. The members of the CSIRO executive, chairpersons of each State Committee of the CSIRO and selected specialists sat on the Council until it was dissolved in 1986."^^xsd:string ;
 	dc:subject "Advisory Council"^^xsd:string ;
@@ -8027,6 +8030,83 @@ csiro:P005808b a org:Organization ;
 	prov:generatedAtTime "1950-03-22"^^xsd:date ;
 	prov:invalidatedAtTime "1986-11-25"^^xsd:date ;
 	foaf:name "CSIRO Advisory Council"^^xsd:string ; .
+	
+csiro:X000001 a org:Organisation ;
+	dc:description "Generate sustainable gains in profitability for Australia’s food and fibre production systems and value chains, enabling Australia to capture growing regional export markets, and to respond to the food and nutritional security needs of the world’s growing population."^^xsd:string ;
+	dc:subject "Agriculture and Food"^^xsd:string ;
+	org:changedBy csiro:X000001-i ;
+	org:resultedFrom csiro:X000001-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Agriculture and Food"^^xsd:string ; .
+
+csiro:X000002 a org:Organisation ;
+	dc:description "Deliver solutions that will enhance Australia’s economic competitiveness and regional energy security while enabling the transition to a lower emissions energy future."^^xsd:string ;
+	dc:subject "Energy"^^xsd:string ;
+	org:changedBy csiro:X000002-i ;
+	org:resultedFrom csiro:X000002-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Energy"^^xsd:string ; .
+	
+csiro:X000003 a org:Organisation ;
+	dc:description "Deliver the scientific and engineering innovations to transition Australian manufacturing, creating the jobs of the future, export growth, and increasing the value of the sector."^^xsd:string ;
+	dc:subject "Manufacturing"^^xsd:string ;
+	org:changedBy csiro:X000003-i ;
+	org:resultedFrom csiro:X000003-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Manufacturing"^^xsd:string ; .
+	
+csiro:X000004 a org:Organisation ;
+	dc:description "Deliver science and technology options for the discovery and efficient development of Australia’s $1 trillion mineral resource endowment and enable flow-on benefits to the wider national economy."^^xsd:string ;
+	dc:subject "Mineral Resources"^^xsd:string ;
+	org:changedBy csiro:X000004-i ;
+	org:resultedFrom csiro:X000004-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Mineral Resources"^^xsd:string ; .
+
+csiro:X000005 a org:Organisation ;
+	dc:description "Deliver solutions for sustainable development and stewardship of land, water, ecosystems and communities, valued at over $12 billion per annum in triple bottom line benefits."^^xsd:string ;
+	dc:subject "Land and Water"^^xsd:string ;
+	org:changedBy csiro:X000005-i ;
+	org:resultedFrom csiro:X000005-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Land and Water"^^xsd:string ; .
+
+csiro:X000006 a org:Organisation ;
+	dc:description "To boost Australia’s prosperity and wellbeing through solutions that enable the sustainable economic, social, and environmental use of Australia’s marine estate, and management of the atmospheric environment."^^xsd:string ;
+	dc:subject "Oceans and Atmosphere"^^xsd:string ;
+	org:changedBy csiro:X000006-i ;
+	org:resultedFrom csiro:X000006-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Oceans and Atmosphere"^^xsd:string ; .	
+
+csiro:X000007 a org:Organisation ;
+	dc:description "Increase the productivity and effectiveness of Australia's health and biosecurity systems through technology and services."^^xsd:string ;
+	dc:subject "Health and Biosecurity"^^xsd:string ;
+	org:changedBy csiro:X000007-i ;
+	org:resultedFrom csiro:X000007-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Health and Biosecurity"^^xsd:string ; .	
+
+csiro:X000008 a org:Organisation ;
+	dc:description "A digital innovation powerhouse focused on the identification, enablement and commercialisation of valuable datasets for Australia enabling industry, government and research transformation across domains and sectors."^^xsd:string ;
+	dc:subject "Data61"^^xsd:string ;
+	org:changedBy csiro:X000008-i ;
+	org:resultedFrom csiro:X000008-i ;
+	org:unitOf csiro:A000196 ;
+	prov:generatedAtTime "2018-01-01"^^xsd:date ;
+	foaf:name "Data61"^^xsd:string ; .	
+
+	
+	
+##########################################################################################
+##########################################################################################
 	
 csiro:A002117 a org:Organization ;
     dc:description "The F. D. McMaster Animal Health Laboratory was established at Glebe, New South Wales, in 1931. The Laboratory was part of the Division of Animal Health. In 1963 the Laboratory was renamed, becoming the McMaster Laboratory."^^xsd:string ;
