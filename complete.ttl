@@ -33,7 +33,7 @@ csiro:A000195-i a org:ChangeEvent ;
     org:originalOrganization csiro:A000218 ;
     org:resultingOrganization csiro:A000195 ;
     prov:endedAtTime "1926-06-21"^^xsd:date .
-	
+
 csiro:A000195-x a org:ChangeEvent ;
     rdfs:label "Council for Scientific and Industrial Research (CSIR) - terminated"^^xsd:string ;
     org:originalOrganization csiro:A000195 ;
@@ -3791,7 +3791,7 @@ csiro:A000574 a org:Organization ;
     foaf:name "CSIRO Section of Mathematical Instruments"^^xsd:string .
 
 csiro:A000602 a org:Organization ;
-    dc:description """The CSIRO Office of Space Science and Applications (COSSA) was established in 1988 and was part of the Institute of Information and Communication Technologies. The Office ceased operations in 1996. 
+    dc:description """The CSIRO Office of Space Science and Applications (COSSA) was established in 1988 and was part of the Institute of Information and Communication Technologies. The Office ceased operations in 1996.
 
 From National Archives of Australia, Agency notes for agency CA 7972; CSIRO Institute of Natural Resources and Environment, 11 August 2000: Office of Space Science and Applications (COSSA), which aims to maximise the environmental, social and economic benefits to Australia arising from research in space-related science and engineering."""^^xsd:string ;
     dc:subject "Astronomy or Space Science"^^xsd:string,
@@ -5032,7 +5032,7 @@ csiro:A000999 a org:Organization ;
     foaf:name "Materials Research Laboratories"^^xsd:string .
 
 csiro:A001859 a org:Organization ;
-    dc:description """Established by the CSIRO in 1966, the Australian National Wildlife Collection was gazetted by the Federal Government in 1976. The Collection has been under the control of several CSIRO Divisions, in 2002 it is part of Sustainable Ecosystems. 
+    dc:description """Established by the CSIRO in 1966, the Australian National Wildlife Collection was gazetted by the Federal Government in 1976. The Collection has been under the control of several CSIRO Divisions, in 2002 it is part of Sustainable Ecosystems.
 
 From their Web site, April 2002: "The primary goal of the Australia National Wildlife Collection is the provision of a national reference record of Australia's vertebrate fauna: its mammals, birds, reptiles and amphibians.\""""^^xsd:string ;
     dc:subject "Collection Management"^^xsd:string,
@@ -8025,18 +8025,18 @@ From their Web site, November 2002: "As a leading global research enterprise, CS
     foaf:name "CSIRO Livestock Industries"^^xsd:string .
 
 ##########################################################################################
-##########################################################################################	
+##########################################################################################
 
 csiro:P005808b-i a org:ChangeEvent ;
     rdfs:label "Advisory Council - initiated"^^xsd:string ;
     org:resultingOrganization csiro:P005808b ;
     prov:endedAtTime "1950-03-22"^^xsd:date .
-	
+
 csiro:P005808b-x a org:ChangeEvent ;
     rdfs:label "Advisory Council - terminated"^^xsd:string ;
     org:originalOrganization csiro:P005808b ;
     prov:endedAtTime "1986-11-25"^^xsd:date .
-		
+
 csiro:P005808b a org:Organization ;
 	dc:description "The CSIRO Advisory Council provided advice to the CSIRO Executive on fund allocation, general work of the CSIRO and on investigation and research carried out by CSIRO. The members of the CSIRO executive, chairpersons of each State Committee of the CSIRO and selected specialists sat on the Council until it was dissolved in 1986."^^xsd:string ;
 	dc:subject "Advisory Council"^^xsd:string ;
@@ -8054,7 +8054,7 @@ csiro:IS00001-i a org:ChangeEvent ;
     rdfs:label "Impact Science - initiated"^^xsd:string ;
     org:resultingOrganization csiro:IS00001 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:IS00001 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Impact Science"^^xsd:string ;
@@ -8077,7 +8077,7 @@ csiro:NFC0001-i a org:ChangeEvent ;
     rdfs:label "National Facilities and Collections - initiated"^^xsd:string ;
     org:resultingOrganization csiro:NFC0001 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:NFC0001 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "National Facilities and Collections"^^xsd:string ;
@@ -8093,7 +8093,7 @@ csiro:NFC0002-i a org:ChangeEvent ;
     rdfs:label "National Facilities - initiated"^^xsd:string ;
     org:resultingOrganization csiro:NFC0002 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:NFC0002 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "National Facilities"^^xsd:string ;
@@ -8113,7 +8113,7 @@ csiro:NFC0003-i a org:ChangeEvent ;
     rdfs:label "National Collections - initiated"^^xsd:string ;
     org:resultingOrganization csiro:NFC0003 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:NFC0003 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "National Collections"^^xsd:string ;
@@ -8127,7 +8127,7 @@ csiro:S000001-i a org:ChangeEvent ;
     rdfs:label "CSIRO Services - initiated"^^xsd:string ;
     org:resultingOrganization csiro:S000001 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:S000001 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "CSIRO Services"^^xsd:string ;
@@ -8135,33 +8135,33 @@ csiro:S000001 a org:Organisation ;
 	org:resultedFrom csiro:S000001-i ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "CSIRO Services"^^xsd:string ; .	
-	
+	foaf:name "CSIRO Services"^^xsd:string ; .
+
 csiro:A002292-X000001 a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
     org:originalOrganization csiro:A002292 ;
-    org:resultingOrganization csiro:X000001 .	
+    org:resultingOrganization csiro:X000001 .
 
 csiro:A000591-X000001 a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000591 ;
-    org:resultingOrganization csiro:X000001 .	
+    org:resultingOrganization csiro:X000001 .
 
 csiro:X000023-X000001 a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000023 ;
     org:resultingOrganization csiro:X000001 .
-	
+
 csiro:A000670-X000001 a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000670 ;
-    org:resultingOrganization csiro:X000001 .	
-	
+    org:resultingOrganization csiro:X000001 .
+
 csiro:X000001-i a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000001 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000001 a org:Organisation ;
 	dc:description "Generate sustainable gains in profitability for Australia’s food and fibre production systems and value chains, enabling Australia to capture growing regional export markets, and to respond to the food and nutritional security needs of the world’s growing population."^^xsd:string ;
 	dc:subject "Agriculture and Food"^^xsd:string ;
@@ -8183,13 +8183,13 @@ csiro:X000002-i a org:ChangeEvent ;
 csiro:A000760-X000002 a org:ChangeEvent ;
     rdfs:label "Energy - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000760 ;
-    org:resultingOrganization csiro:X000002 .	
+    org:resultingOrganization csiro:X000002 .
 
 csiro:X000022-X000002 a org:ChangeEvent ;
     rdfs:label "Energy - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000022 ;
-    org:resultingOrganization csiro:X000002 .	
-	
+    org:resultingOrganization csiro:X000002 .
+
 csiro:X000002 a org:Organisation ;
 	dc:description "Deliver solutions that will enhance Australia’s economic competitiveness and regional energy security while enabling the transition to a lower emissions energy future."^^xsd:string ;
 	dc:subject "Energy"^^xsd:string ;
@@ -8210,12 +8210,12 @@ csiro:X000027-X000003 a org:ChangeEvent ;
     rdfs:label "Manufacturing - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000027 ;
     org:resultingOrganization csiro:X000003 .
-	
+
 csiro:X000003-i a org:ChangeEvent ;
     rdfs:label "Manufacturing - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000003 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000003 a org:Organisation ;
 	dc:description "Deliver the scientific and engineering innovations to transition Australian manufacturing, creating the jobs of the future, export growth, and increasing the value of the sector."^^xsd:string ;
 	dc:subject "Manufacturing"^^xsd:string ;
@@ -8235,7 +8235,7 @@ csiro:X000004-i a org:ChangeEvent ;
 csiro:X000022-X000004 a org:ChangeEvent ;
     rdfs:label "Mineral Resources - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000022 ;
-    org:resultingOrganization csiro:X000004 .	
+    org:resultingOrganization csiro:X000004 .
 
 csiro:X000027-X000004 a org:ChangeEvent ;
     rdfs:label "Mineral Resources - initiated"^^xsd:string ;
@@ -8246,7 +8246,7 @@ csiro:X000010-X000004 a org:ChangeEvent ;
     rdfs:label "Mineral Resources - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000010 ;
     org:resultingOrganization csiro:X000004 .
-	
+
 csiro:X000004 a org:Organisation ;
 	dc:description "Deliver science and technology options for the discovery and efficient development of Australia’s $1 trillion mineral resource endowment and enable flow-on benefits to the wider national economy."^^xsd:string ;
 	dc:subject "Mineral Resources"^^xsd:string ;
@@ -8262,23 +8262,23 @@ csiro:X000004 a org:Organisation ;
 csiro:A002292-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:originalOrganization csiro:A002292 ;
-    org:resultingOrganization csiro:X000005 .	
+    org:resultingOrganization csiro:X000005 .
 
 csiro:A000591-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000591 ;
-    org:resultingOrganization csiro:X000005 .	
+    org:resultingOrganization csiro:X000005 .
 
 csiro:A000670-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000670 ;
-    org:resultingOrganization csiro:X000005 .	
+    org:resultingOrganization csiro:X000005 .
 
 csiro:X000022-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000022 ;
     org:resultingOrganization csiro:X000005 .
-	
+
 csiro:X000005-i a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000005 ;
@@ -8288,7 +8288,7 @@ csiro:X000023-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000023 ;
     org:resultingOrganization csiro:X000005 .
-	
+
 csiro:X000005 a org:Organisation ;
 	dc:description "Deliver solutions for sustainable development and stewardship of land, water, ecosystems and communities, valued at over $12 billion per annum in triple bottom line benefits."^^xsd:string ;
 	dc:subject "Land and Water"^^xsd:string ;
@@ -8306,23 +8306,23 @@ csiro:X000005 a org:Organisation ;
 csiro:A002292-X000006 a org:ChangeEvent ;
     rdfs:label "Oceans and Atmosphere - initiated"^^xsd:string ;
     org:originalOrganization csiro:A002292 ;
-    org:resultingOrganization csiro:X000006 .	
+    org:resultingOrganization csiro:X000006 .
 
 csiro:A000591-X000006 a org:ChangeEvent ;
     rdfs:label "Oceans and Atmosphere - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000591 ;
-    org:resultingOrganization csiro:X000006 .	
+    org:resultingOrganization csiro:X000006 .
 
 csiro:A000670-X000006 a org:ChangeEvent ;
     rdfs:label "Oceans and Atmosphere - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000670 ;
-    org:resultingOrganization csiro:X000006 .	
-	
+    org:resultingOrganization csiro:X000006 .
+
 csiro:X000006-i a org:ChangeEvent ;
     rdfs:label "Oceans and Atmosphere - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000006 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000006 a org:Organisation ;
 	dc:description "To boost Australia’s prosperity and wellbeing through solutions that enable the sustainable economic, social, and environmental use of Australia’s marine estate, and management of the atmospheric environment."^^xsd:string ;
 	dc:subject "Oceans and Atmosphere"^^xsd:string ;
@@ -8333,13 +8333,13 @@ csiro:X000006 a org:Organisation ;
 		csiro:A000670-X000006 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Oceans and Atmosphere"^^xsd:string ; .	
+	foaf:name "Oceans and Atmosphere"^^xsd:string ; .
 
 csiro:X000007-i a org:ChangeEvent ;
     rdfs:label "Health and Biosecurity - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000007 ;
-    prov:endedAtTime "2014-01-01"^^xsd:date .	
-	
+    prov:endedAtTime "2014-01-01"^^xsd:date .
+
 csiro:X000007 a org:Organisation ;
 	dc:description "Increase the productivity and effectiveness of Australia's health and biosecurity systems through technology and services."^^xsd:string ;
 	dc:subject "Health and Biosecurity"^^xsd:string ;
@@ -8347,7 +8347,7 @@ csiro:X000007 a org:Organisation ;
 	org:resultedFrom csiro:X000007-i ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Health and Biosecurity"^^xsd:string ; .	
+	foaf:name "Health and Biosecurity"^^xsd:string ; .
 
 csiro:X000008-i a org:ChangeEvent ;
     rdfs:label "Data61 - initiated"^^xsd:string ;
@@ -8363,7 +8363,7 @@ csiro:X000029-X000008 a org:ChangeEvent ;
     rdfs:label "Data61 - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000029 ;
     org:resultingOrganization csiro:X000009 .
-	
+
 csiro:X000008 a org:Organisation ;
 	dc:description "A digital innovation powerhouse focused on the identification, enablement and commercialisation of valuable datasets for Australia enabling industry, government and research transformation across domains and sectors."^^xsd:string ;
 	dc:subject "Data61"^^xsd:string ;
@@ -8373,7 +8373,7 @@ csiro:X000008 a org:Organisation ;
 		csiro:X000029-X000008 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2015-08-28"^^xsd:date ;
-	foaf:name "Data61"^^xsd:string ; .	
+	foaf:name "Data61"^^xsd:string ; .
 
 csiro:X000009-i a org:ChangeEvent ;
     rdfs:label "Astronomy & Space Science - initiated"^^xsd:string ;
@@ -8389,7 +8389,7 @@ csiro:A002115-X000009 a org:ChangeEvent ;
     rdfs:label "Astronomy & Space Science - initiated"^^xsd:string ;
     org:originalOrganization csiro:A002115 ;
     org:resultingOrganization csiro:X000009 .
-	
+
 csiro:X000009 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Astronomy & Space Science"^^xsd:string ;
@@ -8399,8 +8399,8 @@ csiro:X000009 a org:Organisation ;
 		csiro:A002115-X000009 ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
-	foaf:name "Astronomy & Space Science"^^xsd:string ; .	
-	
+	foaf:name "Astronomy & Space Science"^^xsd:string ; .
+
 csiro:X000010-i a org:ChangeEvent ;
     rdfs:label "Computational Informatics - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000010 ;
@@ -8415,7 +8415,7 @@ csiro:X000025-X000010 a org:ChangeEvent ;
     rdfs:label "Computational Informatics - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000025 ;
     org:resultingOrganization csiro:X000010 .
-	
+
 csiro:X000010 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Computational Informatics"^^xsd:string ;
@@ -8429,7 +8429,7 @@ csiro:X000010 a org:Organisation ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2013-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Computational Informatics"^^xsd:string ; .		
+	foaf:name "Computational Informatics"^^xsd:string ; .
 
 csiro:X000011-i a org:ChangeEvent ;
     rdfs:label "Biosecurity - initiated"^^xsd:string ;
@@ -8440,7 +8440,7 @@ csiro:X000023-X000011 a org:ChangeEvent ;
     rdfs:label "Biosecurity - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000023 ;
     org:resultingOrganization csiro:X000011 .
-	
+
 csiro:X000011 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Biosecurity"^^xsd:string ;
@@ -8460,7 +8460,7 @@ csiro:X000023-X000012 a org:ChangeEvent ;
     rdfs:label "Food & Nutrition - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000023 ;
     org:resultingOrganization csiro:X000012 .
-	
+
 csiro:X000012 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Food & Nutrition"^^xsd:string ;
@@ -8469,7 +8469,7 @@ csiro:X000012 a org:Organisation ;
 		csiro:X000023-X000012 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Food & Nutrition"^^xsd:string ; .	
+	foaf:name "Food & Nutrition"^^xsd:string ; .
 
 csiro:X000013-i a org:ChangeEvent ;
     rdfs:label "Digital Products and Services - initiated"^^xsd:string ;
@@ -8480,12 +8480,12 @@ csiro:X000013-x a org:ChangeEvent ;
     rdfs:label "Digital Products and Services - terminated"^^xsd:string ;
     org:originalOrganization csiro:X000013 ;
     prov:endedAtTime "2015-01-01"^^xsd:date .
-	
+
 csiro:X000010-X000013 a org:ChangeEvent ;
     rdfs:label "Digital Products and Services - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000010 ;
     org:resultingOrganization csiro:X000013 .
-	
+
 csiro:X000013 a org:Organisation ;
 	dc:description ""^^xsd:string ;
 	dc:subject "Digital Products and Services"^^xsd:string ;
@@ -8501,7 +8501,7 @@ csiro:X000014-i a org:ChangeEvent ;
     rdfs:label "Australian Animal Health Laboratory - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000014 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000014 a org:Organisation ;
 	dc:description "AAHL helps protect Australia’s multi-billion dollar livestock and aquaculture industries, and the general public, from emerging infectious disease threats. It is a high-containment facility designed to allow scientific research into the most dangerous infectious agents in the world."^^xsd:string ;
 	dc:subject "Australian Animal Health Laboratory"^^xsd:string ;
@@ -8515,7 +8515,7 @@ csiro:X000015-i a org:ChangeEvent ;
     rdfs:label "Australia Telescope National Facility - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000015 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000015 a org:Organisation ;
 	dc:description "Australia's leading observatories for radio astronomy are used by astronomers from around the world, 24 hours a day, every day, to learn about our Universe."^^xsd:string ;
 	dc:subject "Australia Telescope National Facility"^^xsd:string ;
@@ -8529,7 +8529,7 @@ csiro:X000016-i a org:ChangeEvent ;
     rdfs:label "Canberra Deep Space Communication Complex - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000016 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000016 a org:Organisation ;
 	dc:description "The CDSCC is part of NASA's Deep Space Network (DSN). The DSN is an international network of antennas that supports interplanetary spacecraft missions and radio and radar astronomy observations for the exploration of the Solar System and the universe. "^^xsd:string ;
 	dc:subject "Canberra Deep Space Communication Complex"^^xsd:string ;
@@ -8537,13 +8537,13 @@ csiro:X000016 a org:Organisation ;
 	org:resultedFrom csiro:X000016-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Canberra Deep Space Communication Complex"^^xsd:string ; .	
+	foaf:name "Canberra Deep Space Communication Complex"^^xsd:string ; .
 
 csiro:X000017-i a org:ChangeEvent ;
     rdfs:label "Marine National Facility - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000017 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000017 a org:Organisation ;
 	dc:description "Australia’s Marine National Facility is a blue-water research capability, funded by the Australian Government and operated by CSIRO."^^xsd:string ;
 	dc:subject "Marine National Facility"^^xsd:string ;
@@ -8551,13 +8551,13 @@ csiro:X000017 a org:Organisation ;
 	org:resultedFrom csiro:X000017-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Marine National Facility"^^xsd:string ; .	
+	foaf:name "Marine National Facility"^^xsd:string ; .
 
 csiro:X000018-i a org:ChangeEvent ;
     rdfs:label "NovaSAR-1 - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000018 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000018 a org:Organisation ;
 	dc:description "Our share of the NovaSAR-1 satellite provides significant opportunities to support a wide range of existing research, further develop Australia’s Earth observation data analytics expertise, and create new opportunities in the field of remote sensing."^^xsd:string ;
 	dc:subject "NovaSAR-1"^^xsd:string ;
@@ -8571,7 +8571,7 @@ csiro:X000019-i a org:ChangeEvent ;
     rdfs:label "Pawsey Supercomputing Centre - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000019 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000019 a org:Organisation ;
 	dc:description "The Pawsey Supercomputing Centre is a world-class supercomputing centre in Kensington, Western Australia. It hosts new facilities, expertise and infrastructure to support advanced research in astronomy and geoscience."^^xsd:string ;
 	dc:subject "Pawsey Supercomputing Centre"^^xsd:string ;
@@ -8585,7 +8585,7 @@ csiro:X000020-i a org:ChangeEvent ;
     rdfs:label "Australian National Algae Culture Collection - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000020 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000020 a org:Organisation ;
 	dc:description "This collection is a unique resource of Australian biodiversity, containing living cultures of marine and freshwater species from most microalgal classes sourced from tropical Australia to Antarctica."^^xsd:string ;
 	dc:subject "Australian National Algae Culture Collection"^^xsd:string ;
@@ -8593,7 +8593,7 @@ csiro:X000020 a org:Organisation ;
 	org:resultedFrom csiro:X000020-i ;
 	org:unitOf csiro:NFC0003 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Australian National Algae Culture Collection"^^xsd:string ; .	
+	foaf:name "Australian National Algae Culture Collection"^^xsd:string ; .
 
 csiro:X000021-i a org:ChangeEvent ;
     rdfs:label "Exploration & Mining - initiated"^^xsd:string ;
@@ -8608,13 +8608,13 @@ csiro:X000021-x a org:ChangeEvent ;
 csiro:A000782-X000021 a org:ChangeEvent ;
     rdfs:label "Exploration & Mining - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000782 ;
-    org:resultingOrganization csiro:X000021 .	
+    org:resultingOrganization csiro:X000021 .
 
 csiro:A000786-X000021 a org:ChangeEvent ;
     rdfs:label "Exploration & Mining - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000786 ;
-    org:resultingOrganization csiro:X000021 .	
-	
+    org:resultingOrganization csiro:X000021 .
+
 csiro:X000021 a org:Organisation ;
 	dc:subject "Exploration & Mining"^^xsd:string ;
 	org:changedBy csiro:X000021-i ;
@@ -8623,7 +8623,7 @@ csiro:X000021 a org:Organisation ;
 		csiro:A000786-X000021 ;
 	prov:generatedAtTime "1993-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2009-01-01"^^xsd:date ;
-	foaf:name "Exploration & Mining"^^xsd:string ; .		
+	foaf:name "Exploration & Mining"^^xsd:string ; .
 
 csiro:X000022-i a org:ChangeEvent ;
     rdfs:label "Earth Science & Resource Engineering - initiated"^^xsd:string ;
@@ -8638,8 +8638,8 @@ csiro:X000022-x a org:ChangeEvent ;
 csiro:A000785-X000022 a org:ChangeEvent ;
     rdfs:label "Earth Science & Resource Engineering - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000785 ;
-    org:resultingOrganization csiro:X000022 .	
-	
+    org:resultingOrganization csiro:X000022 .
+
 csiro:X000022 a org:Organisation ;
 	dc:subject "Earth Science & Resource Engineering"^^xsd:string ;
 	org:changedBy csiro:X000022-x,
@@ -8664,8 +8664,8 @@ csiro:X000023-x a org:ChangeEvent ;
 csiro:A001687-X000023 a org:ChangeEvent ;
     rdfs:label "Ecosystem Sciences - initiated"^^xsd:string ;
     org:originalOrganization csiro:A001687 ;
-    org:resultingOrganization csiro:X000023 .	
-	
+    org:resultingOrganization csiro:X000023 .
+
 csiro:X000023 a org:Organisation ;
 	dc:subject "Ecosystem Sciences"^^xsd:string ;
 	org:changedBy csiro:X000023-x ,
@@ -8678,7 +8678,7 @@ csiro:X000023 a org:Organisation ;
 	prov:generatedAtTime "2011-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
 	foaf:name "Ecosystem Sciences"^^xsd:string ; .
-	
+
 csiro:X000024 a org:Organisation ;
 	dc:subject "Mathematics, Informatics and Statistics"^^xsd:string ;
 	org:changedBy csiro:X000024-x,
@@ -8697,7 +8697,7 @@ csiro:X000025-x a org:ChangeEvent ;
     rdfs:label "ICT Centre - terminated"^^xsd:string ;
     org:originalOrganization csiro:X000025 ;
     prov:endedAtTime "2013-01-01"^^xsd:date .
-	
+
 csiro:X000025 a org:Organisation ;
 	dc:subject "ICT Centre"^^xsd:string ;
 	org:changedBy csiro:X000025-x,
@@ -8721,8 +8721,8 @@ csiro:X000026-x a org:ChangeEvent ;
 csiro:A000746-X000026 a org:ChangeEvent ;
     rdfs:label "Industrial Physics - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000746 ;
-    org:resultingOrganization csiro:X000026 .	
-	
+    org:resultingOrganization csiro:X000026 .
+
 csiro:X000026 a org:Organisation ;
 	dc:subject "Industrial Physics"^^xsd:string ;
 	org:changedBy csiro:X000026-x,
@@ -8742,7 +8742,7 @@ csiro:X000027-x a org:ChangeEvent ;
     rdfs:label "Industrial Physics - terminated"^^xsd:string ;
     org:originalOrganization csiro:X000027 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
-	
+
 csiro:X000027 a org:Organisation ;
 	dc:subject "Process Science & Engineering"^^xsd:string ;
 	org:changedBy csiro:X000027-x,
@@ -8752,7 +8752,7 @@ csiro:X000027 a org:Organisation ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
 	foaf:name "Process Science & Engineering"^^xsd:string ; .
-	
+
 csiro:X000028-i a org:ChangeEvent ;
     rdfs:label "Space Science & Technology - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000028 ;
@@ -8767,7 +8767,7 @@ csiro:X000025-X000028 a org:ChangeEvent ;
     rdfs:label "Space Science & Technology - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000025 ;
     org:resultingOrganization csiro:X000028 .
-	
+
 csiro:X000028 a org:Organisation ;
 	dc:subject "Space Science & Technology"^^xsd:string ;
 	org:changedBy csiro:X000028-x,
@@ -8792,7 +8792,7 @@ csiro:X000013-X000029 a org:ChangeEvent ;
     rdfs:label "Digital Productivity - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000013 ;
     org:resultingOrganization csiro:X000029 .
-	
+
 csiro:X000029 a org:Organisation ;
 	dc:subject "Digital Productivity"^^xsd:string ;
 	org:changedBy csiro:X000029-x,
@@ -8802,7 +8802,7 @@ csiro:X000029 a org:Organisation ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2015-01-01"^^xsd:date ;
 	foaf:name "Digital Productivity"^^xsd:string ; .
-	
+
 csiro:X000030-i a org:ChangeEvent ;
     rdfs:label "NICTA (non-CSIRO) - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000030 ;
@@ -8812,7 +8812,7 @@ csiro:X000030-x a org:ChangeEvent ;
     rdfs:label "NICTA (non-CSIRO) - terminated"^^xsd:string ;
     org:originalOrganization csiro:X000030 ;
     prov:endedAtTime "2015-08-28"^^xsd:date .
-	
+
 csiro:X000030 a org:Organisation ;
 	dc:subject "NICTA (non-CSIRO)"^^xsd:string ;
 	org:changedBy csiro:X000030-x,
@@ -8846,7 +8846,7 @@ csiro:A000609-X000031 a org:ChangeEvent ;
     rdfs:label "Materials Science & Engineering - initiated"^^xsd:string ;
     org:originalOrganization csiro:A000609 ;
     org:resultingOrganization csiro:X000031 .
-	
+
 csiro:X000031 a org:Organisation ;
 	dc:subject "Materials Science & Engineering"^^xsd:string ;
 	org:changedBy csiro:X000031-x,
@@ -8875,7 +8875,7 @@ csiro:X000032-X000031 a org:ChangeEvent ;
     rdfs:label "Materials Science & Engineering - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000032 ;
     org:resultingOrganization csiro:X000031 .
-	
+
 csiro:X000032 a org:Organisation ;
 	dc:subject "Manufacturing & Materials Technology"^^xsd:string ;
 	org:changedBy csiro:X000032-x ;
@@ -8884,7 +8884,7 @@ csiro:X000032 a org:Organisation ;
 	prov:generatedAtTime "2005-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2006-01-01"^^xsd:date ;
 	foaf:name "Manufacturing & Materials Technology"^^xsd:string ; .
-	
+
 csiro:X000033-i a org:ChangeEvent ;
     rdfs:label "Forest Biosciences - initiated"^^xsd:string ;
     org:resultingOrganization csiro:X000033 ;
@@ -8899,7 +8899,7 @@ csiro:X000033-X000031 a org:ChangeEvent ;
     rdfs:label "Materials Science & Engineering - initiated"^^xsd:string ;
     org:originalOrganization csiro:X000033 ;
     org:resultingOrganization csiro:X000031 .
-	
+
 csiro:X000033 a org:Organisation ;
 	dc:subject "Forest Biosciences"^^xsd:string ;
 	org:changedBy csiro:X000033-x,
@@ -8908,10 +8908,10 @@ csiro:X000033 a org:Organisation ;
 	prov:generatedAtTime "2007-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2008-01-01"^^xsd:date ;
 	foaf:name "Forest Biosciences"^^xsd:string ; .
-	
+
 ##########################################################################################
 ##########################################################################################
-	
+
 csiro:A002117 a org:Organization ;
     dc:description "The F. D. McMaster Animal Health Laboratory was established at Glebe, New South Wales, in 1931. The Laboratory was part of the Division of Animal Health. In 1963 the Laboratory was renamed, becoming the McMaster Laboratory."^^xsd:string ;
     dc:subject "Industrial or Scientific Research"^^xsd:string,
@@ -9464,7 +9464,7 @@ csiro:A000196 a org:Organization ;
     owl:sameAs <http://nla.gov.au/nla.party-458251>,
         <http://www.eoas.info/biogs/A000196b> ;
     org:changedBy csiro:A000196-x ;
-    org:hasMember 
+    org:hasMember
 		<http://www.eoas.info/biogs/P005808b>,
 		<http://www.eoas.info/biogs/P000029b>,
         <http://www.eoas.info/biogs/P000208b>,
@@ -9504,7 +9504,7 @@ csiro:A000196 a org:Organization ;
         <http://www.eoas.info/biogs/P005014b>,
         <http://www.eoas.info/biogs/P005099b> ;
     org:hasPrimarySite csiro:Australia ;
-    org:hasUnit 
+    org:hasUnit
 		csiro:P005808b,
 		csiro:IS00001,
 		csiro:NFC0001,
@@ -9730,9 +9730,3 @@ csiro:A000196 a org:Organization ;
     org:unitOf csiro:A000724 ;
     prov:generatedAtTime "1949-05-19"^^xsd:date ;
     foaf:name "Commonwealth Scientific and Industrial Research Organisation (CSIRO)"^^xsd:string .
-
-	
-	
-	
-
-	
