@@ -1,5 +1,5 @@
 
-FROM ubuntu:18.04
+FROM ubuntu:17.04
 
 MAINTAINER Ivan Subotic "ivan.subotic@unibas.ch"
 
