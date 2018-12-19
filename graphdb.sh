@@ -33,10 +33,3 @@ ENV GDB_HEAP_SIZE="4g"
 
 EXPOSE 7200
 CMD ["/graphdb/bin/graphdb"]
-
-
-
-
-
-
- curl -fsSL https://get.docker.com -o test-docker.sh
