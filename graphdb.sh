@@ -22,7 +22,7 @@ ENV JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
 RUN \
   curl -sS -o /tmp/graphdb.zip -L http://go.pardot.com/e/45622/38-graphdb-free-8-7-2-dist-zip/67bb36/1387841985 && \
   unzip /tmp/graphdb.zip -d /tmp && \
-  mv /tmp/graphdb-free-8.2.0 /graphdb && \
+  mv /tmp/graphdb-free-8.7.2 /graphdb && \
   git clone -b develop --single-branch --depth=1 https://github.com/dhlab-basel/Knora.git /knora && \
   cp /knora/webapi/scripts/KnoraRules.pie /graphdb && \
   rm /tmp/graphdb.zip && \
