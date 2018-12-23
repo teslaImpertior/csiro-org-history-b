@@ -10,7 +10,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-csiro:A000159-A001669 a org:changeEvent ;
+csiro:A000159-A001669 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000159 ;
     org:resultingOrganisation csiro:A001669 .
 
@@ -24,7 +24,7 @@ csiro:A000159-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000159 ;
     prov:endedAtTime "1985-10-31"^^xsd:date .
 
-csiro:A000195-A000196 a org:changeEvent ;
+csiro:A000195-A000196 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000195 ;
     org:resultingOrganisation csiro:A000196 .
 
@@ -59,7 +59,7 @@ csiro:A000212-x a org:ChangeEvent ;
     rdfs:label "Australian Nuclear Science and Technology Organisation (ANSTO) - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000212 .
 
-csiro:A000217-A000218 a org:changeEvent ;
+csiro:A000217-A000218 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000217 ;
     org:resultingOrganisation csiro:A000218 .
 
@@ -73,7 +73,7 @@ csiro:A000217-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000217 ;
     prov:endedAtTime "1920-09-14"^^xsd:date .
 
-csiro:A000218-A000195 a org:changeEvent ;
+csiro:A000218-A000195 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000218 ;
     org:resultingOrganisation csiro:A000195 .
 
@@ -88,11 +88,11 @@ csiro:A000218-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000218 ;
     prov:endedAtTime "1926-06-21"^^xsd:date .
 
-csiro:A000219-A000746 a org:changeEvent ;
+csiro:A000219-A000746 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000219 ;
     org:resultingOrganisation csiro:A000746 .
 
-csiro:A000219-A002111 a org:changeEvent ;
+csiro:A000219-A002111 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000219 ;
     org:resultingOrganisation csiro:A002111 .
 
@@ -107,7 +107,7 @@ csiro:A000219-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000219 ;
     prov:endedAtTime "1996-09-20"^^xsd:date .
 
-csiro:A000220-A000779 a org:changeEvent ;
+csiro:A000220-A000779 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000220 ;
     org:resultingOrganisation csiro:A000779 .
 
@@ -122,7 +122,7 @@ csiro:A000220-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000220 ;
     prov:endedAtTime "2000-07-01"^^xsd:date .
 
-csiro:A000293-A000998 a org:changeEvent ;
+csiro:A000293-A000998 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000293 ;
     org:resultingOrganisation csiro:A000998 .
 
@@ -149,7 +149,7 @@ csiro:A000294-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000294 ;
     prov:endedAtTime "2002-12-31"^^xsd:date .
 
-csiro:A000309-A000294 a org:changeEvent ;
+csiro:A000309-A000294 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000309 ;
     org:resultingOrganisation csiro:A000294 .
 
@@ -164,7 +164,7 @@ csiro:A000309-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000309 ;
     prov:endedAtTime "1994-03-31"^^xsd:date .
 
-csiro:A000310-A000762 a org:changeEvent ;
+csiro:A000310-A000762 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000310 ;
     org:resultingOrganisation csiro:A000762 .
 
@@ -178,7 +178,7 @@ csiro:A000310-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000310 ;
     prov:endedAtTime "1955-12-31"^^xsd:date .
 
-csiro:A000311-A000651 a org:changeEvent ;
+csiro:A000311-A000651 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000311 ;
     org:resultingOrganisation csiro:A000651 .
 
@@ -192,7 +192,7 @@ csiro:A000311-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000311 ;
     prov:endedAtTime "1962-07-02"^^xsd:date .
 
-csiro:A000312-A000309 a org:changeEvent ;
+csiro:A000312-A000309 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000312 ;
     org:resultingOrganisation csiro:A000309 .
 
@@ -215,11 +215,11 @@ csiro:A000313-x a org:ChangeEvent ;
     rdfs:label "CSIRO Meat, Dairy and Aquaculture Sector - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000313 .
 
-csiro:A000314-A000582 a org:changeEvent ;
+csiro:A000314-A000582 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000314 ;
     org:resultingOrganisation csiro:A000582 .
 
-csiro:A000314-A000590 a org:changeEvent ;
+csiro:A000314-A000590 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000314 ;
     org:resultingOrganisation csiro:A000590 .
 
@@ -236,7 +236,7 @@ csiro:A000314-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000314 ;
     prov:endedAtTime "1974-02-24"^^xsd:date .
 
-csiro:A000385-A000293 a org:changeEvent ;
+csiro:A000385-A000293 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000385 ;
     org:resultingOrganisation csiro:A000293 .
 
@@ -250,11 +250,11 @@ csiro:A000385-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000385 ;
     prov:endedAtTime "1948-07-01"^^xsd:date .
 
-csiro:A000400-A000610 a org:changeEvent ;
+csiro:A000400-A000610 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000400 ;
     org:resultingOrganisation csiro:A000610 .
 
-csiro:A000400-A000761 a org:changeEvent ;
+csiro:A000400-A000761 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000400 ;
     org:resultingOrganisation csiro:A000761 .
 
@@ -289,7 +289,7 @@ csiro:A000519-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000519 ;
     prov:endedAtTime "1985-12-31"^^xsd:date .
 
-csiro:A000570-A000740 a org:changeEvent ;
+csiro:A000570-A000740 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000570 ;
     org:resultingOrganisation csiro:A000740 .
 
@@ -304,7 +304,7 @@ csiro:A000570-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000570 ;
     prov:endedAtTime "1971-05-24"^^xsd:date .
 
-csiro:A000571-A000752 a org:changeEvent ;
+csiro:A000571-A000752 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000571 ;
     org:resultingOrganisation csiro:A000752 .
 
@@ -318,7 +318,7 @@ csiro:A000571-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000571 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000572-A000625 a org:changeEvent ;
+csiro:A000572-A000625 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000572 ;
     org:resultingOrganisation csiro:A000625 .
 
@@ -334,7 +334,7 @@ csiro:A000572-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000572 ;
     prov:endedAtTime "1978-12-31"^^xsd:date .
 
-csiro:A000573-A000649 a org:changeEvent ;
+csiro:A000573-A000649 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000573 ;
     org:resultingOrganisation csiro:A000649 .
 
@@ -369,7 +369,7 @@ csiro:A000575-x a org:ChangeEvent ;
     rdfs:label "CSIRO Division of Entomology - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000575 .
 
-csiro:A000576-A000652 a org:changeEvent ;
+csiro:A000576-A000652 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000576 ;
     org:resultingOrganisation csiro:A000652 .
 
@@ -384,7 +384,7 @@ csiro:A000576-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000576 ;
     prov:endedAtTime "1960-06-30"^^xsd:date .
 
-csiro:A000577-A000628 a org:changeEvent ;
+csiro:A000577-A000628 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000577 ;
     org:resultingOrganisation csiro:A000628 .
 
@@ -400,19 +400,19 @@ csiro:A000577-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000577 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000578-A000592 a org:changeEvent ;
+csiro:A000578-A000592 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000578 ;
     org:resultingOrganisation csiro:A000592 .
 
-csiro:A000578-A000612 a org:changeEvent ;
+csiro:A000578-A000612 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000578 ;
     org:resultingOrganisation csiro:A000612 .
 
-csiro:A000578-A000744 a org:changeEvent ;
+csiro:A000578-A000744 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000578 ;
     org:resultingOrganisation csiro:A000744 .
 
-csiro:A000578-A000745 a org:changeEvent ;
+csiro:A000578-A000745 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000578 ;
     org:resultingOrganisation csiro:A000745 .
 
@@ -426,11 +426,11 @@ csiro:A000578-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000578 ;
     prov:endedAtTime "1958-10-08"^^xsd:date .
 
-csiro:A000579-A000314 a org:changeEvent ;
+csiro:A000579-A000314 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000579 ;
     org:resultingOrganisation csiro:A000314 .
 
-csiro:A000579-A000740 a org:changeEvent ;
+csiro:A000579-A000740 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000579 ;
     org:resultingOrganisation csiro:A000740 .
 
@@ -444,7 +444,7 @@ csiro:A000579-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000579 ;
     prov:endedAtTime "1971-05-24"^^xsd:date .
 
-csiro:A000580-A000635 a org:changeEvent ;
+csiro:A000580-A000635 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000580 ;
     org:resultingOrganisation csiro:A000635 .
 
@@ -460,7 +460,7 @@ csiro:A000580-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000580 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000581-A000638 a org:changeEvent ;
+csiro:A000581-A000638 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000581 ;
     org:resultingOrganisation csiro:A000638 .
 
@@ -475,7 +475,7 @@ csiro:A000581-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000581 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000582-A000635 a org:changeEvent ;
+csiro:A000582-A000635 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000582 ;
     org:resultingOrganisation csiro:A000635 .
 
@@ -490,7 +490,7 @@ csiro:A000582-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000582 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000583-A000766 a org:changeEvent ;
+csiro:A000583-A000766 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000583 ;
     org:resultingOrganisation csiro:A000766 .
 
@@ -506,7 +506,7 @@ csiro:A000583-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000583 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000584-A000576 a org:changeEvent ;
+csiro:A000584-A000576 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000584 ;
     org:resultingOrganisation csiro:A000576 .
 
@@ -521,7 +521,7 @@ csiro:A000584-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000584 ;
     prov:endedAtTime "1940-12-31"^^xsd:date .
 
-csiro:A000585-A000586 a org:changeEvent ;
+csiro:A000585-A000586 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000585 ;
     org:resultingOrganisation csiro:A000586 .
 
@@ -535,7 +535,7 @@ csiro:A000585-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000585 ;
     prov:endedAtTime "1946-04-01"^^xsd:date .
 
-csiro:A000586-A000580 a org:changeEvent ;
+csiro:A000586-A000580 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000586 ;
     org:resultingOrganisation csiro:A000580 .
 
@@ -550,7 +550,7 @@ csiro:A000586-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000586 ;
     prov:endedAtTime "1978-02-28"^^xsd:date .
 
-csiro:A000587-A000580 a org:changeEvent ;
+csiro:A000587-A000580 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000587 ;
     org:resultingOrganisation csiro:A000580 .
 
@@ -573,7 +573,7 @@ csiro:A000588-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000588 ;
     prov:endedAtTime "1939-12-31"^^xsd:date .
 
-csiro:A000589-A000615 a org:changeEvent ;
+csiro:A000589-A000615 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000589 ;
     org:resultingOrganisation csiro:A000615 .
 
@@ -587,7 +587,7 @@ csiro:A000589-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000589 ;
     prov:endedAtTime "1958-12-31"^^xsd:date .
 
-csiro:A000590-A000642 a org:changeEvent ;
+csiro:A000590-A000642 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000590 ;
     org:resultingOrganisation csiro:A000642 .
 
@@ -602,7 +602,7 @@ csiro:A000590-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000590 ;
     prov:endedAtTime "1988-01-31"^^xsd:date .
 
-csiro:A000591-A002292 a org:changeEvent ;
+csiro:A000591-A002292 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000591 ;
     org:resultingOrganisation csiro:A002292 .
 
@@ -617,7 +617,7 @@ csiro:A000591-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000591 ;
     prov:endedAtTime "2005-06-30"^^xsd:date .
 
-csiro:A000592-A000583 a org:changeEvent ;
+csiro:A000592-A000583 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000592 ;
     org:resultingOrganisation csiro:A000583 .
 
@@ -633,7 +633,7 @@ csiro:A000592-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000592 ;
     prov:endedAtTime "1987-01-01"^^xsd:date .
 
-csiro:A000593-A000604 a org:changeEvent ;
+csiro:A000593-A000604 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000593 ;
     org:resultingOrganisation csiro:A000604 .
 
@@ -648,7 +648,7 @@ csiro:A000593-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000593 ;
     prov:endedAtTime "1986-12-31"^^xsd:date .
 
-csiro:A000594-A002292 a org:changeEvent ;
+csiro:A000594-A002292 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000594 ;
     org:resultingOrganisation csiro:A002292 .
 
@@ -664,7 +664,7 @@ csiro:A000594-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000594 ;
     prov:endedAtTime "2005-07-01"^^xsd:date .
 
-csiro:A000595-A000655 a org:changeEvent ;
+csiro:A000595-A000655 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000595 ;
     org:resultingOrganisation csiro:A000655 .
 
@@ -679,7 +679,7 @@ csiro:A000595-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000595 ;
     prov:endedAtTime "1978-12-31"^^xsd:date .
 
-csiro:A000596-A000665 a org:changeEvent ;
+csiro:A000596-A000665 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000596 ;
     org:resultingOrganisation csiro:A000665 .
 
@@ -694,7 +694,7 @@ csiro:A000596-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000596 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A000597-A000671 a org:changeEvent ;
+csiro:A000597-A000671 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000597 ;
     org:resultingOrganisation csiro:A000671 .
 
@@ -709,7 +709,7 @@ csiro:A000597-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000597 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000598-A001687 a org:changeEvent ;
+csiro:A000598-A001687 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000598 ;
     org:resultingOrganisation csiro:A001687 .
 
@@ -724,7 +724,7 @@ csiro:A000598-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000598 ;
     prov:endedAtTime "2000-12-31"^^xsd:date .
 
-csiro:A000599-A000600 a org:changeEvent ;
+csiro:A000599-A000600 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000599 ;
     org:resultingOrganisation csiro:A000600 .
 
@@ -739,7 +739,7 @@ csiro:A000599-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000599 ;
     prov:endedAtTime "1982-12-31"^^xsd:date .
 
-csiro:A000600-A000598 a org:changeEvent ;
+csiro:A000600-A000598 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000600 ;
     org:resultingOrganisation csiro:A000598 .
 
@@ -754,7 +754,7 @@ csiro:A000600-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000600 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000601-A000681 a org:changeEvent ;
+csiro:A000601-A000681 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000601 ;
     org:resultingOrganisation csiro:A000681 .
 
@@ -828,7 +828,7 @@ csiro:A000607-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000607 ;
     prov:endedAtTime "1993-07-01"^^xsd:date .
 
-csiro:A000608-A000599 a org:changeEvent ;
+csiro:A000608-A000599 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000608 ;
     org:resultingOrganisation csiro:A000599 .
 
@@ -852,7 +852,7 @@ csiro:A000609-x a org:ChangeEvent ;
     rdfs:label "CSIRO Division of Textile and Fibre Technology - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000609 .
 
-csiro:A000610-A000212 a org:changeEvent ;
+csiro:A000610-A000212 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000610 ;
     org:resultingOrganisation csiro:A000212 .
 
@@ -868,7 +868,7 @@ csiro:A000610-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000610 ;
     prov:endedAtTime "1987-04-27"^^xsd:date .
 
-csiro:A000611-A000592 a org:changeEvent ;
+csiro:A000611-A000592 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000611 ;
     org:resultingOrganisation csiro:A000592 .
 
@@ -893,7 +893,7 @@ csiro:A000612-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000612 ;
     prov:endedAtTime "1970-08-30"^^xsd:date .
 
-csiro:A000613-A000609 a org:changeEvent ;
+csiro:A000613-A000609 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000613 ;
     org:resultingOrganisation csiro:A000609 .
 
@@ -919,7 +919,7 @@ csiro:A000614-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000614 ;
     prov:endedAtTime "1986-12-31"^^xsd:date .
 
-csiro:A000615-A000752 a org:changeEvent ;
+csiro:A000615-A000752 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000615 ;
     org:resultingOrganisation csiro:A000752 .
 
@@ -934,7 +934,7 @@ csiro:A000615-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000615 ;
     prov:endedAtTime "1988-01-01"^^xsd:date .
 
-csiro:A000616-A000613 a org:changeEvent ;
+csiro:A000616-A000613 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000616 ;
     org:resultingOrganisation csiro:A000613 .
 
@@ -949,11 +949,11 @@ csiro:A000616-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000616 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000617-A000613 a org:changeEvent ;
+csiro:A000617-A000613 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000617 ;
     org:resultingOrganisation csiro:A000613 .
 
-csiro:A000617-A000784 a org:changeEvent ;
+csiro:A000617-A000784 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000617 ;
     org:resultingOrganisation csiro:A000784 .
 
@@ -968,7 +968,7 @@ csiro:A000617-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000617 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000618-A000620 a org:changeEvent ;
+csiro:A000618-A000620 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000618 ;
     org:resultingOrganisation csiro:A000620 .
 
@@ -1004,7 +1004,7 @@ csiro:A000620-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000620 ;
     prov:endedAtTime "2002-07-31"^^xsd:date .
 
-csiro:A000621-A002293 a org:changeEvent ;
+csiro:A000621-A002293 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000621 ;
     org:resultingOrganisation csiro:A002293 .
 
@@ -1018,7 +1018,7 @@ csiro:A000621-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000621 ;
     prov:endedAtTime "2002-12-31"^^xsd:date .
 
-csiro:A000622-A000570 a org:changeEvent ;
+csiro:A000622-A000570 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000622 ;
     org:resultingOrganisation csiro:A000570 .
 
@@ -1043,11 +1043,11 @@ csiro:A000623-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000623 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000624-A000698 a org:changeEvent ;
+csiro:A000624-A000698 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000624 ;
     org:resultingOrganisation csiro:A000698 .
 
-csiro:A000624-A000699 a org:changeEvent ;
+csiro:A000624-A000699 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000624 ;
     org:resultingOrganisation csiro:A000699 .
 
@@ -1064,7 +1064,7 @@ csiro:A000624-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000624 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000625-A000626 a org:changeEvent ;
+csiro:A000625-A000626 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000625 ;
     org:resultingOrganisation csiro:A000626 .
 
@@ -1079,7 +1079,7 @@ csiro:A000625-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000625 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000626-A000627 a org:changeEvent ;
+csiro:A000626-A000627 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000626 ;
     org:resultingOrganisation csiro:A000627 .
 
@@ -1106,7 +1106,7 @@ csiro:A000627-x a org:ChangeEvent ;
     rdfs:label "CSIRO Minerals Division - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000627 .
 
-csiro:A000628-A000709 a org:changeEvent ;
+csiro:A000628-A000709 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000628 ;
     org:resultingOrganisation csiro:A000709 .
 
@@ -1151,11 +1151,11 @@ csiro:A000631-x a org:ChangeEvent ;
     rdfs:label "CSIRO Food Processing Sector - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000631 .
 
-csiro:A000632-A000629 a org:changeEvent ;
+csiro:A000632-A000629 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000632 ;
     org:resultingOrganisation csiro:A000629 .
 
-csiro:A000632-A000636 a org:changeEvent ;
+csiro:A000632-A000636 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000632 ;
     org:resultingOrganisation csiro:A000636 .
 
@@ -1169,7 +1169,7 @@ csiro:A000632-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000632 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000633-A000623 a org:changeEvent ;
+csiro:A000633-A000623 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000633 ;
     org:resultingOrganisation csiro:A000623 .
 
@@ -1191,11 +1191,11 @@ csiro:A000634-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000634 ;
     prov:endedAtTime "1986-12-31"^^xsd:date .
 
-csiro:A000635-A001684 a org:changeEvent ;
+csiro:A000635-A001684 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000635 ;
     org:resultingOrganisation csiro:A001684 .
 
-csiro:A000635-A001685 a org:changeEvent ;
+csiro:A000635-A001685 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000635 ;
     org:resultingOrganisation csiro:A001685 .
 
@@ -1231,7 +1231,7 @@ csiro:A000637-x a org:ChangeEvent ;
     rdfs:label "CSIRO Forestry, Wood and Paper Industries Sector - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000637 .
 
-csiro:A000638-A000757 a org:changeEvent ;
+csiro:A000638-A000757 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000638 ;
     org:resultingOrganisation csiro:A000757 .
 
@@ -1248,7 +1248,7 @@ csiro:A000638-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000638 ;
     prov:endedAtTime "1990-06-30"^^xsd:date .
 
-csiro:A000639-A000626 a org:changeEvent ;
+csiro:A000639-A000626 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000639 ;
     org:resultingOrganisation csiro:A000626 .
 
@@ -1272,7 +1272,7 @@ csiro:A000641-x a org:ChangeEvent ;
     rdfs:label "CSIRO Petroleum Sector - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000641 .
 
-csiro:A000642-A000742 a org:changeEvent ;
+csiro:A000642-A000742 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000642 ;
     org:resultingOrganisation csiro:A000742 .
 
@@ -1297,7 +1297,7 @@ csiro:A000643-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000643 ;
     prov:endedAtTime "1988-01-01"^^xsd:date .
 
-csiro:A000644-A000591 a org:changeEvent ;
+csiro:A000644-A000591 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000644 ;
     org:resultingOrganisation csiro:A000591 .
 
@@ -1322,7 +1322,7 @@ csiro:A000645-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000645 ;
     prov:endedAtTime "1996-06-30"^^xsd:date .
 
-csiro:A000646-A000572 a org:changeEvent ;
+csiro:A000646-A000572 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000646 ;
     org:resultingOrganisation csiro:A000572 .
 
@@ -1346,7 +1346,7 @@ csiro:A000647-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000647 ;
     prov:endedAtTime "1973-12-31"^^xsd:date .
 
-csiro:A000648-A000573 a org:changeEvent ;
+csiro:A000648-A000573 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000648 ;
     org:resultingOrganisation csiro:A000573 .
 
@@ -1360,7 +1360,7 @@ csiro:A000648-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000648 ;
     prov:endedAtTime "1945-12-31"^^xsd:date .
 
-csiro:A000649-A000601 a org:changeEvent ;
+csiro:A000649-A000601 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000649 ;
     org:resultingOrganisation csiro:A000601 .
 
@@ -1376,7 +1376,7 @@ csiro:A000649-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000649 ;
     prov:endedAtTime "1974-07-01"^^xsd:date .
 
-csiro:A000650-A000575 a org:changeEvent ;
+csiro:A000650-A000575 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000650 ;
     org:resultingOrganisation csiro:A000575 .
 
@@ -1390,7 +1390,7 @@ csiro:A000650-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000650 ;
     prov:endedAtTime "1949-12-31"^^xsd:date .
 
-csiro:A000651-A000577 a org:changeEvent ;
+csiro:A000651-A000577 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000651 ;
     org:resultingOrganisation csiro:A000577 .
 
@@ -1405,7 +1405,7 @@ csiro:A000651-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000651 ;
     prov:endedAtTime "1971-12-31"^^xsd:date .
 
-csiro:A000652-A000577 a org:changeEvent ;
+csiro:A000652-A000577 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000652 ;
     org:resultingOrganisation csiro:A000577 .
 
@@ -1420,7 +1420,7 @@ csiro:A000652-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000652 ;
     prov:endedAtTime "1971-01-24"^^xsd:date .
 
-csiro:A000653-A000654 a org:changeEvent ;
+csiro:A000653-A000654 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000653 ;
     org:resultingOrganisation csiro:A000654 .
 
@@ -1434,7 +1434,7 @@ csiro:A000653-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000653 ;
     prov:endedAtTime "1946-12-31"^^xsd:date .
 
-csiro:A000654-A000595 a org:changeEvent ;
+csiro:A000654-A000595 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000654 ;
     org:resultingOrganisation csiro:A000595 .
 
@@ -1449,11 +1449,11 @@ csiro:A000654-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000654 ;
     prov:endedAtTime "1948-12-31"^^xsd:date .
 
-csiro:A000655-A000583 a org:changeEvent ;
+csiro:A000655-A000583 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000655 ;
     org:resultingOrganisation csiro:A000583 .
 
-csiro:A000655-A000765 a org:changeEvent ;
+csiro:A000655-A000765 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000655 ;
     org:resultingOrganisation csiro:A000765 .
 
@@ -1478,7 +1478,7 @@ csiro:A000656-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000656 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A000657-A000593 a org:changeEvent ;
+csiro:A000657-A000593 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000657 ;
     org:resultingOrganisation csiro:A000593 .
 
@@ -1492,7 +1492,7 @@ csiro:A000657-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000657 ;
     prov:endedAtTime "1967-12-31"^^xsd:date .
 
-csiro:A000658-A000659 a org:changeEvent ;
+csiro:A000658-A000659 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000658 ;
     org:resultingOrganisation csiro:A000659 .
 
@@ -1506,7 +1506,7 @@ csiro:A000658-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000658 ;
     prov:endedAtTime "1939-12-31"^^xsd:date .
 
-csiro:A000659-A000660 a org:changeEvent ;
+csiro:A000659-A000660 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000659 ;
     org:resultingOrganisation csiro:A000660 .
 
@@ -1521,11 +1521,11 @@ csiro:A000659-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000659 ;
     prov:endedAtTime "1956-01-01"^^xsd:date .
 
-csiro:A000660-A000661 a org:changeEvent ;
+csiro:A000660-A000661 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000660 ;
     org:resultingOrganisation csiro:A000661 .
 
-csiro:A000660-A000662 a org:changeEvent ;
+csiro:A000660-A000662 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000660 ;
     org:resultingOrganisation csiro:A000662 .
 
@@ -1540,7 +1540,7 @@ csiro:A000660-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000660 ;
     prov:endedAtTime "1981-12-31"^^xsd:date .
 
-csiro:A000661-A000663 a org:changeEvent ;
+csiro:A000661-A000663 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000661 ;
     org:resultingOrganisation csiro:A000663 .
 
@@ -1555,7 +1555,7 @@ csiro:A000661-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000661 ;
     prov:endedAtTime "1988-01-01"^^xsd:date .
 
-csiro:A000662-A000594 a org:changeEvent ;
+csiro:A000662-A000594 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000662 ;
     org:resultingOrganisation csiro:A000594 .
 
@@ -1570,7 +1570,7 @@ csiro:A000662-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000662 ;
     prov:endedAtTime "1997-02-01"^^xsd:date .
 
-csiro:A000663-A000594 a org:changeEvent ;
+csiro:A000663-A000594 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000663 ;
     org:resultingOrganisation csiro:A000594 .
 
@@ -1585,7 +1585,7 @@ csiro:A000663-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000663 ;
     prov:endedAtTime "1997-02-01"^^xsd:date .
 
-csiro:A000664-A002292 a org:changeEvent ;
+csiro:A000664-A002292 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000664 ;
     org:resultingOrganisation csiro:A002292 .
 
@@ -1598,11 +1598,11 @@ csiro:A000664-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000664 ;
     prov:endedAtTime "2005-07-01"^^xsd:date .
 
-csiro:A000665-A000779 a org:changeEvent ;
+csiro:A000665-A000779 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000665 ;
     org:resultingOrganisation csiro:A000779 .
 
-csiro:A000665-A001687 a org:changeEvent ;
+csiro:A000665-A001687 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000665 ;
     org:resultingOrganisation csiro:A001687 .
 
@@ -1618,7 +1618,7 @@ csiro:A000665-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000665 ;
     prov:endedAtTime "2000-12-31"^^xsd:date .
 
-csiro:A000666-A000596 a org:changeEvent ;
+csiro:A000666-A000596 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000666 ;
     org:resultingOrganisation csiro:A000596 .
 
@@ -1633,7 +1633,7 @@ csiro:A000666-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000666 ;
     prov:endedAtTime "1976-12-31"^^xsd:date .
 
-csiro:A000667-A000666 a org:changeEvent ;
+csiro:A000667-A000666 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000667 ;
     org:resultingOrganisation csiro:A000666 .
 
@@ -1648,7 +1648,7 @@ csiro:A000667-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000667 ;
     prov:endedAtTime "1973-03-29"^^xsd:date .
 
-csiro:A000668-A000667 a org:changeEvent ;
+csiro:A000668-A000667 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000668 ;
     org:resultingOrganisation csiro:A000667 .
 
@@ -1663,7 +1663,7 @@ csiro:A000668-x a org:ChangeEvent ;
     rdfs:label "CSIRO Division of Plant Industry - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000668 .
 
-csiro:A000669-A000668 a org:changeEvent ;
+csiro:A000669-A000668 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000669 ;
     org:resultingOrganisation csiro:A000668 .
 
@@ -1690,7 +1690,7 @@ csiro:A000670-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000670 ;
     prov:endedAtTime "2014-01-01"^^xsd:date .
 
-csiro:A000671-A000670 a org:changeEvent ;
+csiro:A000671-A000670 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000671 ;
     org:resultingOrganisation csiro:A000670 .
 
@@ -1707,11 +1707,11 @@ csiro:A000671-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000671 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000672-A000670 a org:changeEvent ;
+csiro:A000672-A000670 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000672 ;
     org:resultingOrganisation csiro:A000670 .
 
-csiro:A000672-A000675 a org:changeEvent ;
+csiro:A000672-A000675 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000672 ;
     org:resultingOrganisation csiro:A000675 .
 
@@ -1726,7 +1726,7 @@ csiro:A000672-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000672 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000673-A000767 a org:changeEvent ;
+csiro:A000673-A000767 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000673 ;
     org:resultingOrganisation csiro:A000767 .
 
@@ -1741,7 +1741,7 @@ csiro:A000673-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000673 ;
     prov:endedAtTime "1986-12-31"^^xsd:date .
 
-csiro:A000674-A000672 a org:changeEvent ;
+csiro:A000674-A000672 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000674 ;
     org:resultingOrganisation csiro:A000672 .
 
@@ -1755,7 +1755,7 @@ csiro:A000674-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000674 ;
     prov:endedAtTime "1929-12-31"^^xsd:date .
 
-csiro:A000675-A000673 a org:changeEvent ;
+csiro:A000675-A000673 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000675 ;
     org:resultingOrganisation csiro:A000673 .
 
@@ -1770,7 +1770,7 @@ csiro:A000675-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000675 ;
     prov:endedAtTime "1982-12-31"^^xsd:date .
 
-csiro:A000676-A000597 a org:changeEvent ;
+csiro:A000676-A000597 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000676 ;
     org:resultingOrganisation csiro:A000597 .
 
@@ -1785,7 +1785,7 @@ csiro:A000676-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000676 ;
     prov:endedAtTime "1982-12-31"^^xsd:date .
 
-csiro:A000677-A002113 a org:changeEvent ;
+csiro:A000677-A002113 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000677 ;
     org:resultingOrganisation csiro:A002113 .
 
@@ -1800,7 +1800,7 @@ csiro:A000677-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000677 ;
     prov:endedAtTime "1973-12-31"^^xsd:date .
 
-csiro:A000678-A000677 a org:changeEvent ;
+csiro:A000678-A000677 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000678 ;
     org:resultingOrganisation csiro:A000677 .
 
@@ -1815,7 +1815,7 @@ csiro:A000678-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000678 ;
     prov:endedAtTime "1965-12-31"^^xsd:date .
 
-csiro:A000679-A000678 a org:changeEvent ;
+csiro:A000679-A000678 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000679 ;
     org:resultingOrganisation csiro:A000678 .
 
@@ -1830,7 +1830,7 @@ csiro:A000679-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000679 ;
     prov:endedAtTime "1957-12-31"^^xsd:date .
 
-csiro:A000680-A000679 a org:changeEvent ;
+csiro:A000680-A000679 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000680 ;
     org:resultingOrganisation csiro:A000679 .
 
@@ -1844,7 +1844,7 @@ csiro:A000680-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000680 ;
     prov:endedAtTime "1950-12-31"^^xsd:date .
 
-csiro:A000681-A000746 a org:changeEvent ;
+csiro:A000681-A000746 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000681 ;
     org:resultingOrganisation csiro:A000746 .
 
@@ -1859,7 +1859,7 @@ csiro:A000681-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000681 ;
     prov:endedAtTime "1996-09-20"^^xsd:date .
 
-csiro:A000682-A000601 a org:changeEvent ;
+csiro:A000682-A000601 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000682 ;
     org:resultingOrganisation csiro:A000601 .
 
@@ -1874,7 +1874,7 @@ csiro:A000682-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000682 ;
     prov:endedAtTime "1973-12-31"^^xsd:date .
 
-csiro:A000683-A000682 a org:changeEvent ;
+csiro:A000683-A000682 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000683 ;
     org:resultingOrganisation csiro:A000682 .
 
@@ -1888,7 +1888,7 @@ csiro:A000683-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000683 ;
     prov:endedAtTime "1945-12-31"^^xsd:date .
 
-csiro:A000684-A000685 a org:changeEvent ;
+csiro:A000684-A000685 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000684 ;
     org:resultingOrganisation csiro:A000685 .
 
@@ -1902,7 +1902,7 @@ csiro:A000684-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000684 ;
     prov:endedAtTime "1945-12-31"^^xsd:date .
 
-csiro:A000685-A000649 a org:changeEvent ;
+csiro:A000685-A000649 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000685 ;
     org:resultingOrganisation csiro:A000649 .
 
@@ -1926,7 +1926,7 @@ csiro:A000686-x a org:ChangeEvent ;
     rdfs:label "CSIRO Textiles Clothing and Footwear Sector - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000686 .
 
-csiro:A000687-A000777 a org:changeEvent ;
+csiro:A000687-A000777 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000687 ;
     org:resultingOrganisation csiro:A000777 .
 
@@ -1941,7 +1941,7 @@ csiro:A000687-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000687 ;
     prov:endedAtTime "1974-12-31"^^xsd:date .
 
-csiro:A000688-A000759 a org:changeEvent ;
+csiro:A000688-A000759 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000688 ;
     org:resultingOrganisation csiro:A000759 .
 
@@ -1956,7 +1956,7 @@ csiro:A000688-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000688 ;
     prov:endedAtTime "1981-12-31"^^xsd:date .
 
-csiro:A000690-A002118 a org:changeEvent ;
+csiro:A000690-A002118 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000690 ;
     org:resultingOrganisation csiro:A002118 .
 
@@ -1971,7 +1971,7 @@ csiro:A000690-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000690 ;
     prov:endedAtTime "2001-12-31"^^xsd:date .
 
-csiro:A000691-A000891 a org:changeEvent ;
+csiro:A000691-A000891 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000691 ;
     org:resultingOrganisation csiro:A000891 .
 
@@ -2003,7 +2003,7 @@ csiro:A000693-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000693 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A000694-A000616 a org:changeEvent ;
+csiro:A000694-A000616 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000694 ;
     org:resultingOrganisation csiro:A000616 .
 
@@ -2017,7 +2017,7 @@ csiro:A000694-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000694 ;
     prov:endedAtTime "1958-12-31"^^xsd:date .
 
-csiro:A000695-A000617 a org:changeEvent ;
+csiro:A000695-A000617 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000695 ;
     org:resultingOrganisation csiro:A000617 .
 
@@ -2031,11 +2031,11 @@ csiro:A000695-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000695 ;
     prov:endedAtTime "1958-12-31"^^xsd:date .
 
-csiro:A000696-A000708 a org:changeEvent ;
+csiro:A000696-A000708 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000696 ;
     org:resultingOrganisation csiro:A000708 .
 
-csiro:A000696-A000780 a org:changeEvent ;
+csiro:A000696-A000780 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000696 ;
     org:resultingOrganisation csiro:A000780 .
 
@@ -2050,7 +2050,7 @@ csiro:A000696-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000696 ;
     prov:endedAtTime "1984-09-30"^^xsd:date .
 
-csiro:A000697-A000696 a org:changeEvent ;
+csiro:A000697-A000696 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000697 ;
     org:resultingOrganisation csiro:A000696 .
 
@@ -2066,7 +2066,7 @@ csiro:A000697-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000697 ;
     prov:endedAtTime "1970-12-31"^^xsd:date .
 
-csiro:A000698-A000627 a org:changeEvent ;
+csiro:A000698-A000627 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000698 ;
     org:resultingOrganisation csiro:A000627 .
 
@@ -2081,7 +2081,7 @@ csiro:A000698-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000698 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A000699-A000708 a org:changeEvent ;
+csiro:A000699-A000708 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000699 ;
     org:resultingOrganisation csiro:A000708 .
 
@@ -2096,7 +2096,7 @@ csiro:A000699-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000699 ;
     prov:endedAtTime "1980-12-31"^^xsd:date .
 
-csiro:A000700-A000697 a org:changeEvent ;
+csiro:A000700-A000697 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000700 ;
     org:resultingOrganisation csiro:A000697 .
 
@@ -2110,11 +2110,11 @@ csiro:A000700-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000700 ;
     prov:endedAtTime "1966-12-31"^^xsd:date .
 
-csiro:A000701-A000572 a org:changeEvent ;
+csiro:A000701-A000572 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000701 ;
     org:resultingOrganisation csiro:A000572 .
 
-csiro:A000701-A000624 a org:changeEvent ;
+csiro:A000701-A000624 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000701 ;
     org:resultingOrganisation csiro:A000624 .
 
@@ -2128,7 +2128,7 @@ csiro:A000701-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000701 ;
     prov:endedAtTime "1970-02-28"^^xsd:date .
 
-csiro:A000702-A000704 a org:changeEvent ;
+csiro:A000702-A000704 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000702 ;
     org:resultingOrganisation csiro:A000704 .
 
@@ -2142,7 +2142,7 @@ csiro:A000702-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000702 ;
     prov:endedAtTime "1960-12-31"^^xsd:date .
 
-csiro:A000703-A000624 a org:changeEvent ;
+csiro:A000703-A000624 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000703 ;
     org:resultingOrganisation csiro:A000624 .
 
@@ -2156,7 +2156,7 @@ csiro:A000703-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000703 ;
     prov:endedAtTime "1959-05-31"^^xsd:date .
 
-csiro:A000704-A000624 a org:changeEvent ;
+csiro:A000704-A000624 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000704 ;
     org:resultingOrganisation csiro:A000624 .
 
@@ -2171,7 +2171,7 @@ csiro:A000704-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000704 ;
     prov:endedAtTime "1967-12-31"^^xsd:date .
 
-csiro:A000705-A000706 a org:changeEvent ;
+csiro:A000705-A000706 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000705 ;
     org:resultingOrganisation csiro:A000706 .
 
@@ -2185,7 +2185,7 @@ csiro:A000705-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000705 ;
     prov:endedAtTime "1960-12-31"^^xsd:date .
 
-csiro:A000706-A000697 a org:changeEvent ;
+csiro:A000706-A000697 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000706 ;
     org:resultingOrganisation csiro:A000697 .
 
@@ -2200,7 +2200,7 @@ csiro:A000706-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000706 ;
     prov:endedAtTime "1962-12-31"^^xsd:date .
 
-csiro:A000707-A000639 a org:changeEvent ;
+csiro:A000707-A000639 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000707 ;
     org:resultingOrganisation csiro:A000639 .
 
@@ -2214,7 +2214,7 @@ csiro:A000707-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000707 ;
     prov:endedAtTime "1972-10-12"^^xsd:date .
 
-csiro:A000708-A000581 a org:changeEvent ;
+csiro:A000708-A000581 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000708 ;
     org:resultingOrganisation csiro:A000581 .
 
@@ -2230,7 +2230,7 @@ csiro:A000708-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000708 ;
     prov:endedAtTime "1980-12-31"^^xsd:date .
 
-csiro:A000709-A000630 a org:changeEvent ;
+csiro:A000709-A000630 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000709 ;
     org:resultingOrganisation csiro:A000630 .
 
@@ -2245,7 +2245,7 @@ csiro:A000709-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000709 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000727-A000779 a org:changeEvent ;
+csiro:A000727-A000779 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000727 ;
     org:resultingOrganisation csiro:A000779 .
 
@@ -2261,7 +2261,7 @@ csiro:A000727-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000727 ;
     prov:endedAtTime "2000-07-01"^^xsd:date .
 
-csiro:A000728-A000751 a org:changeEvent ;
+csiro:A000728-A000751 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000728 ;
     org:resultingOrganisation csiro:A000751 .
 
@@ -2276,7 +2276,7 @@ csiro:A000728-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000728 ;
     prov:endedAtTime "1996-12-31"^^xsd:date .
 
-csiro:A000729-A000727 a org:changeEvent ;
+csiro:A000729-A000727 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000729 ;
     org:resultingOrganisation csiro:A000727 .
 
@@ -2291,7 +2291,7 @@ csiro:A000729-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000729 ;
     prov:endedAtTime "1975-12-31"^^xsd:date .
 
-csiro:A000730-A000729 a org:changeEvent ;
+csiro:A000730-A000729 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000730 ;
     org:resultingOrganisation csiro:A000729 .
 
@@ -2305,7 +2305,7 @@ csiro:A000730-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000730 ;
     prov:endedAtTime "1959-12-31"^^xsd:date .
 
-csiro:A000731-A000727 a org:changeEvent ;
+csiro:A000731-A000727 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000731 ;
     org:resultingOrganisation csiro:A000727 .
 
@@ -2320,7 +2320,7 @@ csiro:A000731-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000731 ;
     prov:endedAtTime "1975-11-09"^^xsd:date .
 
-csiro:A000732-A000731 a org:changeEvent ;
+csiro:A000732-A000731 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000732 ;
     org:resultingOrganisation csiro:A000731 .
 
@@ -2334,7 +2334,7 @@ csiro:A000732-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000732 ;
     prov:endedAtTime "1959-12-31"^^xsd:date .
 
-csiro:A000733-A000220 a org:changeEvent ;
+csiro:A000733-A000220 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000733 ;
     org:resultingOrganisation csiro:A000220 .
 
@@ -2349,7 +2349,7 @@ csiro:A000733-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000733 ;
     prov:endedAtTime "1959-11-22"^^xsd:date .
 
-csiro:A000734-A000733 a org:changeEvent ;
+csiro:A000734-A000733 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000734 ;
     org:resultingOrganisation csiro:A000733 .
 
@@ -2365,7 +2365,7 @@ csiro:A000734-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000734 ;
     prov:endedAtTime "1944-08-17"^^xsd:date .
 
-csiro:A000735-A000734 a org:changeEvent ;
+csiro:A000735-A000734 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000735 ;
     org:resultingOrganisation csiro:A000734 .
 
@@ -2379,7 +2379,7 @@ csiro:A000735-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000735 ;
     prov:endedAtTime "1936-06-30"^^xsd:date .
 
-csiro:A000736-A000734 a org:changeEvent ;
+csiro:A000736-A000734 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000736 ;
     org:resultingOrganisation csiro:A000734 .
 
@@ -2393,7 +2393,7 @@ csiro:A000736-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000736 ;
     prov:endedAtTime "1936-12-31"^^xsd:date .
 
-csiro:A000737-A000728 a org:changeEvent ;
+csiro:A000737-A000728 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000737 ;
     org:resultingOrganisation csiro:A000728 .
 
@@ -2408,7 +2408,7 @@ csiro:A000737-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000737 ;
     prov:endedAtTime "1975-01-01"^^xsd:date .
 
-csiro:A000738-A000737 a org:changeEvent ;
+csiro:A000738-A000737 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000738 ;
     org:resultingOrganisation csiro:A000737 .
 
@@ -2423,7 +2423,7 @@ csiro:A000738-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000738 ;
     prov:endedAtTime "1965-10-10"^^xsd:date .
 
-csiro:A000739-A000738 a org:changeEvent ;
+csiro:A000739-A000738 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000739 ;
     org:resultingOrganisation csiro:A000738 .
 
@@ -2437,7 +2437,7 @@ csiro:A000739-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000739 ;
     prov:endedAtTime "1944-12-31"^^xsd:date .
 
-csiro:A000740-A000618 a org:changeEvent ;
+csiro:A000740-A000618 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000740 ;
     org:resultingOrganisation csiro:A000618 .
 
@@ -2461,7 +2461,7 @@ csiro:A000741-x a org:ChangeEvent ;
     rdfs:label "CSIRO Canberra Laboratories - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000741 .
 
-csiro:A000742-A002294 a org:changeEvent ;
+csiro:A000742-A002294 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000742 ;
     org:resultingOrganisation csiro:A002294 .
 
@@ -2477,7 +2477,7 @@ csiro:A000742-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000742 ;
     prov:endedAtTime "2005-12-31"^^xsd:date .
 
-csiro:A000743-A000314 a org:changeEvent ;
+csiro:A000743-A000314 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000743 ;
     org:resultingOrganisation csiro:A000314 .
 
@@ -2492,7 +2492,7 @@ csiro:A000743-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000743 ;
     prov:endedAtTime "1966-08-21"^^xsd:date .
 
-csiro:A000744-A000743 a org:changeEvent ;
+csiro:A000744-A000743 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000744 ;
     org:resultingOrganisation csiro:A000743 .
 
@@ -2507,7 +2507,7 @@ csiro:A000744-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000744 ;
     prov:endedAtTime "1961-12-31"^^xsd:date .
 
-csiro:A000745-A000314 a org:changeEvent ;
+csiro:A000745-A000314 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000745 ;
     org:resultingOrganisation csiro:A000314 .
 
@@ -2533,7 +2533,7 @@ csiro:A000746-x a org:ChangeEvent ;
     rdfs:label "CSIRO Division of Telecommunications and Industrial Physics - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000746 .
 
-csiro:A000747-A000748 a org:changeEvent ;
+csiro:A000747-A000748 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000747 ;
     org:resultingOrganisation csiro:A000748 .
 
@@ -2547,7 +2547,7 @@ csiro:A000747-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000747 ;
     prov:endedAtTime "1952-04-30"^^xsd:date .
 
-csiro:A000748-A000749 a org:changeEvent ;
+csiro:A000748-A000749 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000748 ;
     org:resultingOrganisation csiro:A000749 .
 
@@ -2562,11 +2562,11 @@ csiro:A000748-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000748 ;
     prov:endedAtTime "1952-11-30"^^xsd:date .
 
-csiro:A000749-A000400 a org:changeEvent ;
+csiro:A000749-A000400 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000749 ;
     org:resultingOrganisation csiro:A000400 .
 
-csiro:A000749-A000610 a org:changeEvent ;
+csiro:A000749-A000610 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000749 ;
     org:resultingOrganisation csiro:A000610 .
 
@@ -2591,7 +2591,7 @@ csiro:A000750-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000750 ;
     prov:endedAtTime "1958-12-31"^^xsd:date .
 
-csiro:A000751-A002294 a org:changeEvent ;
+csiro:A000751-A002294 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000751 ;
     org:resultingOrganisation csiro:A002294 .
 
@@ -2606,7 +2606,7 @@ csiro:A000751-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000751 ;
     prov:endedAtTime "2005-07-01"^^xsd:date .
 
-csiro:A000752-A000753 a org:changeEvent ;
+csiro:A000752-A000753 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000752 ;
     org:resultingOrganisation csiro:A000753 .
 
@@ -2623,7 +2623,7 @@ csiro:A000752-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000752 ;
     prov:endedAtTime "1989-07-01"^^xsd:date .
 
-csiro:A000753-A000742 a org:changeEvent ;
+csiro:A000753-A000742 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000753 ;
     org:resultingOrganisation csiro:A000742 .
 
@@ -2638,7 +2638,7 @@ csiro:A000753-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000753 ;
     prov:endedAtTime "1997-07-01"^^xsd:date .
 
-csiro:A000754-A000752 a org:changeEvent ;
+csiro:A000754-A000752 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000754 ;
     org:resultingOrganisation csiro:A000752 .
 
@@ -2653,7 +2653,7 @@ csiro:A000754-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000754 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000755-A000665 a org:changeEvent ;
+csiro:A000755-A000665 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000755 ;
     org:resultingOrganisation csiro:A000665 .
 
@@ -2667,7 +2667,7 @@ csiro:A000755-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000755 ;
     prov:endedAtTime "1996-12-31"^^xsd:date .
 
-csiro:A000756-A000670 a org:changeEvent ;
+csiro:A000756-A000670 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000756 ;
     org:resultingOrganisation csiro:A000670 .
 
@@ -2682,7 +2682,7 @@ csiro:A000756-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000756 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000757-A000760 a org:changeEvent ;
+csiro:A000757-A000760 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000757 ;
     org:resultingOrganisation csiro:A000760 .
 
@@ -2699,7 +2699,7 @@ csiro:A000757-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000757 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A000758-A000757 a org:changeEvent ;
+csiro:A000758-A000757 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000758 ;
     org:resultingOrganisation csiro:A000757 .
 
@@ -2714,7 +2714,7 @@ csiro:A000758-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000758 ;
     prov:endedAtTime "1990-06-30"^^xsd:date .
 
-csiro:A000759-A000757 a org:changeEvent ;
+csiro:A000759-A000757 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000759 ;
     org:resultingOrganisation csiro:A000757 .
 
@@ -2739,11 +2739,11 @@ csiro:A000760-x a org:ChangeEvent ;
     rdfs:label "CSIRO Energy Technology - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000760 .
 
-csiro:A000761-A000638 a org:changeEvent ;
+csiro:A000761-A000638 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000761 ;
     org:resultingOrganisation csiro:A000638 .
 
-csiro:A000761-A000758 a org:changeEvent ;
+csiro:A000761-A000758 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000761 ;
     org:resultingOrganisation csiro:A000758 .
 
@@ -2758,7 +2758,7 @@ csiro:A000761-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000761 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000762-A000688 a org:changeEvent ;
+csiro:A000762-A000688 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000762 ;
     org:resultingOrganisation csiro:A000688 .
 
@@ -2773,7 +2773,7 @@ csiro:A000762-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000762 ;
     prov:endedAtTime "1963-12-31"^^xsd:date .
 
-csiro:A000763-A000644 a org:changeEvent ;
+csiro:A000763-A000644 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000763 ;
     org:resultingOrganisation csiro:A000644 .
 
@@ -2788,7 +2788,7 @@ csiro:A000763-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000763 ;
     prov:endedAtTime "1971-12-31"^^xsd:date .
 
-csiro:A000764-A000763 a org:changeEvent ;
+csiro:A000764-A000763 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000764 ;
     org:resultingOrganisation csiro:A000763 .
 
@@ -2802,7 +2802,7 @@ csiro:A000764-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000764 ;
     prov:endedAtTime "1954-12-31"^^xsd:date .
 
-csiro:A000765-A000766 a org:changeEvent ;
+csiro:A000765-A000766 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000765 ;
     org:resultingOrganisation csiro:A000766 .
 
@@ -2829,7 +2829,7 @@ csiro:A000766-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000766 ;
     prov:endedAtTime "2002-07-31"^^xsd:date .
 
-csiro:A000767-A000671 a org:changeEvent ;
+csiro:A000767-A000671 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000767 ;
     org:resultingOrganisation csiro:A000671 .
 
@@ -2844,7 +2844,7 @@ csiro:A000767-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000767 ;
     prov:endedAtTime "1989-12-31"^^xsd:date .
 
-csiro:A000768-A000756 a org:changeEvent ;
+csiro:A000768-A000756 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000768 ;
     org:resultingOrganisation csiro:A000756 .
 
@@ -2858,7 +2858,7 @@ csiro:A000768-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000768 ;
     prov:endedAtTime "1971-12-31"^^xsd:date .
 
-csiro:A000769-A000671 a org:changeEvent ;
+csiro:A000769-A000671 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000769 ;
     org:resultingOrganisation csiro:A000671 .
 
@@ -2873,7 +2873,7 @@ csiro:A000769-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000769 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000770-A000769 a org:changeEvent ;
+csiro:A000770-A000769 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000770 ;
     org:resultingOrganisation csiro:A000769 .
 
@@ -2888,7 +2888,7 @@ csiro:A000770-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000770 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000771-A000770 a org:changeEvent ;
+csiro:A000771-A000770 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000771 ;
     org:resultingOrganisation csiro:A000770 .
 
@@ -2903,7 +2903,7 @@ csiro:A000771-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000771 ;
     prov:endedAtTime "1982-12-31"^^xsd:date .
 
-csiro:A000772-A000771 a org:changeEvent ;
+csiro:A000772-A000771 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000772 ;
     org:resultingOrganisation csiro:A000771 .
 
@@ -2918,7 +2918,7 @@ csiro:A000772-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000772 ;
     prov:endedAtTime "1967-08-28"^^xsd:date .
 
-csiro:A000773-A000772 a org:changeEvent ;
+csiro:A000773-A000772 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000773 ;
     org:resultingOrganisation csiro:A000772 .
 
@@ -2933,7 +2933,7 @@ csiro:A000773-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000773 ;
     prov:endedAtTime "1961-12-31"^^xsd:date .
 
-csiro:A000774-A002112 a org:changeEvent ;
+csiro:A000774-A002112 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000774 ;
     org:resultingOrganisation csiro:A002112 .
 
@@ -2947,7 +2947,7 @@ csiro:A000774-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000774 ;
     prov:endedAtTime "1927-12-31"^^xsd:date .
 
-csiro:A000775-A000776 a org:changeEvent ;
+csiro:A000775-A000776 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000775 ;
     org:resultingOrganisation csiro:A000776 .
 
@@ -2961,7 +2961,7 @@ csiro:A000775-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000775 ;
     prov:endedAtTime "1944-12-31"^^xsd:date .
 
-csiro:A000776-A000687 a org:changeEvent ;
+csiro:A000776-A000687 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000776 ;
     org:resultingOrganisation csiro:A000687 .
 
@@ -2976,7 +2976,7 @@ csiro:A000776-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000776 ;
     prov:endedAtTime "1954-12-31"^^xsd:date .
 
-csiro:A000777-A000778 a org:changeEvent ;
+csiro:A000777-A000778 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000777 ;
     org:resultingOrganisation csiro:A000778 .
 
@@ -3013,7 +3013,7 @@ csiro:A000779-x a org:ChangeEvent ;
     rdfs:label "CSIRO Livestock Industries - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000779 .
 
-csiro:A000780-A000781 a org:changeEvent ;
+csiro:A000780-A000781 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000780 ;
     org:resultingOrganisation csiro:A000781 .
 
@@ -3028,7 +3028,7 @@ csiro:A000780-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000780 ;
     prov:endedAtTime "1985-07-01"^^xsd:date .
 
-csiro:A000781-A000782 a org:changeEvent ;
+csiro:A000781-A000782 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000781 ;
     org:resultingOrganisation csiro:A000782 .
 
@@ -3043,11 +3043,11 @@ csiro:A000781-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000781 ;
     prov:endedAtTime "1987-12-31"^^xsd:date .
 
-csiro:A000782-A000783 a org:changeEvent ;
+csiro:A000782-A000783 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000782 ;
     org:resultingOrganisation csiro:A000783 .
 
-csiro:A000782-A000785 a org:changeEvent ;
+csiro:A000782-A000785 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000782 ;
     org:resultingOrganisation csiro:A000785 .
 
@@ -3072,7 +3072,7 @@ csiro:A000783-x a org:ChangeEvent ;
     rdfs:label "CSIRO Division of Exploration and Mining - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000783 .
 
-csiro:A000784-A000638 a org:changeEvent ;
+csiro:A000784-A000638 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000784 ;
     org:resultingOrganisation csiro:A000638 .
 
@@ -3098,7 +3098,7 @@ csiro:A000785-x a org:ChangeEvent ;
     rdfs:label "CSIRO Petroleum Resources - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000785 .
 
-csiro:A000786-A000785 a org:changeEvent ;
+csiro:A000786-A000785 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000786 ;
     org:resultingOrganisation csiro:A000785 .
 
@@ -3113,7 +3113,7 @@ csiro:A000786-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000786 ;
     prov:endedAtTime "1993-06-30"^^xsd:date .
 
-csiro:A000787-A000786 a org:changeEvent ;
+csiro:A000787-A000786 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000787 ;
     org:resultingOrganisation csiro:A000786 .
 
@@ -3128,7 +3128,7 @@ csiro:A000787-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000787 ;
     prov:endedAtTime "1983-12-31"^^xsd:date .
 
-csiro:A000788-A000787 a org:changeEvent ;
+csiro:A000788-A000787 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000788 ;
     org:resultingOrganisation csiro:A000787 .
 
@@ -3143,7 +3143,7 @@ csiro:A000788-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000788 ;
     prov:endedAtTime "1970-12-31"^^xsd:date .
 
-csiro:A000789-A000788 a org:changeEvent ;
+csiro:A000789-A000788 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000789 ;
     org:resultingOrganisation csiro:A000788 .
 
@@ -3158,7 +3158,7 @@ csiro:A000789-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000789 ;
     prov:endedAtTime "1967-12-31"^^xsd:date .
 
-csiro:A000790-A000789 a org:changeEvent ;
+csiro:A000790-A000789 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000790 ;
     org:resultingOrganisation csiro:A000789 .
 
@@ -3173,7 +3173,7 @@ csiro:A000790-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000790 ;
     prov:endedAtTime "1955-12-31"^^xsd:date .
 
-csiro:A000791-A000790 a org:changeEvent ;
+csiro:A000791-A000790 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000791 ;
     org:resultingOrganisation csiro:A000790 .
 
@@ -3187,7 +3187,7 @@ csiro:A000791-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000791 ;
     prov:endedAtTime "1943-12-31"^^xsd:date .
 
-csiro:A000792-A000793 a org:changeEvent ;
+csiro:A000792-A000793 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000792 ;
     org:resultingOrganisation csiro:A000793 .
 
@@ -3201,7 +3201,7 @@ csiro:A000792-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000792 ;
     prov:endedAtTime "1962-11-30"^^xsd:date .
 
-csiro:A000793-A000794 a org:changeEvent ;
+csiro:A000793-A000794 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000793 ;
     org:resultingOrganisation csiro:A000794 .
 
@@ -3216,7 +3216,7 @@ csiro:A000793-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000793 ;
     prov:endedAtTime "1967-08-18"^^xsd:date .
 
-csiro:A000794-A000795 a org:changeEvent ;
+csiro:A000794-A000795 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000794 ;
     org:resultingOrganisation csiro:A000795 .
 
@@ -3231,7 +3231,7 @@ csiro:A000794-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000794 ;
     prov:endedAtTime "1988-12-31"^^xsd:date .
 
-csiro:A000795-A000668 a org:changeEvent ;
+csiro:A000795-A000668 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000795 ;
     org:resultingOrganisation csiro:A000668 .
 
@@ -3246,7 +3246,7 @@ csiro:A000795-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000795 ;
     prov:endedAtTime "1997-12-31"^^xsd:date .
 
-csiro:A000796-A000584 a org:changeEvent ;
+csiro:A000796-A000584 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000796 ;
     org:resultingOrganisation csiro:A000584 .
 
@@ -3260,7 +3260,7 @@ csiro:A000796-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000796 ;
     prov:endedAtTime "1931-12-31"^^xsd:date .
 
-csiro:A000797-A000754 a org:changeEvent ;
+csiro:A000797-A000754 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000797 ;
     org:resultingOrganisation csiro:A000754 .
 
@@ -3274,7 +3274,7 @@ csiro:A000797-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000797 ;
     prov:endedAtTime "1983-12-31"^^xsd:date .
 
-csiro:A000798-A000799 a org:changeEvent ;
+csiro:A000798-A000799 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000798 ;
     org:resultingOrganisation csiro:A000799 .
 
@@ -3288,7 +3288,7 @@ csiro:A000798-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000798 ;
     prov:endedAtTime "1992-12-31"^^xsd:date .
 
-csiro:A000799-A000800 a org:changeEvent ;
+csiro:A000799-A000800 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000799 ;
     org:resultingOrganisation csiro:A000800 .
 
@@ -3333,7 +3333,7 @@ csiro:A000891-x a org:ChangeEvent ;
     rdfs:label "Australian Meat Technology Pty Ltd - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A000891 .
 
-csiro:A000998-A000999 a org:changeEvent ;
+csiro:A000998-A000999 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000998 ;
     org:resultingOrganisation csiro:A000999 .
 
@@ -3348,7 +3348,7 @@ csiro:A000998-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A000998 ;
     prov:endedAtTime "1974-09-19"^^xsd:date .
 
-csiro:A000999-A000294 a org:changeEvent ;
+csiro:A000999-A000294 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000999 ;
     org:resultingOrganisation csiro:A000294 .
 
@@ -3390,11 +3390,11 @@ csiro:A001669-x a org:ChangeEvent ;
     rdfs:label "Australian Animal Health Laboratory (AAHL) - CSIRO - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A001669 .
 
-csiro:A001684-A001685 a org:changeEvent ;
+csiro:A001684-A001685 a org:ChangeEvent ;
     org:originalOrganisation csiro:A001684 ;
     org:resultingOrganisation csiro:A001685 .
 
-csiro:A001684-A001686 a org:changeEvent ;
+csiro:A001684-A001686 a org:ChangeEvent ;
     org:originalOrganisation csiro:A001684 ;
     org:resultingOrganisation csiro:A001686 .
 
@@ -3409,7 +3409,7 @@ csiro:A001684-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A001684 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A001685-A001686 a org:changeEvent ;
+csiro:A001685-A001686 a org:ChangeEvent ;
     org:originalOrganisation csiro:A001685 ;
     org:resultingOrganisation csiro:A001686 .
 
@@ -3425,7 +3425,7 @@ csiro:A001685-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A001685 ;
     prov:endedAtTime "1995-12-31"^^xsd:date .
 
-csiro:A001686-P005418b a org:changeEvent ;
+csiro:A001686-P005418b a org:ChangeEvent ;
     org:originalOrganisation csiro:A001686 ;
     org:resultingOrganisation <http://www.eoas.info/biogs/P005418b> .
 
@@ -3473,7 +3473,7 @@ csiro:A002111-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A002111 ;
     prov:endedAtTime "1983-04-17"^^xsd:date .
 
-csiro:A002112-A000773 a org:changeEvent ;
+csiro:A002112-A000773 a org:ChangeEvent ;
     org:originalOrganisation csiro:A002112 ;
     org:resultingOrganisation csiro:A000773 .
 
@@ -3488,7 +3488,7 @@ csiro:A002112-x a org:ChangeEvent ;
     org:originalOrganisation csiro:A002112 ;
     prov:endedAtTime "1939-12-31"^^xsd:date .
 
-csiro:A002113-A000676 a org:changeEvent ;
+csiro:A002113-A000676 a org:ChangeEvent ;
     org:originalOrganisation csiro:A002113 ;
     org:resultingOrganisation csiro:A000676 .
 
@@ -3531,7 +3531,7 @@ csiro:A002116-x a org:ChangeEvent ;
     rdfs:label "L. P. Coombes Computer Centre - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A002116 .
 
-csiro:A002117-A000690 a org:changeEvent ;
+csiro:A002117-A000690 a org:ChangeEvent ;
     org:originalOrganisation csiro:A002117 ;
     org:resultingOrganisation csiro:A000690 .
 
@@ -3555,7 +3555,7 @@ csiro:A002118-x a org:ChangeEvent ;
     rdfs:label "F. D. McMaster Laboratory, Chiswick - CSIRO - terminated"^^xsd:string ;
     org:originalOrganisation csiro:A002118 .
 
-csiro:A002245-A000219 a org:changeEvent ;
+csiro:A002245-A000219 a org:ChangeEvent ;
     org:originalOrganisation csiro:A002245 ;
     org:resultingOrganisation csiro:A000219 .
 
