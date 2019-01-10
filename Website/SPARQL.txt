@@ -1,0 +1,1506 @@
+*********************************************************************************************************
+Query to find the names of all organisations along with the primarysites
+*********************************************************************************************************
+
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT (?x AS ?Organisation) (?y As ?PrimarySite)
+WHERE{
+    ?x org:hasPrimarySite ?y.
+}
+
+**********************************************************************************************************
+Organisation,PrimarySite
+http://network.csiro.au/data/csiro/A002118,http://network.csiro.au/data/csiro/Armidale
+http://network.csiro.au/data/csiro/A000768,http://network.csiro.au/data/csiro/AustralianCapitalTerritory
+http://network.csiro.au/data/csiro/A000602,http://network.csiro.au/data/csiro/Barton
+http://network.csiro.au/data/csiro/A000691,http://network.csiro.au/data/csiro/CannonHill
+http://network.csiro.au/data/csiro/A000682,http://network.csiro.au/data/csiro/Chippendale
+http://network.csiro.au/data/csiro/A000592,http://network.csiro.au/data/csiro/ClaytonandLucasHeights
+http://network.csiro.au/data/csiro/A000749,http://network.csiro.au/data/csiro/Coogee
+http://network.csiro.au/data/csiro/A000603,http://network.csiro.au/data/csiro/Deniliquin
+http://network.csiro.au/data/csiro/A000779,http://network.csiro.au/data/csiro/EastGeelong
+http://network.csiro.au/data/csiro/A000219,http://network.csiro.au/data/csiro/Epping
+http://network.csiro.au/data/csiro/A000765,http://network.csiro.au/data/csiro/Fitzroy
+http://network.csiro.au/data/csiro/A000794,http://network.csiro.au/data/csiro/GlenOsmond
+http://network.csiro.au/data/csiro/A000576,http://network.csiro.au/data/csiro/Homebush
+http://network.csiro.au/data/csiro/A000681,http://network.csiro.au/data/csiro/Lindfield
+http://network.csiro.au/data/csiro/A000600,http://network.csiro.au/data/csiro/Lyneham
+http://network.csiro.au/data/csiro/A000656,http://network.csiro.au/data/csiro/MelbourneandCanberra
+http://network.csiro.au/data/csiro/A000754,http://network.csiro.au/data/csiro/NewSouthWales
+http://network.csiro.au/data/csiro/A000519,http://network.csiro.au/data/csiro/Parkes
+http://network.csiro.au/data/csiro/A000755,http://network.csiro.au/data/csiro/Rockhampton
+http://network.csiro.au/data/csiro/A000891,http://network.csiro.au/data/csiro/Rocklea
+http://network.csiro.au/data/csiro/A000596,http://network.csiro.au/data/csiro/StLucia
+http://network.csiro.au/data/csiro/A000795,http://network.csiro.au/data/csiro/Urrbrae
+http://network.csiro.au/data/csiro/A001185,http://network.csiro.au/data/csiro/WesternAustralia
+http://network.csiro.au/data/csiro/A000727,http://network.csiro.au/data/csiro/Blacktown
+http://network.csiro.au/data/csiro/A000729,http://network.csiro.au/data/csiro/Blacktown
+http://network.csiro.au/data/csiro/A000629,http://network.csiro.au/data/csiro/Glebe
+http://network.csiro.au/data/csiro/A002117,http://network.csiro.au/data/csiro/Glebe
+http://network.csiro.au/data/csiro/A000792,http://network.csiro.au/data/csiro/Marbein
+http://network.csiro.au/data/csiro/A000793,http://network.csiro.au/data/csiro/Marbein
+http://network.csiro.au/data/csiro/A000624,http://network.csiro.au/data/csiro/PortMelbourne
+http://network.csiro.au/data/csiro/A000698,http://network.csiro.au/data/csiro/PortMelbourne
+http://network.csiro.au/data/csiro/A000690,http://network.csiro.au/data/csiro/Prospect
+http://network.csiro.au/data/csiro/A000730,http://network.csiro.au/data/csiro/Prospect
+http://network.csiro.au/data/csiro/A000582,http://network.csiro.au/data/csiro/SouthMelbourne
+http://network.csiro.au/data/csiro/A000579,http://network.csiro.au/data/csiro/SouthMelbourne
+http://network.csiro.au/data/csiro/A000687,http://network.csiro.au/data/csiro/UniversityofAdelaide
+http://network.csiro.au/data/csiro/A000775,http://network.csiro.au/data/csiro/UniversityofAdelaide
+http://network.csiro.au/data/csiro/A000610,http://network.csiro.au/data/csiro/LucasHeights
+http://network.csiro.au/data/csiro/A000212,http://network.csiro.au/data/csiro/LucasHeights
+http://network.csiro.au/data/csiro/A000400,http://network.csiro.au/data/csiro/LucasHeights
+http://network.csiro.au/data/csiro/A000758,http://network.csiro.au/data/csiro/LucasHeights
+http://network.csiro.au/data/csiro/A000196,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000310,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000762,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000311,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000651,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000313,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000745,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000622,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000701,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000573,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000648,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000574,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000708,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000796,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000588,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A002292,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000654,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000665,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000666,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000605,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000606,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000694,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000621,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000699,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000703,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000704,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000631,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000637,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000641,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000647,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000685,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000653,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000664,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000667,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000674,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000679,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000680,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000683,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000684,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000686,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000692,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000700,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000706,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000702,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000705,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A002114,http://network.csiro.au/data/csiro/Australia
+http://network.csiro.au/data/csiro/A000195,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000218,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000217,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000607,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000623,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000735,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000789,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000790,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000791,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A002116,http://network.csiro.au/data/csiro/Melbourne
+http://network.csiro.au/data/csiro/A000650,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000593,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000604,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000657,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000597,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000676,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000669,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000672,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000756,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000670,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A002113,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000677,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000678,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000741,http://network.csiro.au/data/csiro/BlackMountain
+http://network.csiro.au/data/csiro/A000293,http://network.csiro.au/data/csiro/Maribyrnong
+http://network.csiro.au/data/csiro/A000998,http://network.csiro.au/data/csiro/Maribyrnong
+http://network.csiro.au/data/csiro/A000385,http://network.csiro.au/data/csiro/Maribyrnong
+http://network.csiro.au/data/csiro/A000999,http://network.csiro.au/data/csiro/Maribyrnong
+http://network.csiro.au/data/csiro/A001260,http://network.csiro.au/data/csiro/Maribyrnong
+http://network.csiro.au/data/csiro/A000746,http://network.csiro.au/data/csiro/Marsfield
+http://network.csiro.au/data/csiro/A002111,http://network.csiro.au/data/csiro/Marsfield
+http://network.csiro.au/data/csiro/A002115,http://network.csiro.au/data/csiro/Marsfield
+http://network.csiro.au/data/csiro/A000591,http://network.csiro.au/data/csiro/Aspendale
+http://network.csiro.au/data/csiro/A000644,http://network.csiro.au/data/csiro/Aspendale
+http://network.csiro.au/data/csiro/A000763,http://network.csiro.au/data/csiro/Aspendale
+http://network.csiro.au/data/csiro/A000613,http://network.csiro.au/data/csiro/Belmont
+http://network.csiro.au/data/csiro/A000609,http://network.csiro.au/data/csiro/Belmont
+http://network.csiro.au/data/csiro/A000616,http://network.csiro.au/data/csiro/Belmont
+http://network.csiro.au/data/csiro/A000658,http://network.csiro.au/data/csiro/Cronulla
+http://network.csiro.au/data/csiro/A000659,http://network.csiro.au/data/csiro/Cronulla
+http://network.csiro.au/data/csiro/A000660,http://network.csiro.au/data/csiro/Cronulla
+http://network.csiro.au/data/csiro/A000159,http://network.csiro.au/data/csiro/Geelong
+http://network.csiro.au/data/csiro/A001669,http://network.csiro.au/data/csiro/Geelong
+http://network.csiro.au/data/csiro/A000220,http://network.csiro.au/data/csiro/Geelong
+http://network.csiro.au/data/csiro/A000589,http://network.csiro.au/data/csiro/Parkville
+http://network.csiro.au/data/csiro/A000615,http://network.csiro.au/data/csiro/Parkville
+http://network.csiro.au/data/csiro/A000595,http://network.csiro.au/data/csiro/Parkville
+http://network.csiro.au/data/csiro/A000309,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000294,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000312,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000314,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000590,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000743,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000578,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000612,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000744,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000642,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000611,http://network.csiro.au/data/csiro/FishermansBend
+http://network.csiro.au/data/csiro/A000416,http://network.csiro.au/data/csiro/Ryde
+http://network.csiro.au/data/csiro/A000617,http://network.csiro.au/data/csiro/Ryde
+http://network.csiro.au/data/csiro/A000784,http://network.csiro.au/data/csiro/Ryde
+http://network.csiro.au/data/csiro/A000695,http://network.csiro.au/data/csiro/Ryde
+http://network.csiro.au/data/csiro/A000750,http://network.csiro.au/data/csiro/Ryde
+http://network.csiro.au/data/csiro/A000575,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000585,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000598,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A001687,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000599,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000608,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000636,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000668,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A001859,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/P005808b,http://network.csiro.au/data/csiro/Canberra
+http://network.csiro.au/data/csiro/A000761,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000752,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000652,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000577,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000628,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000581,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000638,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000633,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000639,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000709,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000630,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000757,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000707,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000777,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000693,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000731,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000732,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000753,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000797,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000760,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000778,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000798,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000799,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000800,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000885,http://network.csiro.au/data/csiro/NorthRyde
+http://network.csiro.au/data/csiro/A000649,http://network.csiro.au/data/csiro/Sydney
+http://network.csiro.au/data/csiro/A000601,http://network.csiro.au/data/csiro/Sydney
+http://network.csiro.au/data/csiro/A000747,http://network.csiro.au/data/csiro/Sydney
+http://network.csiro.au/data/csiro/A000748,http://network.csiro.au/data/csiro/Sydney
+http://network.csiro.au/data/csiro/A000769,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000770,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000771,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000772,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000773,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A002112,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000774,http://network.csiro.au/data/csiro/Griffith
+http://network.csiro.au/data/csiro/A000671,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000767,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000675,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000673,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000696,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000780,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000697,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000781,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000782,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000783,http://network.csiro.au/data/csiro/FloreatPark
+http://network.csiro.au/data/csiro/A000785,http://network.csiro.au/data/csiro/Syndal
+http://network.csiro.au/data/csiro/A000786,http://network.csiro.au/data/csiro/Syndal
+http://network.csiro.au/data/csiro/A000787,http://network.csiro.au/data/csiro/Syndal
+http://network.csiro.au/data/csiro/A000788,http://network.csiro.au/data/csiro/Syndal
+http://network.csiro.au/data/csiro/A000733,http://network.csiro.au/data/csiro/Victoria
+http://network.csiro.au/data/csiro/A000584,http://network.csiro.au/data/csiro/Victoria
+http://network.csiro.au/data/csiro/A000734,http://network.csiro.au/data/csiro/Victoria
+http://network.csiro.au/data/csiro/A000736,http://network.csiro.au/data/csiro/Victoria
+http://network.csiro.au/data/csiro/A000571,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000572,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000625,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000646,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000583,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000766,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000655,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000626,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000627,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000742,http://network.csiro.au/data/csiro/Clayton
+http://network.csiro.au/data/csiro/A000587,http://network.csiro.au/data/csiro/Hobart
+http://network.csiro.au/data/csiro/A000594,http://network.csiro.au/data/csiro/Hobart
+http://network.csiro.au/data/csiro/A000662,http://network.csiro.au/data/csiro/Hobart
+http://network.csiro.au/data/csiro/A000663,http://network.csiro.au/data/csiro/Hobart
+http://network.csiro.au/data/csiro/A000661,http://network.csiro.au/data/csiro/Hobart
+http://network.csiro.au/data/csiro/A000570,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000740,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000618,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000620,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000688,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000759,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000764,http://network.csiro.au/data/csiro/Highett
+http://network.csiro.au/data/csiro/A000580,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A000635,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A000586,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A001684,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A001685,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A001686,http://network.csiro.au/data/csiro/Yarralumla
+http://network.csiro.au/data/csiro/A000776,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000728,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000751,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000737,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000738,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000739,http://network.csiro.au/data/csiro/Adelaide
+http://network.csiro.au/data/csiro/A000614,http://network.csiro.au/data/csiro/Campbell
+http://network.csiro.au/data/csiro/A000619,http://network.csiro.au/data/csiro/Campbell
+http://network.csiro.au/data/csiro/A000632,http://network.csiro.au/data/csiro/Campbell
+http://network.csiro.au/data/csiro/A000634,http://network.csiro.au/data/csiro/Campbell
+http://network.csiro.au/data/csiro/A000643,http://network.csiro.au/data/csiro/Campbell
+http://network.csiro.au/data/csiro/A000645,http://network.csiro.au/data/csiro/Campbell
+
+***********************************************************************************************************
+Query to count number of primary sites across Australia
+***********************************************************************************************************
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (COUNT(DISTINCT ?y) AS ?NoofPrimarysites)
+WHERE{
+    ?x org:hasPrimarySite ?y.
+}
+Result: 56
+
+*******************************************************************************
+Query to list out all the new organisations and their parental organisations
+*******************************************************************************
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT (?y AS ?Parent_Org) (?y As ?New_Org)
+WHERE{
+    ?x org:originalOrganisation ?y
+}
+********************************************************************************
+Result:
+Parent_Org,New_Org
+http://network.csiro.au/data/csiro/A000159,http://network.csiro.au/data/csiro/A000159
+http://network.csiro.au/data/csiro/A001669,http://network.csiro.au/data/csiro/A001669
+http://network.csiro.au/data/csiro/A000195,http://network.csiro.au/data/csiro/A000195
+http://network.csiro.au/data/csiro/A000196,http://network.csiro.au/data/csiro/A000196
+http://network.csiro.au/data/csiro/A000218,http://network.csiro.au/data/csiro/A000218
+http://network.csiro.au/data/csiro/A000610,http://network.csiro.au/data/csiro/A000610
+http://network.csiro.au/data/csiro/A000212,http://network.csiro.au/data/csiro/A000212
+http://network.csiro.au/data/csiro/A000217,http://network.csiro.au/data/csiro/A000217
+http://network.csiro.au/data/csiro/A000219,http://network.csiro.au/data/csiro/A000219
+http://network.csiro.au/data/csiro/A000746,http://network.csiro.au/data/csiro/A000746
+http://network.csiro.au/data/csiro/A002111,http://network.csiro.au/data/csiro/A002111
+http://network.csiro.au/data/csiro/A002245,http://network.csiro.au/data/csiro/A002245
+http://network.csiro.au/data/csiro/A000220,http://network.csiro.au/data/csiro/A000220
+http://network.csiro.au/data/csiro/A000779,http://network.csiro.au/data/csiro/A000779
+http://network.csiro.au/data/csiro/A000733,http://network.csiro.au/data/csiro/A000733
+http://network.csiro.au/data/csiro/A000293,http://network.csiro.au/data/csiro/A000293
+http://network.csiro.au/data/csiro/A000998,http://network.csiro.au/data/csiro/A000998
+http://network.csiro.au/data/csiro/A000385,http://network.csiro.au/data/csiro/A000385
+http://network.csiro.au/data/csiro/A000309,http://network.csiro.au/data/csiro/A000309
+http://network.csiro.au/data/csiro/A000999,http://network.csiro.au/data/csiro/A000999
+http://network.csiro.au/data/csiro/A000294,http://network.csiro.au/data/csiro/A000294
+http://network.csiro.au/data/csiro/A000312,http://network.csiro.au/data/csiro/A000312
+http://network.csiro.au/data/csiro/A000310,http://network.csiro.au/data/csiro/A000310
+http://network.csiro.au/data/csiro/A000762,http://network.csiro.au/data/csiro/A000762
+http://network.csiro.au/data/csiro/A000311,http://network.csiro.au/data/csiro/A000311
+http://network.csiro.au/data/csiro/A000651,http://network.csiro.au/data/csiro/A000651
+http://network.csiro.au/data/csiro/A000313,http://network.csiro.au/data/csiro/A000313
+http://network.csiro.au/data/csiro/A000314,http://network.csiro.au/data/csiro/A000314
+http://network.csiro.au/data/csiro/A000582,http://network.csiro.au/data/csiro/A000582
+http://network.csiro.au/data/csiro/A000590,http://network.csiro.au/data/csiro/A000590
+http://network.csiro.au/data/csiro/A000579,http://network.csiro.au/data/csiro/A000579
+http://network.csiro.au/data/csiro/A000743,http://network.csiro.au/data/csiro/A000743
+http://network.csiro.au/data/csiro/A000745,http://network.csiro.au/data/csiro/A000745
+http://network.csiro.au/data/csiro/A000400,http://network.csiro.au/data/csiro/A000400
+http://network.csiro.au/data/csiro/A000761,http://network.csiro.au/data/csiro/A000761
+http://network.csiro.au/data/csiro/A000749,http://network.csiro.au/data/csiro/A000749
+http://network.csiro.au/data/csiro/A000416,http://network.csiro.au/data/csiro/A000416
+http://network.csiro.au/data/csiro/A000519,http://network.csiro.au/data/csiro/A000519
+http://network.csiro.au/data/csiro/A000570,http://network.csiro.au/data/csiro/A000570
+http://network.csiro.au/data/csiro/A000740,http://network.csiro.au/data/csiro/A000740
+http://network.csiro.au/data/csiro/A000622,http://network.csiro.au/data/csiro/A000622
+http://network.csiro.au/data/csiro/A000571,http://network.csiro.au/data/csiro/A000571
+http://network.csiro.au/data/csiro/A000752,http://network.csiro.au/data/csiro/A000752
+http://network.csiro.au/data/csiro/A000572,http://network.csiro.au/data/csiro/A000572
+http://network.csiro.au/data/csiro/A000625,http://network.csiro.au/data/csiro/A000625
+http://network.csiro.au/data/csiro/A000646,http://network.csiro.au/data/csiro/A000646
+http://network.csiro.au/data/csiro/A000701,http://network.csiro.au/data/csiro/A000701
+http://network.csiro.au/data/csiro/A000573,http://network.csiro.au/data/csiro/A000573
+http://network.csiro.au/data/csiro/A000649,http://network.csiro.au/data/csiro/A000649
+http://network.csiro.au/data/csiro/A000648,http://network.csiro.au/data/csiro/A000648
+http://network.csiro.au/data/csiro/A000574,http://network.csiro.au/data/csiro/A000574
+http://network.csiro.au/data/csiro/A000650,http://network.csiro.au/data/csiro/A000650
+http://network.csiro.au/data/csiro/A000575,http://network.csiro.au/data/csiro/A000575
+http://network.csiro.au/data/csiro/A000576,http://network.csiro.au/data/csiro/A000576
+http://network.csiro.au/data/csiro/A000652,http://network.csiro.au/data/csiro/A000652
+http://network.csiro.au/data/csiro/A000584,http://network.csiro.au/data/csiro/A000584
+http://network.csiro.au/data/csiro/A000577,http://network.csiro.au/data/csiro/A000577
+http://network.csiro.au/data/csiro/A000628,http://network.csiro.au/data/csiro/A000628
+http://network.csiro.au/data/csiro/A000578,http://network.csiro.au/data/csiro/A000578
+http://network.csiro.au/data/csiro/A000592,http://network.csiro.au/data/csiro/A000592
+http://network.csiro.au/data/csiro/A000612,http://network.csiro.au/data/csiro/A000612
+http://network.csiro.au/data/csiro/A000744,http://network.csiro.au/data/csiro/A000744
+http://network.csiro.au/data/csiro/A000580,http://network.csiro.au/data/csiro/A000580
+http://network.csiro.au/data/csiro/A000635,http://network.csiro.au/data/csiro/A000635
+http://network.csiro.au/data/csiro/A000586,http://network.csiro.au/data/csiro/A000586
+http://network.csiro.au/data/csiro/A000587,http://network.csiro.au/data/csiro/A000587
+http://network.csiro.au/data/csiro/A000581,http://network.csiro.au/data/csiro/A000581
+http://network.csiro.au/data/csiro/A000638,http://network.csiro.au/data/csiro/A000638
+http://network.csiro.au/data/csiro/A000708,http://network.csiro.au/data/csiro/A000708
+http://network.csiro.au/data/csiro/A000583,http://network.csiro.au/data/csiro/A000583
+http://network.csiro.au/data/csiro/A000766,http://network.csiro.au/data/csiro/A000766
+http://network.csiro.au/data/csiro/A000655,http://network.csiro.au/data/csiro/A000655
+http://network.csiro.au/data/csiro/A000796,http://network.csiro.au/data/csiro/A000796
+http://network.csiro.au/data/csiro/A000585,http://network.csiro.au/data/csiro/A000585
+http://network.csiro.au/data/csiro/A000588,http://network.csiro.au/data/csiro/A000588
+http://network.csiro.au/data/csiro/A000589,http://network.csiro.au/data/csiro/A000589
+http://network.csiro.au/data/csiro/A000615,http://network.csiro.au/data/csiro/A000615
+http://network.csiro.au/data/csiro/A000642,http://network.csiro.au/data/csiro/A000642
+http://network.csiro.au/data/csiro/A000591,http://network.csiro.au/data/csiro/A000591
+http://network.csiro.au/data/csiro/A002292,http://network.csiro.au/data/csiro/A002292
+http://network.csiro.au/data/csiro/A000644,http://network.csiro.au/data/csiro/A000644
+http://network.csiro.au/data/csiro/A000611,http://network.csiro.au/data/csiro/A000611
+http://network.csiro.au/data/csiro/A000593,http://network.csiro.au/data/csiro/A000593
+http://network.csiro.au/data/csiro/A000604,http://network.csiro.au/data/csiro/A000604
+http://network.csiro.au/data/csiro/A000657,http://network.csiro.au/data/csiro/A000657
+http://network.csiro.au/data/csiro/A000594,http://network.csiro.au/data/csiro/A000594
+http://network.csiro.au/data/csiro/A000662,http://network.csiro.au/data/csiro/A000662
+http://network.csiro.au/data/csiro/A000663,http://network.csiro.au/data/csiro/A000663
+http://network.csiro.au/data/csiro/A000595,http://network.csiro.au/data/csiro/A000595
+http://network.csiro.au/data/csiro/A000654,http://network.csiro.au/data/csiro/A000654
+http://network.csiro.au/data/csiro/A000596,http://network.csiro.au/data/csiro/A000596
+http://network.csiro.au/data/csiro/A000665,http://network.csiro.au/data/csiro/A000665
+http://network.csiro.au/data/csiro/A000666,http://network.csiro.au/data/csiro/A000666
+http://network.csiro.au/data/csiro/A000597,http://network.csiro.au/data/csiro/A000597
+http://network.csiro.au/data/csiro/A000671,http://network.csiro.au/data/csiro/A000671
+http://network.csiro.au/data/csiro/A000676,http://network.csiro.au/data/csiro/A000676
+http://network.csiro.au/data/csiro/A000598,http://network.csiro.au/data/csiro/A000598
+http://network.csiro.au/data/csiro/A001687,http://network.csiro.au/data/csiro/A001687
+http://network.csiro.au/data/csiro/A000600,http://network.csiro.au/data/csiro/A000600
+http://network.csiro.au/data/csiro/A000599,http://network.csiro.au/data/csiro/A000599
+http://network.csiro.au/data/csiro/A000608,http://network.csiro.au/data/csiro/A000608
+http://network.csiro.au/data/csiro/A000601,http://network.csiro.au/data/csiro/A000601
+http://network.csiro.au/data/csiro/A000681,http://network.csiro.au/data/csiro/A000681
+http://network.csiro.au/data/csiro/A000682,http://network.csiro.au/data/csiro/A000682
+http://network.csiro.au/data/csiro/A000602,http://network.csiro.au/data/csiro/A000602
+http://network.csiro.au/data/csiro/A000603,http://network.csiro.au/data/csiro/A000603
+http://network.csiro.au/data/csiro/A000605,http://network.csiro.au/data/csiro/A000605
+http://network.csiro.au/data/csiro/A000606,http://network.csiro.au/data/csiro/A000606
+http://network.csiro.au/data/csiro/A000607,http://network.csiro.au/data/csiro/A000607
+http://network.csiro.au/data/csiro/A000613,http://network.csiro.au/data/csiro/A000613
+http://network.csiro.au/data/csiro/A000609,http://network.csiro.au/data/csiro/A000609
+http://network.csiro.au/data/csiro/A000616,http://network.csiro.au/data/csiro/A000616
+http://network.csiro.au/data/csiro/A000617,http://network.csiro.au/data/csiro/A000617
+http://network.csiro.au/data/csiro/A000614,http://network.csiro.au/data/csiro/A000614
+http://network.csiro.au/data/csiro/A000694,http://network.csiro.au/data/csiro/A000694
+http://network.csiro.au/data/csiro/A000784,http://network.csiro.au/data/csiro/A000784
+http://network.csiro.au/data/csiro/A000695,http://network.csiro.au/data/csiro/A000695
+http://network.csiro.au/data/csiro/A000618,http://network.csiro.au/data/csiro/A000618
+http://network.csiro.au/data/csiro/A000620,http://network.csiro.au/data/csiro/A000620
+http://network.csiro.au/data/csiro/A000619,http://network.csiro.au/data/csiro/A000619
+http://network.csiro.au/data/csiro/A000621,http://network.csiro.au/data/csiro/A000621
+http://network.csiro.au/data/csiro/A002293,http://network.csiro.au/data/csiro/A002293
+http://network.csiro.au/data/csiro/A000633,http://network.csiro.au/data/csiro/A000633
+http://network.csiro.au/data/csiro/A000623,http://network.csiro.au/data/csiro/A000623
+http://network.csiro.au/data/csiro/A000624,http://network.csiro.au/data/csiro/A000624
+http://network.csiro.au/data/csiro/A000698,http://network.csiro.au/data/csiro/A000698
+http://network.csiro.au/data/csiro/A000699,http://network.csiro.au/data/csiro/A000699
+http://network.csiro.au/data/csiro/A000703,http://network.csiro.au/data/csiro/A000703
+http://network.csiro.au/data/csiro/A000704,http://network.csiro.au/data/csiro/A000704
+http://network.csiro.au/data/csiro/A000626,http://network.csiro.au/data/csiro/A000626
+http://network.csiro.au/data/csiro/A000627,http://network.csiro.au/data/csiro/A000627
+http://network.csiro.au/data/csiro/A000639,http://network.csiro.au/data/csiro/A000639
+http://network.csiro.au/data/csiro/A000709,http://network.csiro.au/data/csiro/A000709
+http://network.csiro.au/data/csiro/A000632,http://network.csiro.au/data/csiro/A000632
+http://network.csiro.au/data/csiro/A000629,http://network.csiro.au/data/csiro/A000629
+http://network.csiro.au/data/csiro/A000630,http://network.csiro.au/data/csiro/A000630
+http://network.csiro.au/data/csiro/A000631,http://network.csiro.au/data/csiro/A000631
+http://network.csiro.au/data/csiro/A000636,http://network.csiro.au/data/csiro/A000636
+http://network.csiro.au/data/csiro/A000634,http://network.csiro.au/data/csiro/A000634
+http://network.csiro.au/data/csiro/A001684,http://network.csiro.au/data/csiro/A001684
+http://network.csiro.au/data/csiro/A001685,http://network.csiro.au/data/csiro/A001685
+http://network.csiro.au/data/csiro/A000637,http://network.csiro.au/data/csiro/A000637
+http://network.csiro.au/data/csiro/A000757,http://network.csiro.au/data/csiro/A000757
+http://network.csiro.au/data/csiro/A000707,http://network.csiro.au/data/csiro/A000707
+http://network.csiro.au/data/csiro/A000641,http://network.csiro.au/data/csiro/A000641
+http://network.csiro.au/data/csiro/A000742,http://network.csiro.au/data/csiro/A000742
+http://network.csiro.au/data/csiro/A000643,http://network.csiro.au/data/csiro/A000643
+http://network.csiro.au/data/csiro/A000763,http://network.csiro.au/data/csiro/A000763
+http://network.csiro.au/data/csiro/A000645,http://network.csiro.au/data/csiro/A000645
+http://network.csiro.au/data/csiro/A000647,http://network.csiro.au/data/csiro/A000647
+http://network.csiro.au/data/csiro/A000685,http://network.csiro.au/data/csiro/A000685
+http://network.csiro.au/data/csiro/A000653,http://network.csiro.au/data/csiro/A000653
+http://network.csiro.au/data/csiro/A000765,http://network.csiro.au/data/csiro/A000765
+http://network.csiro.au/data/csiro/A000656,http://network.csiro.au/data/csiro/A000656
+http://network.csiro.au/data/csiro/A000658,http://network.csiro.au/data/csiro/A000658
+http://network.csiro.au/data/csiro/A000659,http://network.csiro.au/data/csiro/A000659
+http://network.csiro.au/data/csiro/A000660,http://network.csiro.au/data/csiro/A000660
+http://network.csiro.au/data/csiro/A000661,http://network.csiro.au/data/csiro/A000661
+http://network.csiro.au/data/csiro/A000664,http://network.csiro.au/data/csiro/A000664
+http://network.csiro.au/data/csiro/A000755,http://network.csiro.au/data/csiro/A000755
+http://network.csiro.au/data/csiro/A000667,http://network.csiro.au/data/csiro/A000667
+http://network.csiro.au/data/csiro/A000668,http://network.csiro.au/data/csiro/A000668
+http://network.csiro.au/data/csiro/A000669,http://network.csiro.au/data/csiro/A000669
+http://network.csiro.au/data/csiro/A000795,http://network.csiro.au/data/csiro/A000795
+http://network.csiro.au/data/csiro/A000672,http://network.csiro.au/data/csiro/A000672
+http://network.csiro.au/data/csiro/A000756,http://network.csiro.au/data/csiro/A000756
+http://network.csiro.au/data/csiro/A000670,http://network.csiro.au/data/csiro/A000670
+http://network.csiro.au/data/csiro/A000767,http://network.csiro.au/data/csiro/A000767
+http://network.csiro.au/data/csiro/A000769,http://network.csiro.au/data/csiro/A000769
+http://network.csiro.au/data/csiro/A000675,http://network.csiro.au/data/csiro/A000675
+http://network.csiro.au/data/csiro/A000674,http://network.csiro.au/data/csiro/A000674
+http://network.csiro.au/data/csiro/A000673,http://network.csiro.au/data/csiro/A000673
+http://network.csiro.au/data/csiro/A002113,http://network.csiro.au/data/csiro/A002113
+http://network.csiro.au/data/csiro/A000677,http://network.csiro.au/data/csiro/A000677
+http://network.csiro.au/data/csiro/A000678,http://network.csiro.au/data/csiro/A000678
+http://network.csiro.au/data/csiro/A000679,http://network.csiro.au/data/csiro/A000679
+http://network.csiro.au/data/csiro/A000680,http://network.csiro.au/data/csiro/A000680
+http://network.csiro.au/data/csiro/A000683,http://network.csiro.au/data/csiro/A000683
+http://network.csiro.au/data/csiro/A000684,http://network.csiro.au/data/csiro/A000684
+http://network.csiro.au/data/csiro/A000686,http://network.csiro.au/data/csiro/A000686
+http://network.csiro.au/data/csiro/A000687,http://network.csiro.au/data/csiro/A000687
+http://network.csiro.au/data/csiro/A000777,http://network.csiro.au/data/csiro/A000777
+http://network.csiro.au/data/csiro/A000776,http://network.csiro.au/data/csiro/A000776
+http://network.csiro.au/data/csiro/A000688,http://network.csiro.au/data/csiro/A000688
+http://network.csiro.au/data/csiro/A000759,http://network.csiro.au/data/csiro/A000759
+http://network.csiro.au/data/csiro/A000690,http://network.csiro.au/data/csiro/A000690
+http://network.csiro.au/data/csiro/A002118,http://network.csiro.au/data/csiro/A002118
+http://network.csiro.au/data/csiro/A002117,http://network.csiro.au/data/csiro/A002117
+http://network.csiro.au/data/csiro/A000691,http://network.csiro.au/data/csiro/A000691
+http://network.csiro.au/data/csiro/A000891,http://network.csiro.au/data/csiro/A000891
+http://network.csiro.au/data/csiro/A000692,http://network.csiro.au/data/csiro/A000692
+http://network.csiro.au/data/csiro/A000693,http://network.csiro.au/data/csiro/A000693
+http://network.csiro.au/data/csiro/A000696,http://network.csiro.au/data/csiro/A000696
+http://network.csiro.au/data/csiro/A000780,http://network.csiro.au/data/csiro/A000780
+http://network.csiro.au/data/csiro/A000697,http://network.csiro.au/data/csiro/A000697
+http://network.csiro.au/data/csiro/A000700,http://network.csiro.au/data/csiro/A000700
+http://network.csiro.au/data/csiro/A000706,http://network.csiro.au/data/csiro/A000706
+http://network.csiro.au/data/csiro/A000702,http://network.csiro.au/data/csiro/A000702
+http://network.csiro.au/data/csiro/A000705,http://network.csiro.au/data/csiro/A000705
+http://network.csiro.au/data/csiro/A000727,http://network.csiro.au/data/csiro/A000727
+http://network.csiro.au/data/csiro/A000729,http://network.csiro.au/data/csiro/A000729
+http://network.csiro.au/data/csiro/A000731,http://network.csiro.au/data/csiro/A000731
+http://network.csiro.au/data/csiro/A000728,http://network.csiro.au/data/csiro/A000728
+http://network.csiro.au/data/csiro/A000751,http://network.csiro.au/data/csiro/A000751
+http://network.csiro.au/data/csiro/A000737,http://network.csiro.au/data/csiro/A000737
+http://network.csiro.au/data/csiro/A000730,http://network.csiro.au/data/csiro/A000730
+http://network.csiro.au/data/csiro/A000732,http://network.csiro.au/data/csiro/A000732
+http://network.csiro.au/data/csiro/A000734,http://network.csiro.au/data/csiro/A000734
+http://network.csiro.au/data/csiro/A000735,http://network.csiro.au/data/csiro/A000735
+http://network.csiro.au/data/csiro/A000736,http://network.csiro.au/data/csiro/A000736
+http://network.csiro.au/data/csiro/A000738,http://network.csiro.au/data/csiro/A000738
+http://network.csiro.au/data/csiro/A000739,http://network.csiro.au/data/csiro/A000739
+http://network.csiro.au/data/csiro/A000741,http://network.csiro.au/data/csiro/A000741
+http://network.csiro.au/data/csiro/A002294,http://network.csiro.au/data/csiro/A002294
+http://network.csiro.au/data/csiro/A000753,http://network.csiro.au/data/csiro/A000753
+http://network.csiro.au/data/csiro/A000747,http://network.csiro.au/data/csiro/A000747
+http://network.csiro.au/data/csiro/A000748,http://network.csiro.au/data/csiro/A000748
+http://network.csiro.au/data/csiro/A000750,http://network.csiro.au/data/csiro/A000750
+http://network.csiro.au/data/csiro/A000754,http://network.csiro.au/data/csiro/A000754
+http://network.csiro.au/data/csiro/A000797,http://network.csiro.au/data/csiro/A000797
+http://network.csiro.au/data/csiro/A000768,http://network.csiro.au/data/csiro/A000768
+http://network.csiro.au/data/csiro/A000760,http://network.csiro.au/data/csiro/A000760
+http://network.csiro.au/data/csiro/A000758,http://network.csiro.au/data/csiro/A000758
+http://network.csiro.au/data/csiro/A000764,http://network.csiro.au/data/csiro/A000764
+http://network.csiro.au/data/csiro/A000770,http://network.csiro.au/data/csiro/A000770
+http://network.csiro.au/data/csiro/A000771,http://network.csiro.au/data/csiro/A000771
+http://network.csiro.au/data/csiro/A000772,http://network.csiro.au/data/csiro/A000772
+http://network.csiro.au/data/csiro/A000773,http://network.csiro.au/data/csiro/A000773
+http://network.csiro.au/data/csiro/A002112,http://network.csiro.au/data/csiro/A002112
+http://network.csiro.au/data/csiro/A000774,http://network.csiro.au/data/csiro/A000774
+http://network.csiro.au/data/csiro/A000775,http://network.csiro.au/data/csiro/A000775
+http://network.csiro.au/data/csiro/A000778,http://network.csiro.au/data/csiro/A000778
+http://network.csiro.au/data/csiro/A000781,http://network.csiro.au/data/csiro/A000781
+http://network.csiro.au/data/csiro/A000782,http://network.csiro.au/data/csiro/A000782
+http://network.csiro.au/data/csiro/A000783,http://network.csiro.au/data/csiro/A000783
+http://network.csiro.au/data/csiro/A000785,http://network.csiro.au/data/csiro/A000785
+http://network.csiro.au/data/csiro/A000786,http://network.csiro.au/data/csiro/A000786
+http://network.csiro.au/data/csiro/A000787,http://network.csiro.au/data/csiro/A000787
+http://network.csiro.au/data/csiro/A000788,http://network.csiro.au/data/csiro/A000788
+http://network.csiro.au/data/csiro/A000789,http://network.csiro.au/data/csiro/A000789
+http://network.csiro.au/data/csiro/A000790,http://network.csiro.au/data/csiro/A000790
+http://network.csiro.au/data/csiro/A000791,http://network.csiro.au/data/csiro/A000791
+http://network.csiro.au/data/csiro/A000792,http://network.csiro.au/data/csiro/A000792
+http://network.csiro.au/data/csiro/A000793,http://network.csiro.au/data/csiro/A000793
+http://network.csiro.au/data/csiro/A000794,http://network.csiro.au/data/csiro/A000794
+http://network.csiro.au/data/csiro/A000798,http://network.csiro.au/data/csiro/A000798
+http://network.csiro.au/data/csiro/A000799,http://network.csiro.au/data/csiro/A000799
+http://network.csiro.au/data/csiro/A000800,http://network.csiro.au/data/csiro/A000800
+http://network.csiro.au/data/csiro/A000885,http://network.csiro.au/data/csiro/A000885
+http://network.csiro.au/data/csiro/A001185,http://network.csiro.au/data/csiro/A001185
+http://network.csiro.au/data/csiro/A001260,http://network.csiro.au/data/csiro/A001260
+http://network.csiro.au/data/csiro/A001686,http://network.csiro.au/data/csiro/A001686
+http://network.csiro.au/data/csiro/X000023,http://network.csiro.au/data/csiro/X000023
+http://network.csiro.au/data/csiro/A001859,http://network.csiro.au/data/csiro/A001859
+http://network.csiro.au/data/csiro/A002114,http://network.csiro.au/data/csiro/A002114
+http://network.csiro.au/data/csiro/A002115,http://network.csiro.au/data/csiro/A002115
+http://network.csiro.au/data/csiro/A002116,http://network.csiro.au/data/csiro/A002116
+http://network.csiro.au/data/csiro/A002295,http://network.csiro.au/data/csiro/A002295
+http://network.csiro.au/data/csiro/P005808b,http://network.csiro.au/data/csiro/P005808b
+http://network.csiro.au/data/csiro/X000022,http://network.csiro.au/data/csiro/X000022
+http://network.csiro.au/data/csiro/X000031,http://network.csiro.au/data/csiro/X000031
+http://network.csiro.au/data/csiro/X000027,http://network.csiro.au/data/csiro/X000027
+http://network.csiro.au/data/csiro/X000010,http://network.csiro.au/data/csiro/X000010
+http://network.csiro.au/data/csiro/X000030,http://network.csiro.au/data/csiro/X000030
+http://network.csiro.au/data/csiro/X000029,http://network.csiro.au/data/csiro/X000029
+http://network.csiro.au/data/csiro/X000028,http://network.csiro.au/data/csiro/X000028
+http://network.csiro.au/data/csiro/X000024,http://network.csiro.au/data/csiro/X000024
+http://network.csiro.au/data/csiro/X000025,http://network.csiro.au/data/csiro/X000025
+http://network.csiro.au/data/csiro/X000013,http://network.csiro.au/data/csiro/X000013
+http://network.csiro.au/data/csiro/X000021,http://network.csiro.au/data/csiro/X000021
+http://network.csiro.au/data/csiro/X000026,http://network.csiro.au/data/csiro/X000026
+http://network.csiro.au/data/csiro/X000032,http://network.csiro.au/data/csiro/X000032
+http://network.csiro.au/data/csiro/X000033,http://network.csiro.au/data/csiro/X000033
+
+*****************************************************************************************************
+4) Query to display organisation along with its name and description
+*****************************************************************************************************
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT (?x AS ?Organisation) (?z as ?name) (?y As ?Description) 
+WHERE{
+    ?x dc:description ?y.
+    ?x foaf:name ?z
+}
+****************************************************************************************************
+Result:(303 Records) 
+  "Organisation" 	 "name" 	 "Description" 
+ "http://network.csiro.au/data/csiro/A000212" 	 "Australian Nuclear Science and Technology Organisation (ANSTO)" 	 "The Australian Nuclear Science and Technology Organisation was established in 1987
+ "http://network.csiro.au/data/csiro/A000313" 	 "CSIRO Meat	 Dairy and Aquaculture Sector" 
+ "http://network.csiro.au/data/csiro/A000519" 	 "Baas Becking Geobiological Laboratory" 	 "The Baas Becking Geobiological Laboratory was established in the late 1960s. The Laboratory was jointly operated by the CSIRO's Division of Mineralogy
+ "http://network.csiro.au/data/csiro/A000574" 	 "CSIRO Section of Mathematical Instruments" 	 "The Section of Mathematical Instruments
+ "http://network.csiro.au/data/csiro/A000602" 	 "CSIRO Office of Space Science and Applications (COSSA)" 	 "The CSIRO Office of Space Science and Applications (COSSA) was established in 1988 and was part of the Institute of Information and Communication Technologies. The Office ceased operations in 1996. 
+		
+From National Archives of Australia	 Agency notes for agency CA 7972; CSIRO Institute of Natural Resources and Environment	 11 August 2000: Office of Space Science and Applications (COSSA)
+ "http://network.csiro.au/data/csiro/A000605" 	 "CSIRO Plastic Banknote Project" 	 "The CSIRO helped develop the world's first polymer banknote
+ "http://network.csiro.au/data/csiro/A000607" 	 "Sirotech Limited - CSIRO" 	 "Established in November 1984
+ "http://network.csiro.au/data/csiro/A000631" 	 "CSIRO Food Processing Sector" 	 "The Food Processing Sector was established in the mid-1990s." 
+ "http://network.csiro.au/data/csiro/A000641" 	 "CSIRO Petroleum Sector" 	 "The CSIROs Petroleum Sector was established in the mid-1990s. It is now most likely known as CSIRO Petroleum
+ "http://network.csiro.au/data/csiro/A000692" 	 "CSIRO Pulp and Paper Section" 	 "The Pulp and Paper Section of the CSIRO were responsible for improving the production and quality of paper products. Today this research is carried out by the CSIRO Division of Forestry and Forest Products." 
+ "http://network.csiro.au/data/csiro/A000741" 	 "CSIRO Canberra Laboratories" 	 "The CSIRO's Canberra Laboratories were located at the foot of Black Mountain
+ "http://network.csiro.au/data/csiro/A000891" 	 "Australian Meat Technology Pty Ltd" 	 "Australian Meat Technology Pty. Ltd. was formed in the early 1990s by the Australian Meat and Livestock Research and Development Corporation. The Company was created
+ "http://network.csiro.au/data/csiro/A001185" 	 "CSIRO Kimberley Research Station" 	 "The Kimberly Research Station was a joint venture between the Western Australian Government and the CSIRO. The Station was established in 1946 in the north of Western Australia. The main function of the Station was cotton research. In 2003 the Station is part of the CSIRO Division of Plant Industry." 
+ "http://network.csiro.au/data/csiro/A001260" 	 "Optics Section" 	 "The Optics Section was part of the Munitions Supply Laboratories. It specialised in technique and prototype testing." 
+ "http://network.csiro.au/data/csiro/A002114" 	 "CSIRO Manufacturing and Infrastructure Technology" 	 "In July 2002 a merger took place between the Division of Manufacturing Science and Technology and the Division of Building
+ "http://network.csiro.au/data/csiro/A002115" 	 "Australia Telescope National Facility - CSIRO" 	 "CSIRO's Australia Telescope National Facility (ATNF) comprises of eight radio-wave receiving antennas (dishes)
+ "http://network.csiro.au/data/csiro/A002116" 	 "L. P. Coombes Computer Centre" 	 "The L. P. Coombes Computer Centre was located within the Aeronautical Research Laboratories
+ "http://network.csiro.au/data/csiro/A002295" 	 "CSIRO Human Nutrition" 	 "In 2005 the Adelaide site of CSIRO Health Sciences and Nutrition merged with Food Science Australia and is now known as CSIRO Human Nutrition." 
+ "http://network.csiro.au/data/csiro/A000217" 	 "Advisory Council of Science and Industry" 	 "In 1916 the Australian Government established the Advisory Council of Science and Industry with an aim to bring a national position to scientific research. Four years later
+ "http://network.csiro.au/data/csiro/A000294" 	 "Aeronautical and Maritime Research Laboratory" 	 "In July 1994 the Materials Research Laboratory and Aeronautical Research Laboratory merged to form the Aeronautical and Maritime Research Laboratory (AMRL). A restructure of the Defence Science and Technology Organisation in 2002 resulted in the closure of all existing research Laboratories for the creation of three new ones." 
+ "http://network.csiro.au/data/csiro/A000416" 	 "Australian Objective Measurement Project (AOMP) - CSIRO" 	 "The Australian Objective Measurement Project was carried out by the CSIRO's Division of Textile Physics during the years 1970 and 1971." 
+ "http://network.csiro.au/data/csiro/A000585" 	 "Commonwealth Forestry Bureau" 	 "The Commonwealth Forestry Bureau was established in 1927 for the purpose of conducting research in areas such as silviculture
+ "http://network.csiro.au/data/csiro/A000588" 	 "CSIR Wool Processing Section" 	 "In the late 1930s the Wool Processing Section ceased to exist. Its functions were taken over by the Division of Industrial Chemistry." 
+ "http://network.csiro.au/data/csiro/A000603" 	 "CSIRO Rangeland Research Centre" 	 "The Rangeland Research Centre was part of CSIRO's Division of Wildlife and Ecology." 
+ "http://network.csiro.au/data/csiro/A000604" 	 "CSIRO Computing Services (CSIRONET)" 	 "The Commonwealth Scientific and Industrial Research Organisation Computing Services (CSIRONET) was established in January 1963 and located at Black Mountain
+ "http://network.csiro.au/data/csiro/A000630" 	 "Food Science Australia - CSIRO" 	 "Food Science Australia replaced the CSIRO Division of Food Science and Technology. It is a joint venture of CSIRO and the Australian Food Industry Science Centre (AFISC)
+ "http://network.csiro.au/data/csiro/A000637" 	 "CSIRO Forestry	 Wood and Paper Industries Sector" 
+ "http://network.csiro.au/data/csiro/A000658" 	 "CSIRO Fisheries Investigations Section" 	 "The Fisheries Investigation Section was founded in 1937. Shortly afterwards the Section gained Divisional status and was thenceforth the Division of Fisheries." 
+ "http://network.csiro.au/data/csiro/A000686" 	 "CSIRO Textiles Clothing and Footwear Sector" 	 "The CSIRO's Textile
+ "http://network.csiro.au/data/csiro/A000693" 	 "Institute of Information and Communications Technologies - CSIRO" 	 "The Institute of Information and Communications Technologies was made up of four CSIRO Divisions
+ "http://network.csiro.au/data/csiro/A000747" 	 "Industrial Atomic Energy Policy Committee" 	 "The Industrial Atomic Energy Policy Committee was created in 1949 for the purpose of discussing the possible use of atomic energy in industry. The Committee was disbanded
+ "http://network.csiro.au/data/csiro/A000750" 	 "CSIRO Physics and Engineering Unit" 	 "The Physics and Engineering Unit was established in 1949 as part of the Wool Textile Research Laboratories. In 1958 the Unit became the Division of Textile Physics." 
+ "http://network.csiro.au/data/csiro/A000760" 	 "CSIRO Energy Technology" 	 "The Division of Energy Technology was established in the mid-1990s
+ "http://network.csiro.au/data/csiro/A000774" 	 "Commonwealth Citrus Research Station" 	 "The Commonwealth Citrus Research Station was founded in 1924. In 1927 the Commonwealth Council for Scientific and Industrial Research (CSIR) assumed control of the Station
+ "http://network.csiro.au/data/csiro/A000778" 	 "CSIRO Division of Mathematical and Information Sciences" 	 "In 1997
+ "http://network.csiro.au/data/csiro/A000783" 	 "CSIRO Division of Exploration and Mining" 	 "Formerly the Division of Exploration and Geosciences
+ "http://network.csiro.au/data/csiro/A002111" 	 "CSIRO Division of Cloud Physics" 	 "The Division of Cloud Physics was established in July 1972. It originated from a research group within the Division of Radiophysics. Research areas covered by the Division included the structure and manipulation of clouds and ice crystals. The Division ceased operations in April 1983." 
+ "http://network.csiro.au/data/csiro/A002293" 	 "CSIRO Manufacturing and Infrastructure Technology (CMIT)" 	 "CSIRO Manufacturing & Infrastructure Technology (CMIT) was formed in July 2002 through the integration of the CSIRO divisions of Building
+ "http://network.csiro.au/data/csiro/A000159" 	 "Australian National Animal Health Laboratory (ANAHL) - CSIRO" 	 "The concept of an animal health laboratory providing diagnostic and research services for outbreaks of foreign livestock diseases was first put forward in 1964. It was not until the 1970s that the plan was approved by Parliament. Construction of the Australian National Animal Health Laboratory (ANAHL) began in 1978. ANAHL was to be administered by the CSIRO. In 1985 the facility underwent a change of name
+ "http://network.csiro.au/data/csiro/A000218" 	 "Commonwealth Institute of Science and Industry" 	 "In 1920 an Act of Parliament was passed for the foundation of the Commonwealth Institute of Science and Industry. This Institute continued the work of the Advisory Council of Science and Industry. In 1926 further changes were made
+ "http://network.csiro.au/data/csiro/A000293" 	 "Defence Research Laboratories" 	 "The Defence Research Laboratories were established in Maribyrnong
+ "http://network.csiro.au/data/csiro/A000310" 	 "CSIRO Central Experimental Workshops" 	 "The CSIRO Central Experimental Workshops were established in 1949. In 1955 they were replaced by the Engineering Section." 
+ "http://network.csiro.au/data/csiro/A000311" 	 "CSIRO Dairy Research Section" 	 "Established in June 1939
+ "http://network.csiro.au/data/csiro/A000312" 	 "CSIR Division of Aeronautics" 	 "The CSIR Division of Aeronautics was established at Fisherman's Bend in May 1940. The Division was re-established in 1949 as the Aeronautical Research laboratory." 
+ "http://network.csiro.au/data/csiro/A000385" 	 "Munitions Supply Laboratories (MSL)" 	 "The Munitions Supply Laboratories were created in 1922. They were originally under the control of the Munitions Supply Board. The Laboratories were succeeded by the Defence Research Laboratories." 
+ "http://network.csiro.au/data/csiro/A000571" 	 "CSIRO Division of Chemical and Wood Technology" 	 "The Commonwealth Scientific and Research Organisation's (CSIRO) Division of Chemical and Wood Technology was established in 1983. The Division undertook research in areas such as wood science
+ "http://network.csiro.au/data/csiro/A000575" 	 "CSIRO Division of Entomology" 	 "Established in 1928
+ "http://network.csiro.au/data/csiro/A000587" 	 "Forest Research Institute" 	 "The Forest Research Institute was formed in 1964
+		
+In 1975	 the Forest Research Institute and the Forestry and Timber Bureau amalgamated and became the CSIRO Division of Forest Research." 	
+ "http://network.csiro.au/data/csiro/A000608" 	 "CSIRO Wildlife Survey Section" 	 "The Wildlife Survey Section was established in 1949
+ "http://network.csiro.au/data/csiro/A000609" 	 "CSIRO Division of Textile and Fibre Technology" 	 "CSIRO's Textile and Fibre Technology was previously the Division of Wool Technology
+ "http://network.csiro.au/data/csiro/A000612" 	 "CSIRO Chemical Research Laboratories" 	 "The Chemical Research Laboratories replaced the Division of Industrial Chemistry in 1958. The laboratories consisted of six Divisions
+ "http://network.csiro.au/data/csiro/A000620" 	 "CSIRO Division of Building	 Construction and Engineering" 
+ "http://network.csiro.au/data/csiro/A000622" 	 "CSIRO Building Material Research Section" 	 "The Building Material Research Section was established in 1945 and operated for five years
+ "http://network.csiro.au/data/csiro/A000627" 	 "CSIRO Minerals Division" 	 "The Division of Minerals and Process Engineering became the Minerals Division in 1995
+ "http://network.csiro.au/data/csiro/A000633" 	 "Institute of Earth Resources - CSIRO" 	 "The Institute of Earth Resources became the Institute of Energy and Earth Resources in September 1981." 
+ "http://network.csiro.au/data/csiro/A000650" 	 "CSIRO Division of Economic Entomology" 	 "The CSIRO's Division of Economic Entomology was established in 1928 and precedes the current Division of Entomology
+ "http://network.csiro.au/data/csiro/A000653" 	 "Lubricants and Bearings Section" 	 "Established in 1940
+ "http://network.csiro.au/data/csiro/A000657" 	 "CSIRO Computing Research Section" 	 "The Computing Research Section was established during the mid-1950s and was located at Black Mountain in the Australian Capital Territory. The Section gained divisional status in the late 1960s
+ "http://network.csiro.au/data/csiro/A000664" 	 "CSIRO Marine Sector" 	 "The CSIRO's Marine Sector was established in the mid-1990s and eventually changed its name to CSIRO Marine. On 1 July 2005 it merged with CSIRO Atmospheric Research to create CSIRO Marine and Atmospheric Research." 
+ "http://network.csiro.au/data/csiro/A000669" 	 "CSIR Division of Economic Botany" 	 "The Division of Economic Botany was established in early 1927 and was a part of the Council for Scientific and Industrial Research (CSIR). In 1929 the Division was renamed
+ "http://network.csiro.au/data/csiro/A000674" 	 "CSIR Murray River Soil Investigation Unit" 	 "Established in 1927
+ "http://network.csiro.au/data/csiro/A000691" 	 "CSIRO Meat Research Laboratory" 	 "The CSIRO's Meat Research Laboratory was established in 1969. In the early 1990s CSIRO co-operated with the Australian Meat and Livestock Research and Development Corporation
+ "http://network.csiro.au/data/csiro/A000700" 	 "CSIRO Mineragraphic Investigations" 	 "Mineragraphic Investigation was originally part of the CSIR and was established in 1921. It continued operations after the CSIR became the CSIRO. In 1966 Mineragraphic Investigation ceased to exist as an independent entity
+ "http://network.csiro.au/data/csiro/A000702" 	 "CSIRO Coal Research Section" 	 "The Coal Research Section was established in 1948. In 1960 it became a CSIRO Division - the Division of Coal Research." 
+ "http://network.csiro.au/data/csiro/A000736" 	 "CSIR Division of Animal Nutrition" 	 "In 1936 the Division of Animal Nutrition became the Division of Animal Health and Nutrition
+ "http://network.csiro.au/data/csiro/A000746" 	 "CSIRO Division of Telecommunications and Industrial Physics" 	 "CSIRO's Division of Telecommunications and Industrial Physics was established in September 1996. The Division was the result of the merger between the Divisions of Applied Physics and Radio Physics. From the Division's Web Site: "For most companies the cost of establishing and maintaining a major research centre is prohibitive. We offer an alternative by giving industry access to a world competitive research and development facility."
+		
+The Division is now called CSIRO Industrial Physics." 		
+ "http://network.csiro.au/data/csiro/A000748" 	 "Atomic Energy Policy Committee" 	 "In April 1952 the Atomic Energy Policy Committee replaced the former Industrial Atomic Energy Policy Committee due to a recommendation that a committee with broader terms of reference should be established. This new committee was responsible for advising the Government on all issues relating to atomic Energy. In November 1952 the Australian Atomic Energy Commission was created
+ "http://network.csiro.au/data/csiro/A000764" 	 "CSIRO Meteorological Physics Research Section" 	 "Established in May 1949
+ "http://network.csiro.au/data/csiro/A000766" 	 "CSIRO Division of Manufacturing Science and Technology" 	 "In 1997
+ "http://network.csiro.au/data/csiro/A000775" 	 "CSIR Biometrics Section" 	 "The Biometrics Section was established in 1941 and was part of the Council for Scientific and Industrial Research (CSIR). When the CSIR became the CSIRO
+ "http://network.csiro.au/data/csiro/A000785" 	 "CSIRO Petroleum Resources" 	 "CSIRO Petroleum Resources was established in June 1993. It was the result of a restructure involving the Division of Geomechanics and parts of the Division of Exploration and Geosciences. From their Web site
+		
+It is now most likely known as CSIRO Petroleum	 which has branches in Victoria	 Western Australia and New South Wales." 
+ "http://network.csiro.au/data/csiro/A000792" 	 "Commonwealth Research Station	 Murray Irrigation Area - CSIRO" 
+ "http://network.csiro.au/data/csiro/A000796" 	 "CSIR Cold Storage Investigations" 	 "Cold Storage Investigations was a part of the Council for Scientific and Industrial Research (CSIR). It became the Food Preservation and Transport Section in the early 1930s." 
+ "http://network.csiro.au/data/csiro/A000797" 	 "CSIRO Molecular and Cellular Biology Unit" 	 "The Molecular and Cellular Biology Unit was first established in 1975. It became the Molecular Biology Unit
+ "http://network.csiro.au/data/csiro/A000800" 	 "CSIRO Wheat Germplasm and Grain Quality" 	 "The Wheat Germplasm and Grain Quality Laboratory is part of the Division of Plant industry. It took the place of the Grain Quality Research Laboratory in 1998." 
+ "http://network.csiro.au/data/csiro/A000998" 	 "Defence Standards Laboratories" 	 "In October 1953 the Defence Research Laboratories became known as the Defence Standards Laboratories. Another name change took place in September 1974
+ "http://network.csiro.au/data/csiro/A000999" 	 "Materials Research Laboratories" 	 "In September 1974 the Defence Standards Laboratories (MRL) became the Materials Research Laboratories. In 1977 MRL's Woodville North section was transferred from DSTO to CSIRO Division of Manufacturing Science and Technology. In 1985 the laboratories came under the control of the Royal Australian Navy. In March 1994 the Materials Research Laboratories joined with the Aeronautical Research Laboratories to form the Aeronautical and Maritime Research Laboratories of the Defence Science and Technology Organisation (DSTO)." 
+ "http://network.csiro.au/data/csiro/A001859" 	 "Australian National Wildlife Collection (ANWC) - CSIRO" 	 "Established by the CSIRO in 1966
+		
+From their Web site	 April 2002: "The primary goal of the Australia National Wildlife Collection is the provision of a national reference record of Australia's vertebrate fauna: its mammals	 birds
+ "http://network.csiro.au/data/csiro/A002118" 	 "F. D. McMaster Laboratory	 Chiswick - CSIRO" 
+ "http://network.csiro.au/data/csiro/A002245" 	 "CSIR Radiophysics Laboratory" 	 "The CSIR Radiophysics Laboratory was established in 1939. It was granted divisional status in May 1940
+ "http://network.csiro.au/data/csiro/A002294" 	 "CSIRO Molecular and Health Technologies" 	 "CSIRO Molecular and Health Technologies was created in 2005 from the merging of CSIRO Health Sciences and Nutrition (excluding the Adelaide campus) and CSIRO Molecular Science. It is located over four sites: Parkville and Clayton in Victoria
+ "http://network.csiro.au/data/csiro/A000309" 	 "Aeronautical Research Laboratories" 	 "The Aeronautical Research Laboratories were established in 1949. They replaced the Aeronautical and Engine Research Test Laboratory
+ "http://network.csiro.au/data/csiro/A000576" 	 "CSIRO Division of Food Preservation and Transport" 	 "The Food Preservation and Transport Section
+ "http://network.csiro.au/data/csiro/A000584" 	 "CSIR Food Preservation and Transport Section" 	 "The Food Preservation and Transport Section was established in August 1931 and preceded the Division of Food Preservation and Transport
+ "http://network.csiro.au/data/csiro/A000586" 	 "Forestry and Timber Bureau" 	 "In 1946 the Commonwealth Forestry Bureau changed its name to the Forestry and Timber Bureau. This continued with the work of the Commonwealth Forestry Bureau until 1964
+ "http://network.csiro.au/data/csiro/A000595" 	 "CSIRO Division of Tribophysics" 	 "The Division of Tribophysics began in 1946 as the Tribophysics Section
+ "http://network.csiro.au/data/csiro/A000600" 	 "CSIRO Division of Wildlife and Rangelands Research" 	 "Previously the Division of Wildlife Research
+ "http://network.csiro.au/data/csiro/A000610" 	 "Australian Atomic Energy Commission Research Laboratories" 	 "The Australian Atomic Energy Commission Research Laboratories were established in September 1981. The Laboratories took control of functions previously undertaken by the Australian Atomic Energy Commission and the Australian Atomic Energy Commission
+ "http://network.csiro.au/data/csiro/A000611" 	 "CSIRO Chemical Physics Section" 	 "CSIRO's Chemical Physics Section preceded the Division of Chemical Physics
+ "http://network.csiro.au/data/csiro/A000621" 	 "CSIRO Built Environment Sector" 	 "The Built Environment Sector was established in the mid-1990s and is made up of eight Divisions. In 2002 the Built Environment sector
+ "http://network.csiro.au/data/csiro/A000646" 	 "CSIRO Chemical Engineering Section" 	 "The Chemical Engineering Section was originally part of the Division of Industrial Chemistry. In the early 1960s the Section was granted Divisional status
+ "http://network.csiro.au/data/csiro/A000648" 	 "CSIR Electrotechnology Section" 	 "The Electrotechnology Section
+ "http://network.csiro.au/data/csiro/A000651" 	 "CSIRO Division of Dairy Research" 	 "The Division of Dairy Research replaced the Dairy Research Section in July 1962. In 1971 an amalgamation took place between the Division of Dairy Research and the Division of Food Preservation
+ "http://network.csiro.au/data/csiro/A000652" 	 "CSIRO Division of Food Preservation" 	 "Established in 1962
+ "http://network.csiro.au/data/csiro/A000654" 	 "Tribophysics Section" 	 "The CSIRO Tribophysics Section was established in 1946 and preceded the Division of Tribophysics
+ "http://network.csiro.au/data/csiro/A000656" 	 "Institute of Industrial Technologies - CSIRO" 	 "The CSIRO's Institute of Industrial Technologies consisted of five Divisions
+ "http://network.csiro.au/data/csiro/A000659" 	 "CSIRO Division of Fisheries" 	 "The CSIRO Fisheries Investigation Unit gained Divisional status in 1939
+ "http://network.csiro.au/data/csiro/A000666" 	 "CSIRO Division of Tropical Agronomy" 	 "The Division of Tropical Agronomy replaced the Division of Tropical Pastures in March 1973. In 1976 the Division underwent another change of name
+ "http://network.csiro.au/data/csiro/A000667" 	 "CSIRO Division of Tropical Pastures" 	 "The Division of Tropical Pastures was first established in July 1959. In March 1973 the Division changed its name
+ "http://network.csiro.au/data/csiro/A000670" 	 "CSIRO Land and Water" 	 "During restructuring of the CSIRO
+ "http://network.csiro.au/data/csiro/A000675" 	 "CSIRO Division of Land Resources Management" 	 "In 1974
+ "http://network.csiro.au/data/csiro/A000678" 	 "CSIRO Division of Land Research and Regional Survey" 	 "In 1957
+ "http://network.csiro.au/data/csiro/A000679" 	 "CSIRO Land Research and Regional Survey Section" 	 "Formerly the Northern Australian Regional Survey Section
+ "http://network.csiro.au/data/csiro/A000680" 	 "CSIRO Northern Australian Regional Survey Section" 	 "The Northern Australian Regional Survey Section was originally established in 1945. It was renamed the Land Research and Regional Survey Section in 1950." 
+ "http://network.csiro.au/data/csiro/A000683" 	 "CSIR Physics Section" 	 "The Physics Section
+ "http://network.csiro.au/data/csiro/A000684" 	 "CSIR Metrology Section" 	 "The Metrology Section was established in 1939 as part of the CSIR's National Standards Laboratory. In 1945 the Section gained Divisional status
+ "http://network.csiro.au/data/csiro/A000687" 	 "CSIRO Division of Mathematical Statistics" 	 "In 1954
+ "http://network.csiro.au/data/csiro/A000688" 	 "CSIRO Division of Mechanical Engineering" 	 "Established in 1963
+ "http://network.csiro.au/data/csiro/A000695" 	 "CSIRO Physics and Engineering Unit" 	 "The Physics and Engineering Unit was established in 1949
+ "http://network.csiro.au/data/csiro/A000703" 	 "CSIRO Minerals Utilization Section" 	 "The Materials Utilization Section began as part of the Division of Industrial Chemistry. It became a separate Division in the late 1950s
+ "http://network.csiro.au/data/csiro/A000704" 	 "CSIRO Division of Coal Research" 	 "The Division of Coal Research replaced the Coal Research Section in May 1959. In 1967 it was incorporated into the Division of Mineral Chemistry." 
+ "http://network.csiro.au/data/csiro/A000705" 	 "CSIRO Cement and Ceramic Section" 	 "The Cement and Ceramics Section was part of the Division of Industrial Chemistry. It became the Cement and Refractories Section in 1960
+ "http://network.csiro.au/data/csiro/A000706" 	 "CSIRO Cement and Refractories Section" 	 "The Cement and Refractories Section replaced the Cement and Ceramics Section in 1960. The Section continued to be part of the Division of Industrial Chemistry. In 1962 the Section gained independence from the Division of Industrial Chemistry
+ "http://network.csiro.au/data/csiro/A000707" 	 "CSIRO Mineral Physics Section" 	 "The Mineral Physics Section was originally a part of the Division of Mineral Chemistry. In 1972 it broke away
+ "http://network.csiro.au/data/csiro/A000729" 	 "CSIRO Division of Animal Physiology" 	 "The Division of Animal Physiology began as the Sheep Biology Section
+ "http://network.csiro.au/data/csiro/A000730" 	 "CSIRO Sheep Biology Laboratory" 	 "The Sheep Biology Laboratory was established in 1953
+ "http://network.csiro.au/data/csiro/A000731" 	 "CSIRO Division of Animal Genetics" 	 "The Animal Genetics Section gained Divisional status in 1959
+ "http://network.csiro.au/data/csiro/A000732" 	 "CSIRO Animal Genetics Section" 	 "The Animal Genetics Section was originally created in 1951 as a part of the Division of Animal Health and Production. In 1959 it was replaced by the Division of Animal Genetics
+ "http://network.csiro.au/data/csiro/A000735" 	 "CSIR Division of Animal Health" 	 "In 1936 the Division of Animal Health joined with the Division of Animal Nutrition to form the Division of Animal Health and Nutrition." 
+ "http://network.csiro.au/data/csiro/A000737" 	 "CSIRO Division of Nutritional Biochemistry" 	 "In 1975 the Division of Biochemistry and General Nutrition was renamed
+ "http://network.csiro.au/data/csiro/A000738" 	 "CSIRO Division of Biochemistry and General Nutrition" 	 "The Animal Nutrition Laboratory became an independent Division in 1944
+ "http://network.csiro.au/data/csiro/A000739" 	 "CSIR Animal Nutrition Laboratory" 	 "The Animal Nutrition Laboratory was originally established as part of the Division of Animal Health and Nutrition. It became a separate CSIR Division in 1944
+ "http://network.csiro.au/data/csiro/A000743" 	 "CSIRO Division of Organic Chemistry" 	 "Previously the Organic Chemistry Section
+ "http://network.csiro.au/data/csiro/A000744" 	 "CSIRO Organic Chemistry Section" 	 "Due to a reOrganisation of the Division of Industrial Chemistry in 1958
+ "http://network.csiro.au/data/csiro/A000745" 	 "CSIRO Division of Physical Chemistry" 	 "When the Division of Industrial Chemistry was reorganised in 1958
+ "http://network.csiro.au/data/csiro/A000751" 	 "CSIRO Division of Health Sciences and Nutrition" 	 "The Division of Health Sciences and Nutrition was established in 1996
+		
+CSIRO Health Sciences and Nutrition (excluding the Adelaide site) merged with CSIRO Molecular Science in 2005 to create a new division - CSIRO Molecular and Health Technologies. At the same time	 the Adelaide site of CSIRO Health Sciences and Nutrition merged with Food Science Australia and is now known as CSIRO Human Nutrition." 	
+ "http://network.csiro.au/data/csiro/A000753" 	 "CSIRO Division of Biomolecular Engineering" 	 "Established in 1989 when it replaced the Division of Biotechnology
+ "http://network.csiro.au/data/csiro/A000754" 	 "CSIRO Division of Molecular Biology" 	 "The Division of Molecular Biology replaced the Molecular and Cellular Biology Unit in September 1983." 
+ "http://network.csiro.au/data/csiro/A000755" 	 "CSIRO Division of Tropical Animal Production" 	 "The Division of Tropical Animal Production was established in January 1980. In 1996 the Division was replaced by the Division of Tropical Agriculture." 
+ "http://network.csiro.au/data/csiro/A000756" 	 "CSIRO Division of Environmental Mechanics" 	 "The Division of Environmental Mechanics was established in July 1971. Previously
+ "http://network.csiro.au/data/csiro/A000758" 	 "CSIRO Division of Fuel Technology" 	 "The Division of Fuel Technology was established with what was left of the Division of Energy Chemistry
+ "http://network.csiro.au/data/csiro/A000759" 	 "CSIRO Division of Energy Technology" 	 "In 1981 the Division of Energy Technology replaced the Division of Mechanical Engineering. In 1990 an amalgamation took place between the Divisions of Coal
+ "http://network.csiro.au/data/csiro/A000762" 	 "CSIRO Engineering Section" 	 "In 1955 the CSIRO Engineering Section was founded
+ "http://network.csiro.au/data/csiro/A000763" 	 "CSIRO Division of Meteorological Physics" 	 "In 1954 The Meteorological Physics Research Station gained Divisional status
+ "http://network.csiro.au/data/csiro/A000765" 	 "CSIRO Division of Manufacturing Technology" 	 "At the start of 1980
+ "http://network.csiro.au/data/csiro/A000767" 	 "CSIRO Water Resources Research" 	 "Water Resources Research was established in 1987
+ "http://network.csiro.au/data/csiro/A000768" 	 "CSIRO Agricultural Physics Section" 	 "The Agricultural Physics Section was originally a part of the Division of Plant Industry. It was first established in 1955
+ "http://network.csiro.au/data/csiro/A000769" 	 "CSIRO Centre for Irrigation and Freshwater Research" 	 "The Centre for Irrigation and Freshwater Research had a short history. It was created by the renaming of the Centre for Irrigation Research in 1987
+ "http://network.csiro.au/data/csiro/A000770" 	 "CSIRO Centre for Irrigation Research" 	 "The Centre for Irrigation Research was created in 1982
+ "http://network.csiro.au/data/csiro/A000771" 	 "CSIRO Division of Irrigation Research" 	 "In 1967 the Irrigation Research Laboratory became a separate CSIRO Division
+ "http://network.csiro.au/data/csiro/A000772" 	 "CSIRO Irrigation Research Laboratory" 	 "The Irrigation Research Laboratory replaced the Irrigation Research Station in 1961. In 1967 the Laboratory gained divisional status
+ "http://network.csiro.au/data/csiro/A000773" 	 "CSIRO Irrigation Research Station" 	 "Previously the Commonwealth Citrus Research Station
+ "http://network.csiro.au/data/csiro/A000776" 	 "CSIRO Mathematical Statistics Section" 	 "Formed in 1944
+ "http://network.csiro.au/data/csiro/A000777" 	 "CSIRO Division of Mathematics and Statistics" 	 "Previously the Division of Mathematical Statistics
+ "http://network.csiro.au/data/csiro/A000780" 	 "CSIRO Division of Mineralogy and Geochemistry" 	 "The Division of Mineralogy and Geochemistry had a short lifetime
+ "http://network.csiro.au/data/csiro/A000781" 	 "CSIRO Division of Minerals and Geochemistry" 	 "The Division of Minerals and Geochemistry replaced the Division of Mineralogy and Geochemistry during 1985. Less than two years later
+ "http://network.csiro.au/data/csiro/A000784" 	 "CSIRO Physical Technology Unit" 	 "The Physical Technology Unit was created in 1980
+ "http://network.csiro.au/data/csiro/A000786" 	 "CSIRO Division of Geomechanics" 	 "In 1983 the Division of Geomechanics took the place of the Division of Applied Geomechanics. The Division's life-time spanned ten years
+ "http://network.csiro.au/data/csiro/A000787" 	 "CSIRO Division of Applied Geomechanics" 	 "In 1970
+ "http://network.csiro.au/data/csiro/A000788" 	 "CSIRO Division of Soil Mechanics" 	 "The Division of Soil Mechanics was established in 1967
+ "http://network.csiro.au/data/csiro/A000791" 	 "CSIR Soil Physics Section" 	 "The Soil Physics Section was established in the early 1930s as part of the Division of Soils. Ten years later the Section changed its name
+ "http://network.csiro.au/data/csiro/A000793" 	 "CSIRO Horticultural Research Section" 	 "In 1962 the Commonwealth Research Station at Merbein was renamed
+ "http://network.csiro.au/data/csiro/A000794" 	 "CSIRO Division of Horticultural Research" 	 "The Division of Horticultural Research replaced the Horticultural Research Station in August 1967. The Division's headquarters were located in the Division's South Australian laboratories
+ "http://network.csiro.au/data/csiro/A000795" 	 "CSIRO Division of Horticulture" 	 "The Division of Horticulture was established in 1988
+ "http://network.csiro.au/data/csiro/A000798" 	 "CSIRO Wheat Research Unit" 	 "The Wheat Research Unit began as part of the Bread Research Institute of Australia. In 1958 it was transferred to the CSIRO. The Bread Research Institute continued to supervise the Unit
+ "http://network.csiro.au/data/csiro/A001669" 	 "Australian Animal Health Laboratory (AAHL) - CSIRO" 	 "The Australian Animal Health Laboratory (AAHL) was formed in 1985 after the Australian National Animal Health Laboratory (ANAHL) underwent a change of name. AAHL became part of the CSIRO Division of Animal Health in 1989. Since 2000 it has been a facility of CSIRO's Livestock Industries. From their Web site
+ "http://network.csiro.au/data/csiro/A001686" 	 "CSIRO Division of Forestry and Forest Products (mark II)" 	 "The Division of Forestry and Forest Products was established in 1995 when the Division of Forestry and the Division of Forest Products came together. Another entity with the same name existed prior to 1991
+ "http://network.csiro.au/data/csiro/A001687" 	 "CSIRO Sustainable Ecosystems" 	 "CSIRO Sustainable Ecosystems was established in 2000. The research division consists of the former Division of Wildlife and Ecology
+		
+From their Web site	 November 2002: "We in CSIRO Sustainable Ecosystems seek to inspire and enable Australians to nurture the ecosystems that sustain viable enterprises	 that maintain our unique biodiversity
+ "http://network.csiro.au/data/csiro/A002112" 	 "Commonwealth Research Station	 Murrumbidgee Irrigation Area" 
+ "http://network.csiro.au/data/csiro/A002113" 	 "CSIRO Division of Land Assessment" 	 "The Division of Land Assessment was established in 1973
+ "http://network.csiro.au/data/csiro/A002292" 	 "CSIRO Marine and Atmospheric Research" 	 "CSIRO Marine and Atmospheric Research (CMAR) was formed on 1 July 2005 with the merger of CSIRO Marine Research and CSIRO Atmospheric Research. CMAR's work encompasses the assessment of atmospheric and earth systems and the prediction of climate
+ "http://network.csiro.au/data/csiro/A000400" 	 "Australian Atomic Energy Commission	 Research Establishment" 
+ "http://network.csiro.au/data/csiro/A000570" 	 "CSIRO Division of Building Research [I]" 	 "The Division of Building Research began as the Building Material Research Sector. In 1950 it became a CSIRO Division. The purpose of this Division was to conduct research and development in many aspects of the building industry in order to increase efficiency and effectiveness. In 1988 another change took place
+ "http://network.csiro.au/data/csiro/A000573" 	 "CSIRO Division of Electrotechnology" 	 "Beginning in 1939 as the Electrotechnology Section of the National Standards Laboratory
+ "http://network.csiro.au/data/csiro/A000577" 	 "CSIRO Division of Food Research" 	 "During the early 1970s an amalgamation between the CSIRO's Divisions of Dairy Research and Food Preservation resulted in the formation of the Division of Food Research. This Division conducted research into the preservation of quality in foodstuffs. In 1986 came another name change
+ "http://network.csiro.au/data/csiro/A000581" 	 "CSIRO Division of Fossil Fuels" 	 "At the end of 1987
+ "http://network.csiro.au/data/csiro/A000582" 	 "CSIRO Division of Chemical Technology" 	 "The Division of Chemical Technology was established in 1974
+ "http://network.csiro.au/data/csiro/A000589" 	 "CSIR Biochemistry Unit" 	 "The Biochemistry Unit was part of the CSIRO Wool Textile Research Laboratories. In 1958 the Laboratories broke up to form three separate Divisions. The Biochemistry Unit became the Division of Textile Physics." 
+ "http://network.csiro.au/data/csiro/A000590" 	 "CSIRO Division of Applied Organic Chemistry" 	 "The Division of Applied Organic Chemistry replaced the Division of Applied Chemistry in 1974. The Division worked in areas such as organic chemistry
+ "http://network.csiro.au/data/csiro/A000591" 	 "CSIRO Division of Atmospheric Research" 	 "The CSIRO Division of Atmospheric Research took the place of the Division of Atmospheric Physics in 1988. Atmospheric Research carries out research in areas such as weather
+ "http://network.csiro.au/data/csiro/A000593" 	 "CSIRO Division of Computing Research" 	 "After a decade of existence the CSIRO's Computing Research Section gained Divisional status in around 1967." 
+ "http://network.csiro.au/data/csiro/A000594" 	 "CSIRO Marine Research" 	 "Marine Research can trace its history back to the CSIRO's Fisheries Investigation Section
+		
+On 1 July 2005 CSIRO Marine Research and CSIRO Atmospheric Research merged to create CSIRO Marine and Atmospheric Research." 		
+ "http://network.csiro.au/data/csiro/A000597" 	 "CSIRO Division of Water and Land Resources" 	 "In 1982
+ "http://network.csiro.au/data/csiro/A000599" 	 "CSIRO Division of Wildlife Research" 	 "Previously the CSIRO's Wildlife Survey Section
+ "http://network.csiro.au/data/csiro/A000601" 	 "CSIRO National Measurement Laboratory" 	 "The National Measurement Laboratory was formed in the mid-1970s
+ "http://network.csiro.au/data/csiro/A000615" 	 "CSIRO Division of Protein Chemistry" 	 "CSIRO's Division of Protein Chemistry existed from 1958
+ "http://network.csiro.au/data/csiro/A000618" 	 "CSIRO Division of Construction and Engineering" 	 "The Division of Construction and Engineering replaced the Division of Building Research in the 1986 restructuring of CSIRO. This Division was in turn replaced by the Division of Building Construction and Engineering in the mid-1990s." 
+ "http://network.csiro.au/data/csiro/A000619" 	 "Institute of Minerals	 Energy and Construction (IMEC) - CSIRO" 
+ "http://network.csiro.au/data/csiro/A000625" 	 "CSIRO Division of Mineral Engineering" 	 "Previously the Division of Chemical Engineering
+ "http://network.csiro.au/data/csiro/A000639" 	 "CSIRO Division of Mineral Physics" 	 "In 1972
+ "http://network.csiro.au/data/csiro/A000642" 	 "CSIRO Division of Chemicals and Polymers" 	 "In 1988
+ "http://network.csiro.au/data/csiro/A000643" 	 "Institute of Physical Sciences - CSIRO" 	 "The Institute of Physical Sciences was established in December
+ "http://network.csiro.au/data/csiro/A000644" 	 "CSIRO Division of Atmospheric Physics" 	 "The Division of Atmospheric Physics replaced the Division of Meteorological Physics in 1971. After seventeen years
+ "http://network.csiro.au/data/csiro/A000661" 	 "CSIRO Division of Fisheries Research" 	 "In 1981 the decision was made to split the Division of Fisheries and Oceanography into its two components
+ "http://network.csiro.au/data/csiro/A000662" 	 "CSIRO Division of Oceanography" 	 "The Division of Oceanography was created in 1981
+ "http://network.csiro.au/data/csiro/A000663" 	 "CSIRO Division of Fisheries" 	 "In 1988
+ "http://network.csiro.au/data/csiro/A000673" 	 "CSIRO Division of Groundwater Research" 	 "The Division of Groundwater Research was named in 1982
+ "http://network.csiro.au/data/csiro/A000676" 	 "CSIRO Division of Land Use Research" 	 "The Division of Land Use Research replaced the Division of Land Research in 1973. A heightened importance for water research led to the Division being renamed the Division of Water and Land Research
+ "http://network.csiro.au/data/csiro/A000677" 	 "CSIRO Division of Land Research" 	 "Previously the Division of Land Research and Regional Survey
+ "http://network.csiro.au/data/csiro/A000681" 	 "CSIRO Division of Applied Physics" 	 "A re-naming of the National Measurement Laboratory in 1979 established the Division of Applied Physics. A merger with the Division of Radio Physics
+ "http://network.csiro.au/data/csiro/A000682" 	 "CSIRO Division of Physics" 	 "The Division of Physics
+ "http://network.csiro.au/data/csiro/A000685" 	 "CSIRO Division of Metrology" 	 "The Metrology Section became the Division of Metrology in 1945
+ "http://network.csiro.au/data/csiro/A000697" 	 "CSIRO Division of Applied Mineralogy" 	 "The Division of Applied Mineralogy was established in 1962. It replaced the Cement and Refractories Section
+ "http://network.csiro.au/data/csiro/A000698" 	 "CSIRO Division of Mineral Products" 	 "In 1988 the Division of Mineral Chemistry became the Division of Mineral Products. The Division joined the Division of Minerals and Process Engineering in 1995
+ "http://network.csiro.au/data/csiro/A000699" 	 "CSIRO Division of Process Technology" 	 "In 1975
+ "http://network.csiro.au/data/csiro/A000701" 	 "CSIRO Ore Dressing Investigations" 	 "Ore Dressing Investigation was first established in 1934 and was a part of the Council for Scientific and Industrial Research (CSIR). It survived the transition from CSIR to CSIRO. In February 1970 Ore Dressing Investigations was disbanded
+ "http://network.csiro.au/data/csiro/A000708" 	 "CSIRO Fuel Geoscience Unit" 	 "The Fuel Geosciences Unit was composed of sections from the Divisions of Process Technology and Mineralogy. It was renamed the Division of Fossil Fuels in 1980
+ "http://network.csiro.au/data/csiro/A000709" 	 "CSIRO Division of Food Science and Technology" 	 "Established in 1992
+ "http://network.csiro.au/data/csiro/A000740" 	 "CSIRO Division of Building Research [II]" 	 "The Division of Building Research [II] existed between 1971 and 1987. It was replaced by the Division of Construction Engineering." 
+ "http://network.csiro.au/data/csiro/A000742" 	 "CSIRO Division of Molecular Science" 	 "The Division of Molecular Science was created in July 1997
+ "http://network.csiro.au/data/csiro/A000749" 	 "Australian Atomic Energy Commission" 	 "The Australian Atomic Energy Commission was established in November 1952
+ "http://network.csiro.au/data/csiro/A000789" 	 "CSIRO Soil Mechanics Section" 	 "The Soil Mechanics Section replaced the Soil Physics and Mechanics Section in 1955. It remained under the control of the Division of Soils until 1958
+ "http://network.csiro.au/data/csiro/A000790" 	 "CSIRO Soil Physics and Mechanics Section" 	 "The Soil Physics and Mechanics Section was part of the Division of Soils
+ "http://network.csiro.au/data/csiro/A000799" 	 "CSIRO Grain Quality Research Laboratory" 	 "In 1992 the Wheat Research Unit was renamed the Grain Quality Research Laboratory. The Laboratory was part of the Division of Plant Industry. The Laboratory was renamed the Wheat Germplasm and Grain Quality Laboratory in 1998." 
+ "http://network.csiro.au/data/csiro/A000885" 	 "CSIRO Minerals Research Laboratories" 	 "The Minerals Research Laboratories opened on 31 October 1972. The Laboratories consisted of the CSIRO Divisions of Chemical Engineering
+ "http://network.csiro.au/data/csiro/A001685" 	 "CSIRO Division of Forest Products (mark II)" 	 "Established in 1991
+ "http://network.csiro.au/data/csiro/A000572" 	 "CSIRO Division of Chemical Engineering" 	 "Located in Melbourne's suburb of Clayton
+ "http://network.csiro.au/data/csiro/A000579" 	 "CSIRO Division of Forest Products (mark I)" 	 "The Division of Forest Products was established in 1928
+		
+The Division of Forest Products was transferred to form part of the Division of Forestry and Forest Products at the end of 1987. The remainder combined with the Division of Energy Technology (Vic) to		
+form the Division of Construction and Engineering which commenced		
+operations from 1 January 1988." 		
+ "http://network.csiro.au/data/csiro/A000580" 	 "CSIRO Division of Forest Research" 	 "The CSIRO's Division of Forest Research emerged from an amalgamation of the Department of Primary Industry's Forestry and Timber Bureau and Forest Research Institute. The Division was based in Canberra but had regional stations in Tasmania
+ "http://network.csiro.au/data/csiro/A000583" 	 "CSIRO Division of Materials Science and Technology" 	 "The CSIRO's Division of Materials Science and Technology was formed on January 1
+ "http://network.csiro.au/data/csiro/A000596" 	 "CSIRO Division of Tropical Crops and Pastures" 	 "The Division of Tropical Crops and Pastures was preceded by the Division of Tropical Agronomy. The Division conducted research into crops and pastures in both tropical and subtropical climates. During the mid-1990s it changed its name to the Division of Tropical Agriculture." 
+ "http://network.csiro.au/data/csiro/A000613" 	 "CSIRO Division of Wool Technology" 	 "The Division of Wool Technology was part of CSIRO's Institute of Animal Production and Processing. It followed the Divisions of Textile Industry
+ "http://network.csiro.au/data/csiro/A000626" 	 "CSIRO Division of Mineral and Process Engineering" 	 "In 1987 the CSRIO Divisions of Mineral Engineering and Mineral Chemistry came together
+ "http://network.csiro.au/data/csiro/A000628" 	 "CSIRO Division of Food Processing" 	 "CSIRO's Division of Food Processing was previously the Division of Food Research. The Division conducted research into the preservation and improvement of food. In December 1992 the Division became Food Science Australia." 
+ "http://network.csiro.au/data/csiro/A000645" 	 "Institute of Natural Resources and Environment - CSIRO" 	 "The Institute of Natural Resources and Environment consisted of several Divisions
+ "http://network.csiro.au/data/csiro/A000649" 	 "CSIRO Division of Applied Physics" 	 "In 1962
+ "http://network.csiro.au/data/csiro/A000655" 	 "CSIRO Division of Materials Science" 	 "The Division of Materials Science
+ "http://network.csiro.au/data/csiro/A000660" 	 "CSIRO Division of Fisheries and Oceanography" 	 "The Division of Fisheries and Oceanography was formed in 1956
+ "http://network.csiro.au/data/csiro/A000690" 	 "CSIRO McMaster Laboratory" 	 "The McMaster Laboratory took the place of the F. D. McMaster Animal Health Laboratory in 1963. The Laboratory was part of the Division of Animal Health. In 1995 the Laboratory was relocated from Glebe to Prospect. In 2001 the Laboratory was re-established in Armidale
+ "http://network.csiro.au/data/csiro/A000728" 	 "CSIRO Division of Human Nutrition" 	 "Previously the Division of Nutritional Biochemistry
+ "http://network.csiro.au/data/csiro/A000757" 	 "CSIRO Division of Coal and Energy Technology" 	 "The CSIRO Division of Coal and Energy Technology was established in 1990
+ "http://network.csiro.au/data/csiro/A000761" 	 "CSIRO Division of Energy Chemistry" 	 "In 1981
+ "http://network.csiro.au/data/csiro/A000782" 	 "CSIRO Division of Exploration and Geoscience" 	 "In 1988
+ "http://network.csiro.au/data/csiro/A001684" 	 "CSIRO Division of Forestry" 	 "The CSIRO Division of Forestry was created in 1990 when the Division of Forestry and Forest Products was divided into its two components. In 1995 the Division of Forestry joined the Division of Forest Products
+ "http://network.csiro.au/data/csiro/A000592" 	 "CSIRO Division of Chemical Physics" 	 "The CSIRO's Chemical Physics Section was granted Divisional Status in the late 1950s. The Division of Chemical Physics conducted research into the techniques and instruments of Chemical Physics
+ "http://network.csiro.au/data/csiro/A000598" 	 "CSIRO Division of Wildlife and Ecology" 	 "The Division of Wildlife and Ecology was known as the Division of Wildlife and Rangelands Research from 1982 until 1987. The Division conducts research into Australia's wildlife as well as plant and land resources. The Division was based in Canberra but also had facilities in Queensland
+ "http://network.csiro.au/data/csiro/A000623" 	 "Institute of Energy and Earth Resources - CSIRO" 	 "The Institute of Energy and Earth Resources replaced the Institute of Earth Resources in September 1981. The Institute consists of nine units
+ "http://network.csiro.au/data/csiro/A000636" 	 "Institute of Plant Production and Processing - CSIRO" 	 "On 1 January 1988
+ "http://network.csiro.au/data/csiro/A000638" 	 "CSIRO Division of Coal Technology" 	 "At the end of 1987
+ "http://network.csiro.au/data/csiro/A000665" 	 "CSIRO Division of Tropical Agriculture" 	 "The Division of Tropical Agriculture ceased to exist in 2000
+ "http://network.csiro.au/data/csiro/A000671" 	 "CSIRO Division of Water Resources" 	 "Established in 1988
+ "http://network.csiro.au/data/csiro/A000694" 	 "CSIRO Wool Textile Research Laboratories" 	 "The CSIRO Wool Textile Research Laboratories were formed in 1949. There were three separate Laboratories
+ "http://network.csiro.au/data/csiro/A000727" 	 "CSIRO Division of Animal Production" 	 "The Commonwealth Scientific and Industrial Research Organisation's Division of Animal Production was established in 1975. The Division undertook research and development in the areas of animal production and biotechnology. In July 2000
+ "http://network.csiro.au/data/csiro/A000733" 	 "CSIRO Division of Animal Health and Production" 	 "The Division of Animal Health and Production replaced the Division of Animal Health and Nutrition in August 1944. The Division operated for fifteen years
+ "http://network.csiro.au/data/csiro/A000734" 	 "CSIR Division of Animal Health and Nutrition" 	 "The Division of Animal Health and Nutrition was established in 1936. The Division was a result of a merger between the Divisions of Animal Health and Animal Nutrition. In August 1944 the Division became the Division of Animal Health and Production." 
+ "http://network.csiro.au/data/csiro/A000752" 	 "CSIRO Division of Biotechnology" 	 "The Division of Biotechnology was established in 1988
+ "http://network.csiro.au/data/csiro/A000779" 	 "CSIRO Livestock Industries" 	 "CSIRO's Livestock Industries was first established in July 2000. The Division incorporates the former Divisions of Animal Health
+		
+From their Web site	 November 2002: "As a leading global research enterprise	 CSIRO Livestock Industries provides innovative solutions and quality services for Australia's livestock and allied industries to enhance their sustainability
+ "http://network.csiro.au/data/csiro/P005808b" 	 "CSIRO Advisory Council" 	 "The CSIRO Advisory Council provided advice to the CSIRO Executive on fund allocation
+ "http://network.csiro.au/data/csiro/IS00001" 	 "Impact Science" 	  
+ "http://network.csiro.au/data/csiro/X000011" 	 "Biosecurity" 	  
+ "http://network.csiro.au/data/csiro/X000012" 	 "Food & Nutrition" 	  
+ "http://network.csiro.au/data/csiro/NFC0001" 	 "National Facilities and Collections" 	  
+ "http://network.csiro.au/data/csiro/NFC0002" 	 "National Facilities" 	  
+ "http://network.csiro.au/data/csiro/NFC0003" 	 "National Collections" 	  
+ "http://network.csiro.au/data/csiro/S000001" 	 "CSIRO Services" 	  
+ "http://network.csiro.au/data/csiro/X000010" 	 "Computational Informatics" 	  
+ "http://network.csiro.au/data/csiro/X000009" 	 "Astronomy & Space Science" 	  
+ "http://network.csiro.au/data/csiro/X000013" 	 "Digital Products and Services" 	  
+ "http://network.csiro.au/data/csiro/X000001" 	 "Agriculture and Food" 	 "Generate sustainable gains in profitability for Australia’s food and fibre production systems and value chains
+ "http://network.csiro.au/data/csiro/X000002" 	 "Energy" 	 "Deliver solutions that will enhance Australia’s economic competitiveness and regional energy security while enabling the transition to a lower emissions energy future." 
+ "http://network.csiro.au/data/csiro/X000003" 	 "Manufacturing" 	 "Deliver the scientific and engineering innovations to transition Australian manufacturing
+ "http://network.csiro.au/data/csiro/X000004" 	 "Mineral Resources" 	 "Deliver science and technology options for the discovery and efficient development of Australia’s $1 trillion mineral resource endowment and enable flow-on benefits to the wider national economy." 
+ "http://network.csiro.au/data/csiro/X000005" 	 "Land and Water" 	 "Deliver solutions for sustainable development and stewardship of land
+ "http://network.csiro.au/data/csiro/X000006" 	 "Oceans and Atmosphere" 	 "To boost Australia’s prosperity and wellbeing through solutions that enable the sustainable economic
+ "http://network.csiro.au/data/csiro/X000007" 	 "Health and Biosecurity" 	 "Increase the productivity and effectiveness of Australia's health and biosecurity systems through technology and services." 
+ "http://network.csiro.au/data/csiro/X000008" 	 "Data61" 	 "A digital innovation powerhouse focused on the identification
+ "http://network.csiro.au/data/csiro/X000014" 	 "Australian Animal Health Laboratory" 	 "AAHL helps protect Australia’s multi-billion dollar livestock and aquaculture industries
+ "http://network.csiro.au/data/csiro/X000015" 	 "Australia Telescope National Facility" 	 "Australia's leading observatories for radio astronomy are used by astronomers from around the world
+ "http://network.csiro.au/data/csiro/X000016" 	 "Canberra Deep Space Communication Complex" 	 "The CDSCC is part of NASA's Deep Space Network (DSN). The DSN is an international network of antennas that supports interplanetary spacecraft missions and radio and radar astronomy observations for the exploration of the Solar System and the universe. " 
+ "http://network.csiro.au/data/csiro/X000017" 	 "Marine National Facility" 	 "Australia’s Marine National Facility is a blue-water research capability
+ "http://network.csiro.au/data/csiro/X000018" 	 "NovaSAR-1" 	 "Our share of the NovaSAR-1 satellite provides significant opportunities to support a wide range of existing research
+ "http://network.csiro.au/data/csiro/X000019" 	 "Pawsey Supercomputing Centre" 	 "The Pawsey Supercomputing Centre is a world-class supercomputing centre in Kensington
+ "http://network.csiro.au/data/csiro/X000020" 	 "Australian National Algae Culture Collection" 	 "This collection is a unique resource of Australian biodiversity
+ "http://network.csiro.au/data/csiro/A002117" 	 "F. D. McMaster Animal Health Laboratory - CSIRO" 	 "The F. D. McMaster Animal Health Laboratory was established at Glebe
+ "http://network.csiro.au/data/csiro/A000219" 	 "CSIRO Division of Radiophysics" 	 "The Division of Radiophysics was first established in 1940
+ "http://network.csiro.au/data/csiro/A000314" 	 "CSIRO Division of Applied Chemistry" 	 "Located in Fisherman's Bend
+ "http://network.csiro.au/data/csiro/A000614" 	 "Institute of Industrial Technology - CSIRO" 	 "The Institute of Industrial Technology consisted of a range of Divisions
+ "http://network.csiro.au/data/csiro/A000617" 	 "CSIRO Division of Textile Physics" 	 "In 1958 the three laboratories of the CSIRO Wool Textile Research Laboratories became separate Divisions. The Division of Textile Physics was established and carried out research into the physical properties of wool fibres." 
+ "http://network.csiro.au/data/csiro/A000629" 	 "Institute of Animal Production and Processing - CSIRO" 	 "The Institute of Animal Production and Processing existed in the late 1980s and early 1990s. There were seven Divisions within the Institute
+ "http://network.csiro.au/data/csiro/A000647" 	 "CSIR National Standards Laboratory" 	 "The National Standards Laboratory was established in 1939. The Laboratory consisted of three Sections; Electrotechnology
+ "http://network.csiro.au/data/csiro/A000220" 	 "CSIRO Division of Animal Health" 	 "Established in November 1959
+ "http://network.csiro.au/data/csiro/A000634" 	 "Institute of Biological Resources - CSIRO" 	 "The Institute of Biological Resources consisted of several CSIRO Divisions
+ "http://network.csiro.au/data/csiro/A000635" 	 "CSIRO Division of Forestry and Forest Products (mark I)" 	 "Previously the Division of Forest Research
+ "http://network.csiro.au/data/csiro/A000696" 	 "CSIRO Division of Mineralogy" 	 "In 1971
+ "http://network.csiro.au/data/csiro/A000624" 	 "CSIRO Division of Mineral Chemistry" 	 "The Division of Mineral Chemistry replaced the CSIRO's Mineral Utilization Section in the late 1950s. The Division specialised in physical and inorganic chemistry. In 1988 the Division became the Division of Mineral Products." 
+ "http://network.csiro.au/data/csiro/A000632" 	 "Institute of Animal and Food Sciences - CSIRO" 	 "The CSIRO's Institute of Animal and Food Science existed up until 1986. It included nine Divisions
+ "http://network.csiro.au/data/csiro/A000668" 	 "CSIRO Division of Plant Industry" 	 "The Division of Plant Industry took the place of the Division of Economic Botany in 1929. Although sections of the Division have broken away to form new Divisions
+ "http://network.csiro.au/data/csiro/A000672" 	 "CSIRO Division of Soils" 	 "The Division of Soils was established in 1929
+ "http://network.csiro.au/data/csiro/A000578" 	 "CSIRO Division of Industrial Chemistry" 	 "Existing from 1940 to 1958
+ "http://network.csiro.au/data/csiro/A000195" 	 "Council for Scientific and Industrial Research (CSIR)" 	 "Established in 1926
+ "http://network.csiro.au/data/csiro/A000196" 	 "Commonwealth Scientific and Industrial Research Organisation (CSIRO)" 	 "The Commonwealth Scientific and Industrial Research Organisation (CSIRO) can trace its history back to 1916
+
+
+************************************************************************************************************************************
+5)Query to display organisation along with number of members in it.
+************************************************************************************************************************************
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT Distinct (?x AS ?Organisation) (count(?y) As ?Number_of_Members) 
+WHERE{
+    ?x org:hasMember ?y.
+  
+}
+GROUP BY ?x
+*************************************************************************************************************************
+Result:
+ "Organisation" 	 "Number_of_Members" 
+ "http://network.csiro.au/data/csiro/A000592" 	 "11" 
+ "http://network.csiro.au/data/csiro/A000580" 	 "11" 
+ "http://network.csiro.au/data/csiro/A000196" 	 "38" 
+ "http://network.csiro.au/data/csiro/A000576" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000697" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000673" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000794" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000778" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000633" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000754" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000742" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000738" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000617" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000702" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000660" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000212" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000591" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000587" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000696" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000575" 	 "17" 
+ "http://network.csiro.au/data/csiro/A002292" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000195" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000793" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000672" 	 "7" 
+ "http://network.csiro.au/data/csiro/A000668" 	 "32" 
+ "http://network.csiro.au/data/csiro/A000656" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000777" 	 "7" 
+ "http://network.csiro.au/data/csiro/A000789" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000765" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000644" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000599" 	 "10" 
+ "http://network.csiro.au/data/csiro/A000753" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000749" 	 "6" 
+ "http://network.csiro.au/data/csiro/A000616" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000737" 	 "1" 
+ "http://network.csiro.au/data/csiro/A002115" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000671" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000780" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000792" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000598" 	 "9" 
+ "http://network.csiro.au/data/csiro/A000752" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000586" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000740" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000219" 	 "34" 
+ "http://network.csiro.au/data/csiro/A000788" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000667" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000885" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000776" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000655" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000764" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000643" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000639" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000627" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000615" 	 "11" 
+ "http://network.csiro.au/data/csiro/A000736" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000603" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000709" 	 "3" 
+ "http://network.csiro.au/data/csiro/A001687" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000590" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000682" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000670" 	 "9" 
+ "http://network.csiro.au/data/csiro/A000642" 	 "8" 
+ "http://network.csiro.au/data/csiro/A000763" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000630" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000597" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000585" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000694" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000573" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000602" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000678" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000654" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000787" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000759" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000626" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000735" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000708" 	 "1" 
+ "http://network.csiro.au/data/csiro/A001686" 	 "1" 
+ "http://network.csiro.au/data/csiro/A001185" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000693" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000572" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000681" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000641" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000762" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000596" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000734" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000613" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000786" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000677" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000665" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000314" 	 "7" 
+ "http://network.csiro.au/data/csiro/A000649" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000217" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000746" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000625" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000707" 	 "1" 
+ "http://network.csiro.au/data/csiro/A001859" 	 "1" 
+ "http://network.csiro.au/data/csiro/A002245" 	 "1" 
+ "http://network.csiro.au/data/csiro/A001669" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000583" 	 "6" 
+ "http://network.csiro.au/data/csiro/A000571" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000680" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000785" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000652" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000220" 	 "10" 
+ "http://network.csiro.au/data/csiro/A000761" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000595" 	 "9" 
+ "http://network.csiro.au/data/csiro/A000624" 	 "11" 
+ "http://network.csiro.au/data/csiro/A000745" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000612" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000733" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000579" 	 "10" 
+ "http://network.csiro.au/data/csiro/A000600" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000688" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000676" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000309" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000757" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000609" 	 "2" 
+ "http://network.csiro.au/data/csiro/A001684" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000594" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000582" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000570" 	 "10" 
+ "http://network.csiro.au/data/csiro/A000312" 	 "6" 
+ "http://network.csiro.au/data/csiro/A000675" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000663" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000760" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000635" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000756" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000623" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000578" 	 "22" 
+ "http://network.csiro.au/data/csiro/A000611" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000732" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000687" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000704" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000659" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000647" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000608" 	 "7" 
+ "http://network.csiro.au/data/csiro/A000729" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000593" 	 "6" 
+ "http://network.csiro.au/data/csiro/A000581" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000311" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000690" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000795" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000662" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000783" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000650" 	 "4" 
+ "http://network.csiro.au/data/csiro/A002294" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000755" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000634" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000622" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000743" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000577" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000731" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000727" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000779" 	 "3" 
+ "http://network.csiro.au/data/csiro/A002117" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000619" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000728" 	 "1" 
+********************************************************************************************************************************
+6) Query to select the organisation along with the number of linked organisations
+********************************************************************************************************************************
+ PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT Distinct (?x AS ?Organisation) (count(?y) As ?Number_of_linkedOrganisations) 
+WHERE{
+    ?x org:linkedTo ?y.
+  
+}
+GROUP BY ?x
+***********************************************************************************************************************************
+Result:
+ "Organisation" 	 "Number_of_linkedOrganisations" 
+ "http://network.csiro.au/data/csiro/A000594" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000681" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000598" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000196" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000596" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000760" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000778" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000613" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000219" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000766" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000998" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000742" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000665" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000627" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000649" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000746" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000709" 	 "3" 
+ "http://network.csiro.au/data/csiro/A001687" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000293" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000670" 	 "9" 
+ "http://network.csiro.au/data/csiro/A000212" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000591" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000620" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000294" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000630" 	 "4" 
+ "http://network.csiro.au/data/csiro/A000575" 	 "9" 
+ "http://network.csiro.au/data/csiro/A000785" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000751" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000220" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000662" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000783" 	 "5" 
+ "http://network.csiro.au/data/csiro/A000672" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000668" 	 "10" 
+ "http://network.csiro.au/data/csiro/A001260" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000755" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000765" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000644" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000309" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000753" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000727" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000759" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000999" 	 "2" 
+ "http://network.csiro.au/data/csiro/A000779" 	 "3" 
+ "http://network.csiro.au/data/csiro/A000757" 	 "1" 
+ "http://network.csiro.au/data/csiro/A000609" 	 "2" 
+ "http://network.csiro.au/data/csiro/A001686" 	 "6" 
+
+************************************************************************************
+7) Organisation along with its formation date
+************************************************************************************
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT Distinct (?x AS ?Organisation) (?y as ?Date_of_Formation) 
+WHERE{
+    ?x prov:generatedAtTime ?y.
+  
+}
+***************************************************************************************
+Result:
+ "Organisation" 	 "Date_of_Formation" 
+ "http://network.csiro.au/data/csiro/A000217" 	 "1916-03-16" 
+ "http://network.csiro.au/data/csiro/A000218" 	 "1920-09-14" 
+ "http://network.csiro.au/data/csiro/A000385" 	 "1922-01-01" 
+ "http://network.csiro.au/data/csiro/A000774" 	 "1924-09-04" 
+ "http://network.csiro.au/data/csiro/A000796" 	 "1926-01-01" 
+ "http://network.csiro.au/data/csiro/A000195" 	 "1926-06-21" 
+ "http://network.csiro.au/data/csiro/A000669" 	 "1927-01-01" 
+ "http://network.csiro.au/data/csiro/A000674" 	 "1927-01-01" 
+ "http://network.csiro.au/data/csiro/A000700" 	 "1927-01-01" 
+ "http://network.csiro.au/data/csiro/A002112" 	 "1927-01-01" 
+ "http://network.csiro.au/data/csiro/A000792" 	 "1927-01-01" 
+ "http://network.csiro.au/data/csiro/A000585" 	 "1927-04-11" 
+ "http://network.csiro.au/data/csiro/A000736" 	 "1927-12-01" 
+ "http://network.csiro.au/data/csiro/A000650" 	 "1928-01-01" 
+ "http://network.csiro.au/data/csiro/A000579" 	 "1928-07-05" 
+ "http://network.csiro.au/data/csiro/A000668" 	 "1929-01-01" 
+ "http://network.csiro.au/data/csiro/A000672" 	 "1929-08-01" 
+ "http://network.csiro.au/data/csiro/A000735" 	 "1930-01-15" 
+ "http://network.csiro.au/data/csiro/A002117" 	 "1931-01-01" 
+ "http://network.csiro.au/data/csiro/A000584" 	 "1931-08-01" 
+ "http://network.csiro.au/data/csiro/A000791" 	 "1933-01-01" 
+ "http://network.csiro.au/data/csiro/A000701" 	 "1934-01-01" 
+ "http://network.csiro.au/data/csiro/A000739" 	 "1936-01-01" 
+ "http://network.csiro.au/data/csiro/A000734" 	 "1936-07-01" 
+ "http://network.csiro.au/data/csiro/A000658" 	 "1937-03-01" 
+ "http://network.csiro.au/data/csiro/A002245" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000648" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000647" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000659" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000683" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000684" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000773" 	 "1939-01-01" 
+ "http://network.csiro.au/data/csiro/A000311" 	 "1939-06-29" 
+ "http://network.csiro.au/data/csiro/A000219" 	 "1940-01-01" 
+ "http://network.csiro.au/data/csiro/A000576" 	 "1940-01-01" 
+ "http://network.csiro.au/data/csiro/A000653" 	 "1940-01-01" 
+ "http://network.csiro.au/data/csiro/A000312" 	 "1940-05-10" 
+ "http://network.csiro.au/data/csiro/A000578" 	 "1940-07-01" 
+ "http://network.csiro.au/data/csiro/A000646" 	 "1941-01-01" 
+ "http://network.csiro.au/data/csiro/A000775" 	 "1941-01-01" 
+ "http://network.csiro.au/data/csiro/A000790" 	 "1943-01-01" 
+ "http://network.csiro.au/data/csiro/A000611" 	 "1944-01-01" 
+ "http://network.csiro.au/data/csiro/A000776" 	 "1944-01-01" 
+ "http://network.csiro.au/data/csiro/A000738" 	 "1944-08-14" 
+ "http://network.csiro.au/data/csiro/A000733" 	 "1944-08-18" 
+ "http://network.csiro.au/data/csiro/A000622" 	 "1945-01-01" 
+ "http://network.csiro.au/data/csiro/A000573" 	 "1945-01-01" 
+ "http://network.csiro.au/data/csiro/A000682" 	 "1945-01-01" 
+ "http://network.csiro.au/data/csiro/A000685" 	 "1945-01-01" 
+ "http://network.csiro.au/data/csiro/A000680" 	 "1945-01-01" 
+ "http://network.csiro.au/data/csiro/A000654" 	 "1946-01-01" 
+ "http://network.csiro.au/data/csiro/A000586" 	 "1946-04-01" 
+ "http://network.csiro.au/data/csiro/A001185" 	 "1946-08-01" 
+ "http://network.csiro.au/data/csiro/A000798" 	 "1947-01-01" 
+ "http://network.csiro.au/data/csiro/A000595" 	 "1948-01-01" 
+ "http://network.csiro.au/data/csiro/A000702" 	 "1948-01-01" 
+ "http://network.csiro.au/data/csiro/A000293" 	 "1948-07-01" 
+ "http://network.csiro.au/data/csiro/A000309" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000310" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000589" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000608" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000694" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000695" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000747" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000750" 	 "1949-01-01" 
+ "http://network.csiro.au/data/csiro/A000196" 	 "1949-05-19" 
+ "http://network.csiro.au/data/csiro/A000764" 	 "1949-05-19" 
+ "http://network.csiro.au/data/csiro/A000574" 	 "1950-01-01" 
+ "http://network.csiro.au/data/csiro/A000575" 	 "1950-01-01" 
+ "http://network.csiro.au/data/csiro/A000679" 	 "1950-01-01" 
+ "http://network.csiro.au/data/csiro/P005808b" 	 "1950-03-22" 
+ "http://network.csiro.au/data/csiro/A000570" 	 "1950-07-01" 
+ "http://network.csiro.au/data/csiro/A000732" 	 "1951-01-01" 
+ "http://network.csiro.au/data/csiro/A000748" 	 "1952-04-01" 
+ "http://network.csiro.au/data/csiro/A000749" 	 "1952-11-27" 
+ "http://network.csiro.au/data/csiro/A000730" 	 "1953-01-01" 
+ "http://network.csiro.au/data/csiro/A000998" 	 "1953-10-30" 
+ "http://network.csiro.au/data/csiro/A000763" 	 "1954-01-01" 
+ "http://network.csiro.au/data/csiro/A000687" 	 "1954-01-01" 
+ "http://network.csiro.au/data/csiro/A000762" 	 "1955-01-01" 
+ "http://network.csiro.au/data/csiro/A000768" 	 "1955-01-01" 
+ "http://network.csiro.au/data/csiro/A000789" 	 "1955-01-01" 
+ "http://network.csiro.au/data/csiro/A000657" 	 "1956-01-01" 
+ "http://network.csiro.au/data/csiro/A000660" 	 "1956-01-01" 
+ "http://network.csiro.au/data/csiro/A000678" 	 "1957-01-01" 
+ "http://network.csiro.au/data/csiro/A000616" 	 "1958-01-01" 
+ "http://network.csiro.au/data/csiro/A000617" 	 "1958-01-01" 
+ "http://network.csiro.au/data/csiro/A000705" 	 "1958-01-01" 
+ "http://network.csiro.au/data/csiro/A000400" 	 "1958-04-18" 
+ "http://network.csiro.au/data/csiro/A000745" 	 "1958-10-08" 
+ "http://network.csiro.au/data/csiro/A000744" 	 "1958-10-08" 
+ "http://network.csiro.au/data/csiro/A000592" 	 "1958-10-09" 
+ "http://network.csiro.au/data/csiro/A000612" 	 "1958-10-09" 
+ "http://network.csiro.au/data/csiro/A000615" 	 "1958-10-09" 
+ "http://network.csiro.au/data/csiro/A000703" 	 "1958-10-09" 
+ "http://network.csiro.au/data/csiro/A000729" 	 "1959-01-01" 
+ "http://network.csiro.au/data/csiro/A000704" 	 "1959-05-01" 
+ "http://network.csiro.au/data/csiro/A000624" 	 "1959-05-26" 
+ "http://network.csiro.au/data/csiro/A000667" 	 "1959-07-01" 
+ "http://network.csiro.au/data/csiro/A000220" 	 "1959-11-23" 
+ "http://network.csiro.au/data/csiro/A000731" 	 "1959-11-23" 
+ "http://network.csiro.au/data/csiro/A000706" 	 "1960-01-01" 
+ "http://network.csiro.au/data/csiro/A002116" 	 "1960-01-01" 
+ "http://network.csiro.au/data/csiro/A000743" 	 "1961-01-01" 
+ "http://network.csiro.au/data/csiro/A000772" 	 "1961-01-01" 
+ "http://network.csiro.au/data/csiro/A000697" 	 "1962-01-01" 
+ "http://network.csiro.au/data/csiro/A000649" 	 "1962-07-01" 
+ "http://network.csiro.au/data/csiro/A000651" 	 "1962-07-02" 
+ "http://network.csiro.au/data/csiro/A000572" 	 "1962-07-02" 
+ "http://network.csiro.au/data/csiro/A000652" 	 "1962-07-02" 
+ "http://network.csiro.au/data/csiro/A000599" 	 "1962-07-02" 
+ "http://network.csiro.au/data/csiro/A000793" 	 "1962-11-30" 
+ "http://network.csiro.au/data/csiro/A000604" 	 "1963-01-01" 
+ "http://network.csiro.au/data/csiro/A000690" 	 "1963-01-01" 
+ "http://network.csiro.au/data/csiro/A000688" 	 "1963-11-27" 
+ "http://network.csiro.au/data/csiro/A000587" 	 "1964-01-01" 
+ "http://network.csiro.au/data/csiro/A000677" 	 "1965-01-01" 
+ "http://network.csiro.au/data/csiro/A000737" 	 "1965-10-10" 
+ "http://network.csiro.au/data/csiro/A001859" 	 "1966-01-01" 
+ "http://network.csiro.au/data/csiro/A000314" 	 "1966-08-21" 
+ "http://network.csiro.au/data/csiro/A000593" 	 "1967-01-01" 
+ "http://network.csiro.au/data/csiro/A000788" 	 "1967-01-01" 
+ "http://network.csiro.au/data/csiro/A000771" 	 "1967-08-28" 
+ "http://network.csiro.au/data/csiro/A000794" 	 "1967-08-28" 
+ "http://network.csiro.au/data/csiro/A000519" 	 "1968-01-01" 
+ "http://network.csiro.au/data/csiro/A000691" 	 "1969-01-01" 
+ "http://network.csiro.au/data/csiro/A000159" 	 "1970-01-01" 
+ "http://network.csiro.au/data/csiro/A000416" 	 "1970-01-01" 
+ "http://network.csiro.au/data/csiro/A000787" 	 "1970-01-01" 
+ "http://network.csiro.au/data/csiro/A000577" 	 "1971-01-01" 
+ "http://network.csiro.au/data/csiro/A000696" 	 "1971-01-01" 
+ "http://network.csiro.au/data/csiro/A000740" 	 "1971-05-24" 
+ "http://network.csiro.au/data/csiro/A000644" 	 "1971-07-01" 
+ "http://network.csiro.au/data/csiro/A000707" 	 "1971-07-01" 
+ "http://network.csiro.au/data/csiro/A000756" 	 "1971-07-01" 
+ "http://network.csiro.au/data/csiro/A002111" 	 "1972-07-01" 
+ "http://network.csiro.au/data/csiro/A000639" 	 "1972-10-12" 
+ "http://network.csiro.au/data/csiro/A000885" 	 "1972-10-31" 
+ "http://network.csiro.au/data/csiro/A000676" 	 "1973-01-01" 
+ "http://network.csiro.au/data/csiro/A000675" 	 "1973-03-01" 
+ "http://network.csiro.au/data/csiro/A000666" 	 "1973-03-29" 
+ "http://network.csiro.au/data/csiro/A002113" 	 "1973-03-29" 
+ "http://network.csiro.au/data/csiro/A000777" 	 "1974-01-01" 
+ "http://network.csiro.au/data/csiro/A000582" 	 "1974-02-01" 
+ "http://network.csiro.au/data/csiro/A000590" 	 "1974-02-24" 
+ "http://network.csiro.au/data/csiro/A000601" 	 "1974-07-01" 
+ "http://network.csiro.au/data/csiro/A000999" 	 "1974-09-19" 
+ "http://network.csiro.au/data/csiro/A000580" 	 "1975-01-01" 
+ "http://network.csiro.au/data/csiro/A000728" 	 "1975-01-01" 
+ "http://network.csiro.au/data/csiro/A000699" 	 "1975-10-14" 
+ "http://network.csiro.au/data/csiro/A000727" 	 "1975-11-10" 
+ "http://network.csiro.au/data/csiro/A000797" 	 "1975-11-10" 
+ "http://network.csiro.au/data/csiro/A000596" 	 "1976-01-01" 
+ "http://network.csiro.au/data/csiro/A000708" 	 "1977-01-01" 
+ "http://network.csiro.au/data/csiro/A000625" 	 "1978-01-01" 
+ "http://network.csiro.au/data/csiro/A000655" 	 "1978-01-01" 
+ "http://network.csiro.au/data/csiro/A000614" 	 "1978-01-01" 
+ "http://network.csiro.au/data/csiro/A000632" 	 "1978-12-12" 
+ "http://network.csiro.au/data/csiro/A000643" 	 "1978-12-15" 
+ "http://network.csiro.au/data/csiro/A000681" 	 "1979-01-01" 
+ "http://network.csiro.au/data/csiro/A000581" 	 "1980-01-01" 
+ "http://network.csiro.au/data/csiro/A000784" 	 "1980-01-01" 
+ "http://network.csiro.au/data/csiro/A000765" 	 "1980-01-01" 
+ "http://network.csiro.au/data/csiro/A000755" 	 "1980-01-01" 
+ "http://network.csiro.au/data/csiro/A000759" 	 "1981-01-01" 
+ "http://network.csiro.au/data/csiro/A000662" 	 "1981-07-01" 
+ "http://network.csiro.au/data/csiro/A000661" 	 "1981-07-01" 
+ "http://network.csiro.au/data/csiro/A000761" 	 "1981-09-01" 
+ "http://network.csiro.au/data/csiro/A000623" 	 "1981-09-01" 
+ "http://network.csiro.au/data/csiro/A000610" 	 "1981-09-20" 
+ "http://network.csiro.au/data/csiro/A000597" 	 "1982-01-01" 
+ "http://network.csiro.au/data/csiro/A000600" 	 "1982-01-01" 
+ "http://network.csiro.au/data/csiro/A000673" 	 "1982-01-01" 
+ "http://network.csiro.au/data/csiro/A000770" 	 "1982-01-01" 
+ "http://network.csiro.au/data/csiro/A000571" 	 "1983-07-01" 
+ "http://network.csiro.au/data/csiro/A000786" 	 "1983-07-01" 
+ "http://network.csiro.au/data/csiro/A000754" 	 "1983-09-01" 
+ "http://network.csiro.au/data/csiro/A000780" 	 "1984-09-01" 
+ "http://network.csiro.au/data/csiro/A000607" 	 "1984-11-15" 
+ "http://network.csiro.au/data/csiro/A000781" 	 "1985-07-01" 
+ "http://network.csiro.au/data/csiro/A001669" 	 "1985-10-01" 
+ "http://network.csiro.au/data/csiro/A000603" 	 "1986-01-01" 
+ "http://network.csiro.au/data/csiro/A000656" 	 "1986-01-01" 
+ "http://network.csiro.au/data/csiro/A000693" 	 "1986-01-01" 
+ "http://network.csiro.au/data/csiro/A000583" 	 "1987-01-01" 
+ "http://network.csiro.au/data/csiro/A000598" 	 "1987-01-01" 
+ "http://network.csiro.au/data/csiro/A000626" 	 "1987-01-01" 
+ "http://network.csiro.au/data/csiro/A000767" 	 "1987-01-01" 
+ "http://network.csiro.au/data/csiro/A000769" 	 "1987-01-01" 
+ "http://network.csiro.au/data/csiro/A000212" 	 "1987-04-27" 
+ "http://network.csiro.au/data/csiro/A000752" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000628" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000635" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000638" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000642" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000591" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000663" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000671" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000602" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000605" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000613" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000619" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000698" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000629" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000636" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000645" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000795" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000758" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000782" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A002115" 	 "1988-01-01" 
+ "http://network.csiro.au/data/csiro/A000618" 	 "1988-07-01" 
+ "http://network.csiro.au/data/csiro/A000620" 	 "1988-07-01" 
+ "http://network.csiro.au/data/csiro/A000753" 	 "1989-07-01" 
+ "http://network.csiro.au/data/csiro/A001685" 	 "1990-01-01" 
+ "http://network.csiro.au/data/csiro/A000757" 	 "1990-06-30" 
+ "http://network.csiro.au/data/csiro/A001684" 	 "1991-01-01" 
+ "http://network.csiro.au/data/csiro/A000891" 	 "1992-01-01" 
+ "http://network.csiro.au/data/csiro/A000799" 	 "1992-01-01" 
+ "http://network.csiro.au/data/csiro/A000709" 	 "1992-12-31" 
+ "http://network.csiro.au/data/csiro/A000783" 	 "1993-01-01" 
+ "http://network.csiro.au/data/csiro/X000021" 	 "1993-01-01" 
+ "http://network.csiro.au/data/csiro/A000785" 	 "1993-06-01" 
+ "http://network.csiro.au/data/csiro/A000294" 	 "1994-07-01" 
+ "http://network.csiro.au/data/csiro/A000621" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000627" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000631" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000637" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000641" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000686" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000760" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A001686" 	 "1995-01-01" 
+ "http://network.csiro.au/data/csiro/A000313" 	 "1996-01-01" 
+ "http://network.csiro.au/data/csiro/A000665" 	 "1996-01-01" 
+ "http://network.csiro.au/data/csiro/A000751" 	 "1996-01-01" 
+ "http://network.csiro.au/data/csiro/A000746" 	 "1996-09-20" 
+ "http://network.csiro.au/data/csiro/A000766" 	 "1997-01-01" 
+ "http://network.csiro.au/data/csiro/A000630" 	 "1997-01-01" 
+ "http://network.csiro.au/data/csiro/A000778" 	 "1997-01-01" 
+ "http://network.csiro.au/data/csiro/A000594" 	 "1997-02-01" 
+ "http://network.csiro.au/data/csiro/A000670" 	 "1997-02-01" 
+ "http://network.csiro.au/data/csiro/A000742" 	 "1997-07-01" 
+ "http://network.csiro.au/data/csiro/A000800" 	 "1998-01-01" 
+ "http://network.csiro.au/data/csiro/A000609" 	 "1999-01-01" 
+ "http://network.csiro.au/data/csiro/A001687" 	 "2000-01-01" 
+ "http://network.csiro.au/data/csiro/A000779" 	 "2000-07-01" 
+ "http://network.csiro.au/data/csiro/A002118" 	 "2001-01-01" 
+ "http://network.csiro.au/data/csiro/X000030" 	 "2002-01-01" 
+ "http://network.csiro.au/data/csiro/A002293" 	 "2002-07-01" 
+ "http://network.csiro.au/data/csiro/A002114" 	 "2002-07-01" 
+ "http://network.csiro.au/data/csiro/X000025" 	 "2003-01-01" 
+ "http://network.csiro.au/data/csiro/X000026" 	 "2004-01-01" 
+ "http://network.csiro.au/data/csiro/A002294" 	 "2005-01-01" 
+ "http://network.csiro.au/data/csiro/A002295" 	 "2005-01-01" 
+ "http://network.csiro.au/data/csiro/X000032" 	 "2005-01-01" 
+ "http://network.csiro.au/data/csiro/A002292" 	 "2005-07-01" 
+ "http://network.csiro.au/data/csiro/X000031" 	 "2007-01-01" 
+ "http://network.csiro.au/data/csiro/X000033" 	 "2007-01-01" 
+ "http://network.csiro.au/data/csiro/X000028" 	 "2008-01-01" 
+ "http://network.csiro.au/data/csiro/X000022" 	 "2009-01-01" 
+ "http://network.csiro.au/data/csiro/X000027" 	 "2009-01-01" 
+ "http://network.csiro.au/data/csiro/X000009" 	 "2009-01-01" 
+ "http://network.csiro.au/data/csiro/X000024" 	 "2009-01-01" 
+ "http://network.csiro.au/data/csiro/X000023" 	 "2011-01-01" 
+ "http://network.csiro.au/data/csiro/X000010" 	 "2013-01-01" 
+ "http://network.csiro.au/data/csiro/IS00001" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000001" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000011" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000002" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000012" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000005" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000003" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000004" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000006" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/NFC0001" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/NFC0002" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/NFC0003" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000014" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000015" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000016" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000017" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000018" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000019" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/S000001" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000007" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000029" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000013" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000020" 	 "2014-01-01" 
+ "http://network.csiro.au/data/csiro/X000008" 	 "2015-08-28" 
+
+
+
+
+
+
