@@ -45,7 +45,65 @@
     </main>
   </main>
  
-  
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="js/d3sparql.js"></script>
+    <script>
+    function exec() {
+      var endpoint = d3.select("#endpoint").property("value")
+      var sparql = d3.select("#sparql").property("value")
+      d3sparql.query(endpoint, sparql, render)
+    }
+    function render(json) {
+      var config = {
+        "selector": "#result"
+      }
+      d3sparql.htmltable(json, config)
+    }
+
+    function exec_offline() {
+      d3.json("cache/interpro/1117-hk.json", render)
+    }
+    function toggle() {
+      d3sparql.toggle()
+    }
+    </script>
+  </head>
+  <body>
+    <div id="query" style="margin: 10px">
+      <h1>Table</h1>
+      <form class="form-inline">
+        <label>SPARQL endpoint:</label>
+        <div class="input-append">
+          <input id="endpoint" class="span5" value="http://13.236.186.87:7200/repositories/SIT764" type="text">
+          <button class="btn" type="button" onclick="exec()">Query</button>
+          <button class="btn" type="button" onclick="toggle()"><i id="button" class="icon-chevron-up">Hide Query</i></button>
+        </div>
+      </form>
+      <textarea id="sparql" class="span9" rows=15>
+PREFIX csiro: <http://network.csiro.au/data/csiro/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gn: <http://www.geonames.org/ontology#>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT Distinct (?x AS ?Organisation) (count(?y) As ?Number_of_Members)
+WHERE{
+   ?x org:hasMember ?y.
+
+}
+GROUP BY ?x
+      </textarea>
+    </div>
+    <div id="result"></div>
 </body>
 
 </html>
