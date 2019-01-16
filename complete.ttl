@@ -9,6 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <https://www.w3.org/TR/vocab-org/#org:classification> .
 
 csiro:A000159-A001669 a org:ChangeEvent ;
     org:originalOrganisation csiro:A000159 ;
@@ -3746,6 +3747,8 @@ csiro:A000212 a org:Organisation ;
         csiro:A001969 ;
     org:resultedFrom csiro:A000212-i ;
     prov:generatedAtTime "1987-04-27"^^xsd:date ;
+	org:classification "Division" ;
+	rdfs:label "Australian Nuclear Science and Technology Organisation (ANSTO)"^^xsd:string ;
     foaf:name "Australian Nuclear Science and Technology Organisation (ANSTO)"^^xsd:string .
 
 csiro:A000313 a org:Organisation ;
@@ -3760,6 +3763,7 @@ csiro:A000313 a org:Organisation ;
     org:resultedFrom csiro:A000313-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1996-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Meat, Dairy and Aquaculture Sector"^^xsd:string ;
     foaf:name "CSIRO Meat, Dairy and Aquaculture Sector"^^xsd:string .
 
 csiro:A000519 a org:Organisation ;
@@ -3775,6 +3779,7 @@ csiro:A000519 a org:Organisation ;
         csiro:A000696 ;
     prov:generatedAtTime "1968-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1985-12-31"^^xsd:date ;
+	rdfs:label "Baas Becking Geobiological Laboratory"^^xsd:string ;
     foaf:name "Baas Becking Geobiological Laboratory"^^xsd:string .
 
 csiro:A000574 a org:Organisation ;
@@ -3788,6 +3793,7 @@ csiro:A000574 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1950-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1959-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Section of Mathematical Instruments"^^xsd:string ;
     foaf:name "CSIRO Section of Mathematical Instruments"^^xsd:string .
 
 csiro:A000602 a org:Organisation ;
@@ -3807,6 +3813,7 @@ From National Archives of Australia, Agency notes for agency CA 7972; CSIRO Inst
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Office of Space Science and Applications (COSSA)"^^xsd:string ;
     foaf:name "CSIRO Office of Space Science and Applications (COSSA)"^^xsd:string .
 
 csiro:A000605 a org:Organisation ;
@@ -3819,6 +3826,7 @@ csiro:A000605 a org:Organisation ;
     org:resultedFrom csiro:A000605-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Plastic Banknote Project"^^xsd:string ;
     foaf:name "CSIRO Plastic Banknote Project"^^xsd:string .
 
 csiro:A000606 a org:Organisation ;
@@ -3829,6 +3837,7 @@ csiro:A000606 a org:Organisation ;
     org:hasPrimarySite csiro:Australia ;
     org:resultedFrom csiro:A000606-i ;
     org:unitOf csiro:A000196 ;
+	rdfs:label "CSIRO Project Ambassador"^^xsd:string ;
     foaf:name "CSIRO Project Ambassador"^^xsd:string .
 
 csiro:A000607 a org:Organisation ;
@@ -3843,6 +3852,7 @@ csiro:A000607 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1984-11-15"^^xsd:date ;
     prov:invalidatedAtTime "1993-07-01"^^xsd:date ;
+	rdfs:label "Sirotech Limited - CSIRO"^^xsd:string ;
     foaf:name "Sirotech Limited - CSIRO"^^xsd:string .
 
 csiro:A000631 a org:Organisation ;
@@ -3856,6 +3866,7 @@ csiro:A000631 a org:Organisation ;
     org:resultedFrom csiro:A000631-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Food Processing Sector"^^xsd:string ;
     foaf:name "CSIRO Food Processing Sector"^^xsd:string .
 
 csiro:A000641 a org:Organisation ;
@@ -3870,6 +3881,7 @@ csiro:A000641 a org:Organisation ;
     org:resultedFrom csiro:A000641-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Petroleum Sector"^^xsd:string ;
     foaf:name "CSIRO Petroleum Sector"^^xsd:string .
 
 csiro:A000692 a org:Organisation ;
@@ -3882,6 +3894,7 @@ csiro:A000692 a org:Organisation ;
     org:hasPrimarySite csiro:Australia ;
     org:resultedFrom csiro:A000692-i ;
     org:unitOf csiro:A000196 ;
+	rdfs:label "CSIRO Pulp and Paper Section"^^xsd:string ;
     foaf:name "CSIRO Pulp and Paper Section"^^xsd:string .
 
 csiro:A000741 a org:Organisation ;
@@ -3893,6 +3906,7 @@ csiro:A000741 a org:Organisation ;
     org:hasPrimarySite csiro:BlackMountain ;
     org:resultedFrom csiro:A000741-i ;
     org:unitOf csiro:A000196 ;
+	rdfs:label "CSIRO Canberra Laboratories"^^xsd:string ;
     foaf:name "CSIRO Canberra Laboratories"^^xsd:string .
 
 csiro:A000891 a org:Organisation ;
@@ -3904,6 +3918,7 @@ csiro:A000891 a org:Organisation ;
     org:hasPrimarySite csiro:Rocklea ;
     org:resultedFrom csiro:A000891-i ;
     prov:generatedAtTime "1992-01-01"^^xsd:date ;
+	rdfs:label "Australian Meat Technology Pty Ltd"^^xsd:string ;
     foaf:name "Australian Meat Technology Pty Ltd"^^xsd:string .
 
 csiro:A001185 a org:Organisation ;
@@ -3919,6 +3934,7 @@ csiro:A001185 a org:Organisation ;
     org:resultedFrom csiro:A001185-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1946-08-01"^^xsd:date ;
+	rdfs:label "CSIRO Kimberley Research Station"^^xsd:string ;
     foaf:name "CSIRO Kimberley Research Station"^^xsd:string .
 
 csiro:A001260 a org:Organisation ;
@@ -3936,6 +3952,7 @@ csiro:A001260 a org:Organisation ;
         csiro:A000950 ;
     org:resultedFrom csiro:A001260-i ;
     org:unitOf csiro:A000385 ;
+	rdfs:label "Optics Section"^^xsd:string ;
     foaf:name "Optics Section"^^xsd:string .
 
 csiro:A002114 a org:Organisation ;
@@ -3948,6 +3965,7 @@ csiro:A002114 a org:Organisation ;
     org:resultedFrom csiro:A002114-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2002-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Manufacturing and Infrastructure Technology"^^xsd:string ;
     foaf:name "CSIRO Manufacturing and Infrastructure Technology"^^xsd:string .
 
 csiro:A002115 a org:Organisation ;
@@ -3967,6 +3985,7 @@ csiro:A002115 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2003-12-31"^^xsd:date ;
+	rdfs:label "Australia Telescope National Facility - CSIRO"^^xsd:string ;
     foaf:name "Australia Telescope National Facility - CSIRO"^^xsd:string .
 
 csiro:A002116 a org:Organisation ;
@@ -3980,6 +3999,7 @@ csiro:A002116 a org:Organisation ;
     org:resultedFrom csiro:A002116-i ;
     org:unitOf csiro:A000309 ;
     prov:generatedAtTime "1960-01-01"^^xsd:date ;
+	rdfs:label "L. P. Coombes Computer Centre"^^xsd:string ;
     foaf:name "L. P. Coombes Computer Centre"^^xsd:string .
 
 csiro:A002295 a org:Organisation ;
@@ -3992,6 +4012,7 @@ csiro:A002295 a org:Organisation ;
     org:resultedFrom csiro:A002295-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2005-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Human Nutrition"^^xsd:string ;
     foaf:name "CSIRO Human Nutrition"^^xsd:string .
 
 csiro:Aspendale a org:Site ;
@@ -4031,6 +4052,7 @@ csiro:A000217 a org:Organisation ;
     org:unitOf csiro:A000726 ;
     prov:generatedAtTime "1916-03-16"^^xsd:date ;
     prov:invalidatedAtTime "1920-09-14"^^xsd:date ;
+	rdfs:label "Advisory Council of Science and Industry"^^xsd:string ;
     foaf:name "Advisory Council of Science and Industry"^^xsd:string .
 
 csiro:A000294 a org:Organisation ;
@@ -4052,6 +4074,7 @@ csiro:A000294 a org:Organisation ;
     org:unitOf csiro:A000215 ;
     prov:generatedAtTime "1994-07-01"^^xsd:date ;
     prov:invalidatedAtTime "2002-12-31"^^xsd:date ;
+	rdfs:label "Aeronautical and Maritime Research Laboratory"^^xsd:string ;
     foaf:name "Aeronautical and Maritime Research Laboratory"^^xsd:string .
 
 csiro:A000416 a org:Organisation ;
@@ -4066,6 +4089,7 @@ csiro:A000416 a org:Organisation ;
         csiro:A000617 ;
     prov:generatedAtTime "1970-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1971-12-31"^^xsd:date ;
+	rdfs:label "Australian Objective Measurement Project (AOMP) - CSIRO"^^xsd:string ;
     foaf:name "Australian Objective Measurement Project (AOMP) - CSIRO"^^xsd:string .
 
 csiro:A000585 a org:Organisation ;
@@ -4082,6 +4106,7 @@ csiro:A000585 a org:Organisation ;
     org:resultedFrom csiro:A000585-i ;
     prov:generatedAtTime "1927-04-11"^^xsd:date ;
     prov:invalidatedAtTime "1946-04-01"^^xsd:date ;
+	rdfs:label "Commonwealth Forestry Bureau"^^xsd:string ;
     foaf:name "Commonwealth Forestry Bureau"^^xsd:string .
 
 csiro:A000588 a org:Organisation ;
@@ -4096,6 +4121,7 @@ csiro:A000588 a org:Organisation ;
     org:unitOf csiro:A000195,
         csiro:A000578 ;
     prov:invalidatedAtTime "1939-12-31"^^xsd:date ;
+	rdfs:label "CSIR Wool Processing Section"^^xsd:string ;
     foaf:name "CSIR Wool Processing Section"^^xsd:string .
 
 csiro:A000603 a org:Organisation ;
@@ -4113,6 +4139,7 @@ csiro:A000603 a org:Organisation ;
         csiro:A000598 ;
     prov:generatedAtTime "1986-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Rangeland Research Centre"^^xsd:string ;
     foaf:name "CSIRO Rangeland Research Centre"^^xsd:string .
 
 csiro:A000604 a org:Organisation ;
@@ -4127,6 +4154,7 @@ csiro:A000604 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1963-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1985-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Computing Services (CSIRONET)"^^xsd:string ;
     foaf:name "CSIRO Computing Services (CSIRONET)"^^xsd:string .
 
 csiro:A000630 a org:Organisation ;
@@ -4145,6 +4173,7 @@ csiro:A000630 a org:Organisation ;
     org:resultedFrom csiro:A000630-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-01-01"^^xsd:date ;
+	rdfs:label "Food Science Australia - CSIRO"^^xsd:string ;
     foaf:name "Food Science Australia - CSIRO"^^xsd:string .
 
 csiro:A000637 a org:Organisation ;
@@ -4160,6 +4189,7 @@ csiro:A000637 a org:Organisation ;
     org:resultedFrom csiro:A000637-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Forestry, Wood and Paper Industries Sector"^^xsd:string ;
     foaf:name "CSIRO Forestry, Wood and Paper Industries Sector"^^xsd:string .
 
 csiro:A000658 a org:Organisation ;
@@ -4176,6 +4206,7 @@ csiro:A000658 a org:Organisation ;
     org:unitOf csiro:A001828 ;
     prov:generatedAtTime "1937-03-01"^^xsd:date ;
     prov:invalidatedAtTime "1939-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Fisheries Investigations Section"^^xsd:string ;
     foaf:name "CSIRO Fisheries Investigations Section"^^xsd:string .
 
 csiro:A000686 a org:Organisation ;
@@ -4190,6 +4221,7 @@ csiro:A000686 a org:Organisation ;
     org:resultedFrom csiro:A000686-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Textiles Clothing and Footwear Sector"^^xsd:string ;
     foaf:name "CSIRO Textiles Clothing and Footwear Sector"^^xsd:string .
 
 csiro:A000693 a org:Organisation ;
@@ -4208,6 +4240,7 @@ csiro:A000693 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1986-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "Institute of Information and Communications Technologies - CSIRO"^^xsd:string ;
     foaf:name "Institute of Information and Communications Technologies - CSIRO"^^xsd:string .
 
 csiro:A000747 a org:Organisation ;
@@ -4222,6 +4255,7 @@ csiro:A000747 a org:Organisation ;
     org:resultedFrom csiro:A000747-i ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1952-04-30"^^xsd:date ;
+	rdfs:label "Industrial Atomic Energy Policy Committee"^^xsd:string ;
     foaf:name "Industrial Atomic Energy Policy Committee"^^xsd:string .
 
 csiro:A000750 a org:Organisation ;
@@ -4236,6 +4270,7 @@ csiro:A000750 a org:Organisation ;
         csiro:A000694 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Physics and Engineering Unit"^^xsd:string ;
     foaf:name "CSIRO Physics and Engineering Unit"^^xsd:string .
 
 csiro:A000760 a org:Organisation ;
@@ -4256,6 +4291,7 @@ csiro:A000760 a org:Organisation ;
     org:resultedFrom csiro:A000760-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Energy Technology"^^xsd:string ;
     foaf:name "CSIRO Energy Technology"^^xsd:string .
 
 csiro:A000774 a org:Organisation ;
@@ -4271,6 +4307,7 @@ csiro:A000774 a org:Organisation ;
     org:resultedFrom csiro:A000774-i ;
     prov:generatedAtTime "1924-09-04"^^xsd:date ;
     prov:invalidatedAtTime "1927-12-31"^^xsd:date ;
+	rdfs:label "Commonwealth Citrus Research Station"^^xsd:string ;
     foaf:name "Commonwealth Citrus Research Station"^^xsd:string .
 
 csiro:A000778 a org:Organisation ;
@@ -4289,6 +4326,7 @@ csiro:A000778 a org:Organisation ;
     org:resultedFrom csiro:A000778-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mathematical and Information Sciences"^^xsd:string ;
     foaf:name "CSIRO Division of Mathematical and Information Sciences"^^xsd:string .
 
 csiro:A000783 a org:Organisation ;
@@ -4310,6 +4348,7 @@ csiro:A000783 a org:Organisation ;
     org:resultedFrom csiro:A000783-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1993-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Exploration and Mining"^^xsd:string ;
     foaf:name "CSIRO Division of Exploration and Mining"^^xsd:string .
 
 csiro:A002111 a org:Organisation ;
@@ -4324,6 +4363,7 @@ csiro:A002111 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1972-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1983-04-17"^^xsd:date ;
+	rdfs:label "CSIRO Division of Cloud Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Cloud Physics"^^xsd:string .
 
 csiro:A002293 a org:Organisation ;
@@ -4335,6 +4375,7 @@ csiro:A002293 a org:Organisation ;
     org:resultedFrom csiro:A002293-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2002-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Manufacturing and Infrastructure Technology (CMIT)"^^xsd:string ;
     foaf:name "CSIRO Manufacturing and Infrastructure Technology (CMIT)"^^xsd:string .
 
 csiro:LucasHeights a org:Site ;
@@ -4367,6 +4408,7 @@ csiro:A000159 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1970-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1985-10-31"^^xsd:date ;
+	rdfs:label "Australian National Animal Health Laboratory (ANAHL) - CSIRO"^^xsd:string ;
     foaf:name "Australian National Animal Health Laboratory (ANAHL) - CSIRO"^^xsd:string .
 
 csiro:A000218 a org:Organisation ;
@@ -4382,6 +4424,7 @@ csiro:A000218 a org:Organisation ;
     org:unitOf csiro:A000726 ;
     prov:generatedAtTime "1920-09-14"^^xsd:date ;
     prov:invalidatedAtTime "1926-06-21"^^xsd:date ;
+	rdfs:label "Commonwealth Institute of Science and Industry"^^xsd:string ;
     foaf:name "Commonwealth Institute of Science and Industry"^^xsd:string .
 
 csiro:A000293 a org:Organisation ;
@@ -4397,6 +4440,7 @@ csiro:A000293 a org:Organisation ;
     org:resultedFrom csiro:A000293-i ;
     prov:generatedAtTime "1948-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1953-10-30"^^xsd:date ;
+	rdfs:label "Defence Research Laboratories"^^xsd:string ;
     foaf:name "Defence Research Laboratories"^^xsd:string .
 
 csiro:A000310 a org:Organisation ;
@@ -4411,6 +4455,7 @@ csiro:A000310 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1955-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Central Experimental Workshops"^^xsd:string ;
     foaf:name "CSIRO Central Experimental Workshops"^^xsd:string .
 
 csiro:A000311 a org:Organisation ;
@@ -4429,6 +4474,7 @@ csiro:A000311 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1939-06-29"^^xsd:date ;
     prov:invalidatedAtTime "1962-07-02"^^xsd:date ;
+	rdfs:label "CSIRO Dairy Research Section"^^xsd:string ;
     foaf:name "CSIRO Dairy Research Section"^^xsd:string .
 
 csiro:A000312 a org:Organisation ;
@@ -4451,6 +4497,7 @@ csiro:A000312 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1940-05-10"^^xsd:date ;
     prov:invalidatedAtTime "1949-02-10"^^xsd:date ;
+	rdfs:label "CSIR Division of Aeronautics"^^xsd:string ;
     foaf:name "CSIR Division of Aeronautics"^^xsd:string .
 
 csiro:A000385 a org:Organisation ;
@@ -4469,6 +4516,7 @@ csiro:A000385 a org:Organisation ;
         csiro:A000384 ;
     prov:generatedAtTime "1922-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1948-07-01"^^xsd:date ;
+	rdfs:label "Munitions Supply Laboratories (MSL)"^^xsd:string ;
     foaf:name "Munitions Supply Laboratories (MSL)"^^xsd:string .
 
 csiro:A000571 a org:Organisation ;
@@ -4486,6 +4534,7 @@ csiro:A000571 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1983-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Chemical and Wood Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Chemical and Wood Technology"^^xsd:string .
 
 csiro:A000575 a org:Organisation ;
@@ -4526,6 +4575,7 @@ csiro:A000575 a org:Organisation ;
     org:unitOf csiro:A000196,
         csiro:A000636 ;
     prov:generatedAtTime "1950-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Entomology"^^xsd:string ;
     foaf:name "CSIRO Division of Entomology"^^xsd:string .
 
 csiro:A000587 a org:Organisation ;
@@ -4546,6 +4596,7 @@ In 1975, the Forest Research Institute and the Forestry and Timber Bureau amalga
     org:unitOf csiro:A000586 ;
     prov:generatedAtTime "1964-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1975-12-31"^^xsd:date ;
+	rdfs:label "Forest Research Institute"^^xsd:string ;
     foaf:name "Forest Research Institute"^^xsd:string .
 
 csiro:A000608 a org:Organisation ;
@@ -4569,6 +4620,7 @@ csiro:A000608 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Wildlife Survey Section"^^xsd:string ;
     foaf:name "CSIRO Wildlife Survey Section"^^xsd:string .
 
 csiro:A000609 a org:Organisation ;
@@ -4588,6 +4640,7 @@ csiro:A000609 a org:Organisation ;
     org:unitOf csiro:A000196,
         csiro:A000686 ;
     prov:generatedAtTime "1999-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Textile and Fibre Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Textile and Fibre Technology"^^xsd:string .
 
 csiro:A000612 a org:Organisation ;
@@ -4606,6 +4659,7 @@ csiro:A000612 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1958-10-09"^^xsd:date ;
     prov:invalidatedAtTime "1970-08-30"^^xsd:date ;
+	rdfs:label "CSIRO Chemical Research Laboratories"^^xsd:string ;
     foaf:name "CSIRO Chemical Research Laboratories"^^xsd:string .
 
 csiro:A000620 a org:Organisation ;
@@ -4624,6 +4678,7 @@ csiro:A000620 a org:Organisation ;
         csiro:A000621 ;
     prov:generatedAtTime "1988-07-01"^^xsd:date ;
     prov:invalidatedAtTime "2002-07-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Building, Construction and Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Building, Construction and Engineering"^^xsd:string .
 
 csiro:A000622 a org:Organisation ;
@@ -4640,6 +4695,7 @@ csiro:A000622 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1945-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1950-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Building Material Research Section"^^xsd:string ;
     foaf:name "CSIRO Building Material Research Section"^^xsd:string .
 
 csiro:A000627 a org:Organisation ;
@@ -4660,6 +4716,7 @@ csiro:A000627 a org:Organisation ;
     org:resultedFrom csiro:A000627-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Minerals Division"^^xsd:string ;
     foaf:name "CSIRO Minerals Division"^^xsd:string .
 
 csiro:A000633 a org:Organisation ;
@@ -4676,6 +4733,7 @@ csiro:A000633 a org:Organisation ;
     org:resultedFrom csiro:A000633-i ;
     org:unitOf csiro:A000196 ;
     prov:invalidatedAtTime "1981-09-30"^^xsd:date ;
+	rdfs:label "Institute of Earth Resources - CSIRO"^^xsd:string ;
     foaf:name "Institute of Earth Resources - CSIRO"^^xsd:string .
 
 csiro:A000650 a org:Organisation ;
@@ -4696,6 +4754,7 @@ csiro:A000650 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1928-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1949-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Economic Entomology"^^xsd:string ;
     foaf:name "CSIRO Division of Economic Entomology"^^xsd:string .
 
 csiro:A000653 a org:Organisation ;
@@ -4710,6 +4769,7 @@ csiro:A000653 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1940-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1946-12-31"^^xsd:date ;
+	rdfs:label "Lubricants and Bearings Section"^^xsd:string ;
     foaf:name "Lubricants and Bearings Section"^^xsd:string .
 
 csiro:A000657 a org:Organisation ;
@@ -4725,6 +4785,7 @@ csiro:A000657 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1956-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1967-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Computing Research Section"^^xsd:string ;
     foaf:name "CSIRO Computing Research Section"^^xsd:string .
 
 csiro:A000664 a org:Organisation ;
@@ -4739,6 +4800,7 @@ csiro:A000664 a org:Organisation ;
     org:resultedFrom csiro:A000664-i ;
     org:unitOf csiro:A000196 ;
     prov:invalidatedAtTime "2005-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Marine Sector"^^xsd:string ;
     foaf:name "CSIRO Marine Sector"^^xsd:string .
 
 csiro:A000669 a org:Organisation ;
@@ -4755,6 +4817,7 @@ csiro:A000669 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1927-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1929-12-31"^^xsd:date ;
+	rdfs:label "CSIR Division of Economic Botany"^^xsd:string ;
     foaf:name "CSIR Division of Economic Botany"^^xsd:string .
 
 csiro:A000674 a org:Organisation ;
@@ -4770,6 +4833,7 @@ csiro:A000674 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1927-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1929-12-31"^^xsd:date ;
+	rdfs:label "CSIR Murray River Soil Investigation Unit"^^xsd:string ;
     foaf:name "CSIR Murray River Soil Investigation Unit"^^xsd:string .
 
 csiro:A000691 a org:Organisation ;
@@ -4785,6 +4849,7 @@ csiro:A000691 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1969-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1992-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Meat Research Laboratory"^^xsd:string ;
     foaf:name "CSIRO Meat Research Laboratory"^^xsd:string .
 
 csiro:A000700 a org:Organisation ;
@@ -4800,6 +4865,7 @@ csiro:A000700 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1927-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1966-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Mineragraphic Investigations"^^xsd:string ;
     foaf:name "CSIRO Mineragraphic Investigations"^^xsd:string .
 
 csiro:A000702 a org:Organisation ;
@@ -4817,6 +4883,7 @@ csiro:A000702 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1948-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1960-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Coal Research Section"^^xsd:string ;
     foaf:name "CSIRO Coal Research Section"^^xsd:string .
 
 csiro:A000736 a org:Organisation ;
@@ -4833,6 +4900,7 @@ csiro:A000736 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1927-12-01"^^xsd:date ;
     prov:invalidatedAtTime "1936-12-31"^^xsd:date ;
+	rdfs:label "CSIR Division of Animal Nutrition"^^xsd:string ;
     foaf:name "CSIR Division of Animal Nutrition"^^xsd:string .
 
 csiro:A000746 a org:Organisation ;
@@ -4856,6 +4924,7 @@ The Division is now called CSIRO Industrial Physics."""^^xsd:string ;
     org:resultedFrom csiro:A000746-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1996-09-20"^^xsd:date ;
+	rdfs:label "CSIRO Division of Telecommunications and Industrial Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Telecommunications and Industrial Physics"^^xsd:string .
 
 csiro:A000748 a org:Organisation ;
@@ -4870,6 +4939,7 @@ csiro:A000748 a org:Organisation ;
     org:resultedFrom csiro:A000748-i ;
     prov:generatedAtTime "1952-04-01"^^xsd:date ;
     prov:invalidatedAtTime "1952-11-30"^^xsd:date ;
+	rdfs:label "Atomic Energy Policy Committee"^^xsd:string ;
     foaf:name "Atomic Energy Policy Committee"^^xsd:string .
 
 csiro:A000764 a org:Organisation ;
@@ -4886,6 +4956,7 @@ csiro:A000764 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1949-05-19"^^xsd:date ;
     prov:invalidatedAtTime "1954-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Meteorological Physics Research Section"^^xsd:string ;
     foaf:name "CSIRO Meteorological Physics Research Section"^^xsd:string .
 
 csiro:A000766 a org:Organisation ;
@@ -4904,6 +4975,7 @@ csiro:A000766 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2002-07-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Manufacturing Science and Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Manufacturing Science and Technology"^^xsd:string .
 
 csiro:A000775 a org:Organisation ;
@@ -4919,6 +4991,7 @@ csiro:A000775 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1941-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1944-12-31"^^xsd:date ;
+	rdfs:label "CSIR Biometrics Section"^^xsd:string ;
     foaf:name "CSIR Biometrics Section"^^xsd:string .
 
 csiro:A000785 a org:Organisation ;
@@ -4936,6 +5009,7 @@ It is now most likely known as CSIRO Petroleum, which has branches in Victoria, 
     org:resultedFrom csiro:A000785-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1993-06-01"^^xsd:date ;
+	rdfs:label "CSIRO Petroleum Resources"^^xsd:string ;
     foaf:name "CSIRO Petroleum Resources"^^xsd:string .
 
 csiro:A000792 a org:Organisation ;
@@ -4953,6 +5027,7 @@ csiro:A000792 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1927-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-11-30"^^xsd:date ;
+	rdfs:label "Commonwealth Research Station, Murray Irrigation Area - CSIRO"^^xsd:string ;
     foaf:name "Commonwealth Research Station, Murray Irrigation Area - CSIRO"^^xsd:string .
 
 csiro:A000796 a org:Organisation ;
@@ -4968,6 +5043,7 @@ csiro:A000796 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1926-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1931-12-31"^^xsd:date ;
+	rdfs:label "CSIR Cold Storage Investigations"^^xsd:string ;
     foaf:name "CSIR Cold Storage Investigations"^^xsd:string .
 
 csiro:A000797 a org:Organisation ;
@@ -4983,6 +5059,7 @@ csiro:A000797 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1975-11-10"^^xsd:date ;
     prov:invalidatedAtTime "1983-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Molecular and Cellular Biology Unit"^^xsd:string ;
     foaf:name "CSIRO Molecular and Cellular Biology Unit"^^xsd:string .
 
 csiro:A000800 a org:Organisation ;
@@ -4997,6 +5074,7 @@ csiro:A000800 a org:Organisation ;
     org:unitOf csiro:A000196,
         csiro:A000668 ;
     prov:generatedAtTime "1998-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Wheat Germplasm and Grain Quality"^^xsd:string ;
     foaf:name "CSIRO Wheat Germplasm and Grain Quality"^^xsd:string .
 
 csiro:A000998 a org:Organisation ;
@@ -5012,6 +5090,7 @@ csiro:A000998 a org:Organisation ;
     org:resultedFrom csiro:A000998-i ;
     prov:generatedAtTime "1953-10-30"^^xsd:date ;
     prov:invalidatedAtTime "1974-09-19"^^xsd:date ;
+	rdfs:label "Defence Standards Laboratories"^^xsd:string ;
     foaf:name "Defence Standards Laboratories"^^xsd:string .
 
 csiro:A000999 a org:Organisation ;
@@ -5029,6 +5108,7 @@ csiro:A000999 a org:Organisation ;
     org:unitOf csiro:A000215 ;
     prov:generatedAtTime "1974-09-19"^^xsd:date ;
     prov:invalidatedAtTime "1994-03-31"^^xsd:date ;
+	rdfs:label "Materials Research Laboratories"^^xsd:string ;
     foaf:name "Materials Research Laboratories"^^xsd:string .
 
 csiro:A001859 a org:Organisation ;
@@ -5047,6 +5127,7 @@ From their Web site, April 2002: "The primary goal of the Australia National Wil
         csiro:A000598,
         csiro:A001687 ;
     prov:generatedAtTime "1966-01-01"^^xsd:date ;
+	rdfs:label "Australian National Wildlife Collection (ANWC) - CSIRO"^^xsd:string ;
     foaf:name "Australian National Wildlife Collection (ANWC) - CSIRO"^^xsd:string .
 
 csiro:A002118 a org:Organisation ;
@@ -5061,6 +5142,7 @@ csiro:A002118 a org:Organisation ;
     org:unitOf csiro:A000196,
         csiro:A000779 ;
     prov:generatedAtTime "2001-01-01"^^xsd:date ;
+	rdfs:label "F. D. McMaster Laboratory, Chiswick - CSIRO"^^xsd:string ;
     foaf:name "F. D. McMaster Laboratory, Chiswick - CSIRO"^^xsd:string .
 
 csiro:A002245 a org:Organisation ;
@@ -5075,6 +5157,7 @@ csiro:A002245 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1940-05-31"^^xsd:date ;
+	rdfs:label "CSIR Radiophysics Laboratory"^^xsd:string ;
     foaf:name "CSIR Radiophysics Laboratory"^^xsd:string .
 
 csiro:A002294 a org:Organisation ;
@@ -5088,6 +5171,7 @@ csiro:A002294 a org:Organisation ;
     org:resultedFrom csiro:A002294-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2005-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Molecular and Health Technologies"^^xsd:string ;
     foaf:name "CSIRO Molecular and Health Technologies"^^xsd:string .
 
 csiro:Hobart a org:Site ;
@@ -5121,6 +5205,7 @@ csiro:A000309 a org:Organisation ;
     org:unitOf csiro:A000384 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1994-03-31"^^xsd:date ;
+	rdfs:label "Aeronautical Research Laboratories"^^xsd:string ;
     foaf:name "Aeronautical Research Laboratories"^^xsd:string .
 
 csiro:A000576 a org:Organisation ;
@@ -5141,6 +5226,7 @@ csiro:A000576 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1940-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1960-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Food Preservation and Transport"^^xsd:string ;
     foaf:name "CSIRO Division of Food Preservation and Transport"^^xsd:string .
 
 csiro:A000584 a org:Organisation ;
@@ -5157,6 +5243,7 @@ csiro:A000584 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1931-08-01"^^xsd:date ;
     prov:invalidatedAtTime "1940-12-31"^^xsd:date ;
+	rdfs:label "CSIR Food Preservation and Transport Section"^^xsd:string ;
     foaf:name "CSIR Food Preservation and Transport Section"^^xsd:string .
 
 csiro:A000586 a org:Organisation ;
@@ -5176,6 +5263,7 @@ csiro:A000586 a org:Organisation ;
     org:resultedFrom csiro:A000586-i ;
     prov:generatedAtTime "1946-04-01"^^xsd:date ;
     prov:invalidatedAtTime "1978-02-28"^^xsd:date ;
+	rdfs:label "Forestry and Timber Bureau"^^xsd:string ;
     foaf:name "Forestry and Timber Bureau"^^xsd:string .
 
 csiro:A000595 a org:Organisation ;
@@ -5199,6 +5287,7 @@ csiro:A000595 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1948-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1978-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tribophysics"^^xsd:string ;
     foaf:name "CSIRO Division of Tribophysics"^^xsd:string .
 
 csiro:A000600 a org:Organisation ;
@@ -5216,6 +5305,7 @@ csiro:A000600 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1982-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Wildlife and Rangelands Research"^^xsd:string ;
     foaf:name "CSIRO Division of Wildlife and Rangelands Research"^^xsd:string .
 
 csiro:A000610 a org:Organisation ;
@@ -5231,6 +5321,7 @@ csiro:A000610 a org:Organisation ;
     org:resultedFrom csiro:A000610-i ;
     prov:generatedAtTime "1981-09-20"^^xsd:date ;
     prov:invalidatedAtTime "1987-04-27"^^xsd:date ;
+	rdfs:label "Australian Atomic Energy Commission Research Laboratories"^^xsd:string ;
     foaf:name "Australian Atomic Energy Commission Research Laboratories"^^xsd:string .
 
 csiro:A000611 a org:Organisation ;
@@ -5249,6 +5340,7 @@ csiro:A000611 a org:Organisation ;
         csiro:A000578 ;
     prov:generatedAtTime "1944-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Chemical Physics Section"^^xsd:string ;
     foaf:name "CSIRO Chemical Physics Section"^^xsd:string .
 
 csiro:A000621 a org:Organisation ;
@@ -5265,6 +5357,7 @@ csiro:A000621 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2002-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Built Environment Sector"^^xsd:string ;
     foaf:name "CSIRO Built Environment Sector"^^xsd:string .
 
 csiro:A000646 a org:Organisation ;
@@ -5281,6 +5374,7 @@ csiro:A000646 a org:Organisation ;
         csiro:A000578 ;
     prov:generatedAtTime "1941-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Chemical Engineering Section"^^xsd:string ;
     foaf:name "CSIRO Chemical Engineering Section"^^xsd:string .
 
 csiro:A000648 a org:Organisation ;
@@ -5296,6 +5390,7 @@ csiro:A000648 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1945-12-31"^^xsd:date ;
+	rdfs:label "CSIR Electrotechnology Section"^^xsd:string ;
     foaf:name "CSIR Electrotechnology Section"^^xsd:string .
 
 csiro:A000651 a org:Organisation ;
@@ -5311,6 +5406,7 @@ csiro:A000651 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1962-07-02"^^xsd:date ;
     prov:invalidatedAtTime "1971-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Dairy Research"^^xsd:string ;
     foaf:name "CSIRO Division of Dairy Research"^^xsd:string .
 
 csiro:A000652 a org:Organisation ;
@@ -5327,6 +5423,7 @@ csiro:A000652 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1962-07-02"^^xsd:date ;
     prov:invalidatedAtTime "1971-01-24"^^xsd:date ;
+	rdfs:label "CSIRO Division of Food Preservation"^^xsd:string ;
     foaf:name "CSIRO Division of Food Preservation"^^xsd:string .
 
 csiro:A000654 a org:Organisation ;
@@ -5342,6 +5439,7 @@ csiro:A000654 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1946-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1948-12-31"^^xsd:date ;
+	rdfs:label "Tribophysics Section"^^xsd:string ;
     foaf:name "Tribophysics Section"^^xsd:string .
 
 csiro:A000656 a org:Organisation ;
@@ -5362,6 +5460,7 @@ csiro:A000656 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1986-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "Institute of Industrial Technologies - CSIRO"^^xsd:string ;
     foaf:name "Institute of Industrial Technologies - CSIRO"^^xsd:string .
 
 csiro:A000659 a org:Organisation ;
@@ -5381,6 +5480,7 @@ csiro:A000659 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1956-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fisheries"^^xsd:string ;
     foaf:name "CSIRO Division of Fisheries"^^xsd:string .
 
 csiro:A000666 a org:Organisation ;
@@ -5397,6 +5497,7 @@ csiro:A000666 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1973-03-29"^^xsd:date ;
     prov:invalidatedAtTime "1976-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tropical Agronomy"^^xsd:string ;
     foaf:name "CSIRO Division of Tropical Agronomy"^^xsd:string .
 
 csiro:A000667 a org:Organisation ;
@@ -5417,6 +5518,7 @@ csiro:A000667 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1959-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1973-03-29"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tropical Pastures"^^xsd:string ;
     foaf:name "CSIRO Division of Tropical Pastures"^^xsd:string .
 
 csiro:A000670 a org:Organisation ;
@@ -5451,6 +5553,7 @@ csiro:A000670 a org:Organisation ;
     org:resultedFrom csiro:A000670-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-02-01"^^xsd:date ;
+	rdfs:label "CSIRO Land and Water"^^xsd:string ;
     foaf:name "CSIRO Land and Water"^^xsd:string .
 
 csiro:A000675 a org:Organisation ;
@@ -5469,6 +5572,7 @@ csiro:A000675 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1973-03-01"^^xsd:date ;
     prov:invalidatedAtTime "1982-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Land Resources Management"^^xsd:string ;
     foaf:name "CSIRO Division of Land Resources Management"^^xsd:string .
 
 csiro:A000678 a org:Organisation ;
@@ -5490,6 +5594,7 @@ csiro:A000678 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1957-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1965-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Land Research and Regional Survey"^^xsd:string ;
     foaf:name "CSIRO Division of Land Research and Regional Survey"^^xsd:string .
 
 csiro:A000679 a org:Organisation ;
@@ -5505,6 +5610,7 @@ csiro:A000679 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1950-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1957-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Land Research and Regional Survey Section"^^xsd:string ;
     foaf:name "CSIRO Land Research and Regional Survey Section"^^xsd:string .
 
 csiro:A000680 a org:Organisation ;
@@ -5522,6 +5628,7 @@ csiro:A000680 a org:Organisation ;
         csiro:A000668 ;
     prov:generatedAtTime "1945-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1950-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Northern Australian Regional Survey Section"^^xsd:string ;
     foaf:name "CSIRO Northern Australian Regional Survey Section"^^xsd:string .
 
 csiro:A000683 a org:Organisation ;
@@ -5537,6 +5644,7 @@ csiro:A000683 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1945-12-31"^^xsd:date ;
+	rdfs:label "CSIR Physics Section"^^xsd:string ;
     foaf:name "CSIR Physics Section"^^xsd:string .
 
 csiro:A000684 a org:Organisation ;
@@ -5553,6 +5661,7 @@ csiro:A000684 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1945-12-31"^^xsd:date ;
+	rdfs:label "CSIR Metrology Section"^^xsd:string ;
     foaf:name "CSIR Metrology Section"^^xsd:string .
 
 csiro:A000687 a org:Organisation ;
@@ -5570,6 +5679,7 @@ csiro:A000687 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1954-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1974-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mathematical Statistics"^^xsd:string ;
     foaf:name "CSIRO Division of Mathematical Statistics"^^xsd:string .
 
 csiro:A000688 a org:Organisation ;
@@ -5586,6 +5696,7 @@ csiro:A000688 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1963-11-27"^^xsd:date ;
     prov:invalidatedAtTime "1981-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mechanical Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Mechanical Engineering"^^xsd:string .
 
 csiro:A000695 a org:Organisation ;
@@ -5600,6 +5711,7 @@ csiro:A000695 a org:Organisation ;
         csiro:A000694 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Physics and Engineering Unit"^^xsd:string ;
     foaf:name "CSIRO Physics and Engineering Unit"^^xsd:string .
 
 csiro:A000703 a org:Organisation ;
@@ -5617,6 +5729,7 @@ csiro:A000703 a org:Organisation ;
         csiro:A000578 ;
     prov:generatedAtTime "1958-10-09"^^xsd:date ;
     prov:invalidatedAtTime "1959-05-31"^^xsd:date ;
+	rdfs:label "CSIRO Minerals Utilization Section"^^xsd:string ;
     foaf:name "CSIRO Minerals Utilization Section"^^xsd:string .
 
 csiro:A000704 a org:Organisation ;
@@ -5636,6 +5749,7 @@ csiro:A000704 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1959-05-01"^^xsd:date ;
     prov:invalidatedAtTime "1967-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Coal Research"^^xsd:string ;
     foaf:name "CSIRO Division of Coal Research"^^xsd:string .
 
 csiro:A000705 a org:Organisation ;
@@ -5651,6 +5765,7 @@ csiro:A000705 a org:Organisation ;
         csiro:A000578 ;
     prov:generatedAtTime "1958-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1960-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Cement and Ceramic Section"^^xsd:string ;
     foaf:name "CSIRO Cement and Ceramic Section"^^xsd:string .
 
 csiro:A000706 a org:Organisation ;
@@ -5665,6 +5780,7 @@ csiro:A000706 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1960-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Cement and Refractories Section"^^xsd:string ;
     foaf:name "CSIRO Cement and Refractories Section"^^xsd:string .
 
 csiro:A000707 a org:Organisation ;
@@ -5682,6 +5798,7 @@ csiro:A000707 a org:Organisation ;
         csiro:A000624 ;
     prov:generatedAtTime "1971-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1972-10-12"^^xsd:date ;
+	rdfs:label "CSIRO Mineral Physics Section"^^xsd:string ;
     foaf:name "CSIRO Mineral Physics Section"^^xsd:string .
 
 csiro:A000729 a org:Organisation ;
@@ -5698,6 +5815,7 @@ csiro:A000729 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1959-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1975-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Animal Physiology"^^xsd:string ;
     foaf:name "CSIRO Division of Animal Physiology"^^xsd:string .
 
 csiro:A000730 a org:Organisation ;
@@ -5714,6 +5832,7 @@ csiro:A000730 a org:Organisation ;
         csiro:A000733 ;
     prov:generatedAtTime "1953-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1959-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Sheep Biology Laboratory"^^xsd:string ;
     foaf:name "CSIRO Sheep Biology Laboratory"^^xsd:string .
 
 csiro:A000731 a org:Organisation ;
@@ -5733,6 +5852,7 @@ csiro:A000731 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1959-11-23"^^xsd:date ;
     prov:invalidatedAtTime "1975-11-09"^^xsd:date ;
+	rdfs:label "CSIRO Division of Animal Genetics"^^xsd:string ;
     foaf:name "CSIRO Division of Animal Genetics"^^xsd:string .
 
 csiro:A000732 a org:Organisation ;
@@ -5750,6 +5870,7 @@ csiro:A000732 a org:Organisation ;
         csiro:A000733 ;
     prov:generatedAtTime "1951-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1959-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Animal Genetics Section"^^xsd:string ;
     foaf:name "CSIRO Animal Genetics Section"^^xsd:string .
 
 csiro:A000735 a org:Organisation ;
@@ -5767,6 +5888,7 @@ csiro:A000735 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1930-01-15"^^xsd:date ;
     prov:invalidatedAtTime "1936-06-30"^^xsd:date ;
+	rdfs:label "CSIR Division of Animal Health"^^xsd:string ;
     foaf:name "CSIR Division of Animal Health"^^xsd:string .
 
 csiro:A000737 a org:Organisation ;
@@ -5783,6 +5905,7 @@ csiro:A000737 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1965-10-10"^^xsd:date ;
     prov:invalidatedAtTime "1975-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Nutritional Biochemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Nutritional Biochemistry"^^xsd:string .
 
 csiro:A000738 a org:Organisation ;
@@ -5803,6 +5926,7 @@ csiro:A000738 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1944-08-14"^^xsd:date ;
     prov:invalidatedAtTime "1965-10-10"^^xsd:date ;
+	rdfs:label "CSIRO Division of Biochemistry and General Nutrition"^^xsd:string ;
     foaf:name "CSIRO Division of Biochemistry and General Nutrition"^^xsd:string .
 
 csiro:A000739 a org:Organisation ;
@@ -5819,6 +5943,7 @@ csiro:A000739 a org:Organisation ;
         csiro:A000734 ;
     prov:generatedAtTime "1936-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1944-12-31"^^xsd:date ;
+	rdfs:label "CSIR Animal Nutrition Laboratory"^^xsd:string ;
     foaf:name "CSIR Animal Nutrition Laboratory"^^xsd:string .
 
 csiro:A000743 a org:Organisation ;
@@ -5835,6 +5960,7 @@ csiro:A000743 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1961-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1966-08-21"^^xsd:date ;
+	rdfs:label "CSIRO Division of Organic Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Organic Chemistry"^^xsd:string .
 
 csiro:A000744 a org:Organisation ;
@@ -5849,6 +5975,7 @@ csiro:A000744 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1958-10-08"^^xsd:date ;
     prov:invalidatedAtTime "1961-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Organic Chemistry Section"^^xsd:string ;
     foaf:name "CSIRO Organic Chemistry Section"^^xsd:string .
 
 csiro:A000745 a org:Organisation ;
@@ -5865,6 +5992,7 @@ csiro:A000745 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1958-10-08"^^xsd:date ;
     prov:invalidatedAtTime "1966-08-22"^^xsd:date ;
+	rdfs:label "CSIRO Division of Physical Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Physical Chemistry"^^xsd:string .
 
 csiro:A000751 a org:Organisation ;
@@ -5884,6 +6012,7 @@ CSIRO Health Sciences and Nutrition (excluding the Adelaide site) merged with CS
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1996-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2005-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Health Sciences and Nutrition"^^xsd:string ;
     foaf:name "CSIRO Division of Health Sciences and Nutrition"^^xsd:string .
 
 csiro:A000753 a org:Organisation ;
@@ -5905,6 +6034,7 @@ csiro:A000753 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1989-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Biomolecular Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Biomolecular Engineering"^^xsd:string .
 
 csiro:A000754 a org:Organisation ;
@@ -5921,6 +6051,7 @@ csiro:A000754 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1983-09-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Molecular Biology"^^xsd:string ;
     foaf:name "CSIRO Division of Molecular Biology"^^xsd:string .
 
 csiro:A000755 a org:Organisation ;
@@ -5942,6 +6073,7 @@ csiro:A000755 a org:Organisation ;
         csiro:A000629 ;
     prov:generatedAtTime "1980-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tropical Animal Production"^^xsd:string ;
     foaf:name "CSIRO Division of Tropical Animal Production"^^xsd:string .
 
 csiro:A000756 a org:Organisation ;
@@ -5957,6 +6089,7 @@ csiro:A000756 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1971-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Environmental Mechanics"^^xsd:string ;
     foaf:name "CSIRO Division of Environmental Mechanics"^^xsd:string .
 
 csiro:A000758 a org:Organisation ;
@@ -5972,6 +6105,7 @@ csiro:A000758 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1990-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fuel Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Fuel Technology"^^xsd:string .
 
 csiro:A000759 a org:Organisation ;
@@ -5992,6 +6126,7 @@ csiro:A000759 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1981-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1990-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Energy Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Energy Technology"^^xsd:string .
 
 csiro:A000762 a org:Organisation ;
@@ -6008,6 +6143,7 @@ csiro:A000762 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1955-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1963-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Engineering Section"^^xsd:string ;
     foaf:name "CSIRO Engineering Section"^^xsd:string .
 
 csiro:A000763 a org:Organisation ;
@@ -6025,6 +6161,7 @@ csiro:A000763 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1954-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1971-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Meteorological Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Meteorological Physics"^^xsd:string .
 
 csiro:A000765 a org:Organisation ;
@@ -6045,6 +6182,7 @@ csiro:A000765 a org:Organisation ;
         <http://www.eoas.info/biogs/P005028b> ;
     prov:generatedAtTime "1980-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Manufacturing Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Manufacturing Technology"^^xsd:string .
 
 csiro:A000767 a org:Organisation ;
@@ -6060,6 +6198,7 @@ csiro:A000767 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1987-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1989-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Water Resources Research"^^xsd:string ;
     foaf:name "CSIRO Water Resources Research"^^xsd:string .
 
 csiro:A000768 a org:Organisation ;
@@ -6076,6 +6215,7 @@ csiro:A000768 a org:Organisation ;
         csiro:A000668 ;
     prov:generatedAtTime "1955-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1971-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Agricultural Physics Section"^^xsd:string ;
     foaf:name "CSIRO Agricultural Physics Section"^^xsd:string .
 
 csiro:A000769 a org:Organisation ;
@@ -6091,6 +6231,7 @@ csiro:A000769 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1987-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Centre for Irrigation and Freshwater Research"^^xsd:string ;
     foaf:name "CSIRO Centre for Irrigation and Freshwater Research"^^xsd:string .
 
 csiro:A000770 a org:Organisation ;
@@ -6106,6 +6247,7 @@ csiro:A000770 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1982-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Centre for Irrigation Research"^^xsd:string ;
     foaf:name "CSIRO Centre for Irrigation Research"^^xsd:string .
 
 csiro:A000771 a org:Organisation ;
@@ -6121,6 +6263,7 @@ csiro:A000771 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1967-08-28"^^xsd:date ;
     prov:invalidatedAtTime "1982-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Irrigation Research"^^xsd:string ;
     foaf:name "CSIRO Division of Irrigation Research"^^xsd:string .
 
 csiro:A000772 a org:Organisation ;
@@ -6137,6 +6280,7 @@ csiro:A000772 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1961-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1967-08-28"^^xsd:date ;
+	rdfs:label "CSIRO Irrigation Research Laboratory"^^xsd:string ;
     foaf:name "CSIRO Irrigation Research Laboratory"^^xsd:string .
 
 csiro:A000773 a org:Organisation ;
@@ -6153,6 +6297,7 @@ csiro:A000773 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1961-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Irrigation Research Station"^^xsd:string ;
     foaf:name "CSIRO Irrigation Research Station"^^xsd:string .
 
 csiro:A000776 a org:Organisation ;
@@ -6169,6 +6314,7 @@ csiro:A000776 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1944-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1954-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Mathematical Statistics Section"^^xsd:string ;
     foaf:name "CSIRO Mathematical Statistics Section"^^xsd:string .
 
 csiro:A000777 a org:Organisation ;
@@ -6190,6 +6336,7 @@ csiro:A000777 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1974-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mathematics and Statistics"^^xsd:string ;
     foaf:name "CSIRO Division of Mathematics and Statistics"^^xsd:string .
 
 csiro:A000780 a org:Organisation ;
@@ -6206,6 +6353,7 @@ csiro:A000780 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1984-09-01"^^xsd:date ;
     prov:invalidatedAtTime "1985-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineralogy and Geochemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Mineralogy and Geochemistry"^^xsd:string .
 
 csiro:A000781 a org:Organisation ;
@@ -6221,6 +6369,7 @@ csiro:A000781 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1985-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Minerals and Geochemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Minerals and Geochemistry"^^xsd:string .
 
 csiro:A000784 a org:Organisation ;
@@ -6235,6 +6384,7 @@ csiro:A000784 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1980-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Physical Technology Unit"^^xsd:string ;
     foaf:name "CSIRO Physical Technology Unit"^^xsd:string .
 
 csiro:A000786 a org:Organisation ;
@@ -6254,6 +6404,7 @@ csiro:A000786 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1983-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1993-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Geomechanics"^^xsd:string ;
     foaf:name "CSIRO Division of Geomechanics"^^xsd:string .
 
 csiro:A000787 a org:Organisation ;
@@ -6271,6 +6422,7 @@ csiro:A000787 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1970-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1983-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Geomechanics"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Geomechanics"^^xsd:string .
 
 csiro:A000788 a org:Organisation ;
@@ -6287,6 +6439,7 @@ csiro:A000788 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1967-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1970-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Soil Mechanics"^^xsd:string ;
     foaf:name "CSIRO Division of Soil Mechanics"^^xsd:string .
 
 csiro:A000791 a org:Organisation ;
@@ -6303,6 +6456,7 @@ csiro:A000791 a org:Organisation ;
         csiro:A000672 ;
     prov:generatedAtTime "1933-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1943-12-31"^^xsd:date ;
+	rdfs:label "CSIR Soil Physics Section"^^xsd:string ;
     foaf:name "CSIR Soil Physics Section"^^xsd:string .
 
 csiro:A000793 a org:Organisation ;
@@ -6319,6 +6473,7 @@ csiro:A000793 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1962-11-30"^^xsd:date ;
     prov:invalidatedAtTime "1967-08-18"^^xsd:date ;
+	rdfs:label "CSIRO Horticultural Research Section"^^xsd:string ;
     foaf:name "CSIRO Horticultural Research Section"^^xsd:string .
 
 csiro:A000794 a org:Organisation ;
@@ -6335,6 +6490,7 @@ csiro:A000794 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1967-08-28"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Horticultural Research"^^xsd:string ;
     foaf:name "CSIRO Division of Horticultural Research"^^xsd:string .
 
 csiro:A000795 a org:Organisation ;
@@ -6355,6 +6511,7 @@ csiro:A000795 a org:Organisation ;
         <http://www.eoas.info/biogs/P005034b> ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Horticulture"^^xsd:string ;
     foaf:name "CSIRO Division of Horticulture"^^xsd:string .
 
 csiro:A000798 a org:Organisation ;
@@ -6372,6 +6529,7 @@ csiro:A000798 a org:Organisation ;
         csiro:A000668 ;
     prov:generatedAtTime "1947-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1992-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Wheat Research Unit"^^xsd:string ;
     foaf:name "CSIRO Wheat Research Unit"^^xsd:string .
 
 csiro:A001669 a org:Organisation ;
@@ -6389,6 +6547,7 @@ csiro:A001669 a org:Organisation ;
         csiro:A000220,
         csiro:A000779 ;
     prov:generatedAtTime "1985-10-01"^^xsd:date ;
+	rdfs:label "Australian Animal Health Laboratory (AAHL) - CSIRO"^^xsd:string ;
     foaf:name "Australian Animal Health Laboratory (AAHL) - CSIRO"^^xsd:string .
 
 csiro:A001686 a org:Organisation ;
@@ -6411,6 +6570,7 @@ csiro:A001686 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1995-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2007-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forestry and Forest Products (mark II)"^^xsd:string ;
     foaf:name "CSIRO Division of Forestry and Forest Products (mark II)"^^xsd:string .
 
 csiro:A001687 a org:Organisation ;
@@ -6429,6 +6589,7 @@ From their Web site, November 2002: "We in CSIRO Sustainable Ecosystems seek to 
     org:resultedFrom csiro:A001687-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2000-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Sustainable Ecosystems"^^xsd:string ;
     foaf:name "CSIRO Sustainable Ecosystems"^^xsd:string .
 
 csiro:A002112 a org:Organisation ;
@@ -6444,6 +6605,7 @@ csiro:A002112 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1927-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1939-12-31"^^xsd:date ;
+	rdfs:label "Commonwealth Research Station, Murrumbidgee Irrigation Area"^^xsd:string ;
     foaf:name "Commonwealth Research Station, Murrumbidgee Irrigation Area"^^xsd:string .
 
 csiro:A002113 a org:Organisation ;
@@ -6461,6 +6623,7 @@ csiro:A002113 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1973-03-29"^^xsd:date ;
     prov:invalidatedAtTime "1973-04-12"^^xsd:date ;
+	rdfs:label "CSIRO Division of Land Assessment"^^xsd:string ;
     foaf:name "CSIRO Division of Land Assessment"^^xsd:string .
 
 csiro:A002292 a org:Organisation ;
@@ -6483,6 +6646,7 @@ csiro:A002292 a org:Organisation ;
     org:resultedFrom csiro:A002292-i ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "2005-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Marine and Atmospheric Research"^^xsd:string ;
     foaf:name "CSIRO Marine and Atmospheric Research"^^xsd:string .
 
 csiro:Adelaide a org:Site ;
@@ -6510,6 +6674,7 @@ csiro:A000400 a org:Organisation ;
     org:resultedFrom csiro:A000400-i ;
     prov:generatedAtTime "1958-04-18"^^xsd:date ;
     prov:invalidatedAtTime "1981-09-30"^^xsd:date ;
+	rdfs:label "Australian Atomic Energy Commission, Research Establishment"^^xsd:string ;
     foaf:name "Australian Atomic Energy Commission, Research Establishment"^^xsd:string .
 
 csiro:A000570 a org:Organisation ;
@@ -6536,6 +6701,7 @@ csiro:A000570 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1950-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1971-05-24"^^xsd:date ;
+	rdfs:label "CSIRO Division of Building Research [I]"^^xsd:string ;
     foaf:name "CSIRO Division of Building Research [I]"^^xsd:string .
 
 csiro:A000573 a org:Organisation ;
@@ -6553,6 +6719,7 @@ csiro:A000573 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1945-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Electrotechnology"^^xsd:string ;
     foaf:name "CSIRO Division of Electrotechnology"^^xsd:string .
 
 csiro:A000577 a org:Organisation ;
@@ -6573,6 +6740,7 @@ csiro:A000577 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1971-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Food Research"^^xsd:string ;
     foaf:name "CSIRO Division of Food Research"^^xsd:string .
 
 csiro:A000581 a org:Organisation ;
@@ -6592,6 +6760,7 @@ csiro:A000581 a org:Organisation ;
         csiro:A000623 ;
     prov:generatedAtTime "1980-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fossil Fuels"^^xsd:string ;
     foaf:name "CSIRO Division of Fossil Fuels"^^xsd:string .
 
 csiro:A000582 a org:Organisation ;
@@ -6608,6 +6777,7 @@ csiro:A000582 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1974-02-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Chemical Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Chemical Technology"^^xsd:string .
 
 csiro:A000589 a org:Organisation ;
@@ -6625,6 +6795,7 @@ csiro:A000589 a org:Organisation ;
         csiro:A000694 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-12-31"^^xsd:date ;
+	rdfs:label "CSIR Biochemistry Unit"^^xsd:string ;
     foaf:name "CSIR Biochemistry Unit"^^xsd:string .
 
 csiro:A000590 a org:Organisation ;
@@ -6646,6 +6817,7 @@ csiro:A000590 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1974-02-24"^^xsd:date ;
     prov:invalidatedAtTime "1988-01-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Organic Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Organic Chemistry"^^xsd:string .
 
 csiro:A000591 a org:Organisation ;
@@ -6670,6 +6842,7 @@ csiro:A000591 a org:Organisation ;
         csiro:A000645 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2005-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Atmospheric Research"^^xsd:string ;
     foaf:name "CSIRO Division of Atmospheric Research"^^xsd:string .
 
 csiro:A000593 a org:Organisation ;
@@ -6692,6 +6865,7 @@ csiro:A000593 a org:Organisation ;
         csiro:A000643 ;
     prov:generatedAtTime "1967-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Computing Research"^^xsd:string ;
     foaf:name "CSIRO Division of Computing Research"^^xsd:string .
 
 csiro:A000594 a org:Organisation ;
@@ -6712,6 +6886,7 @@ On 1 July 2005 CSIRO Marine Research and CSIRO Atmospheric Research merged to cr
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-02-01"^^xsd:date ;
     prov:invalidatedAtTime "2005-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Marine Research"^^xsd:string ;
     foaf:name "CSIRO Marine Research"^^xsd:string .
 
 csiro:A000597 a org:Organisation ;
@@ -6730,6 +6905,7 @@ csiro:A000597 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1982-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Water and Land Resources"^^xsd:string ;
     foaf:name "CSIRO Division of Water and Land Resources"^^xsd:string .
 
 csiro:A000599 a org:Organisation ;
@@ -6756,6 +6932,7 @@ csiro:A000599 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1962-07-02"^^xsd:date ;
     prov:invalidatedAtTime "1982-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Wildlife Research"^^xsd:string ;
     foaf:name "CSIRO Division of Wildlife Research"^^xsd:string .
 
 csiro:A000601 a org:Organisation ;
@@ -6772,6 +6949,7 @@ csiro:A000601 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1974-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1979-01-01"^^xsd:date ;
+	rdfs:label "CSIRO National Measurement Laboratory"^^xsd:string ;
     foaf:name "CSIRO National Measurement Laboratory"^^xsd:string .
 
 csiro:A000615 a org:Organisation ;
@@ -6798,6 +6976,7 @@ csiro:A000615 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1958-10-09"^^xsd:date ;
     prov:invalidatedAtTime "1988-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Protein Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Protein Chemistry"^^xsd:string .
 
 csiro:A000616 a org:Organisation ;
@@ -6818,6 +6997,7 @@ csiro:A000616 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1958-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Textile Industry"^^xsd:string ;
     foaf:name "CSIRO Division of Textile Industry"^^xsd:string .
 
 csiro:A000618 a org:Organisation ;
@@ -6834,6 +7014,7 @@ csiro:A000618 a org:Organisation ;
         csiro:A000619 ;
     prov:generatedAtTime "1988-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Construction and Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Construction and Engineering"^^xsd:string .
 
 csiro:A000619 a org:Organisation ;
@@ -6855,6 +7036,7 @@ csiro:A000619 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-06-30"^^xsd:date ;
+	rdfs:label "Institute of Minerals, Energy and Construction (IMEC) - CSIRO"^^xsd:string ;
     foaf:name "Institute of Minerals, Energy and Construction (IMEC) - CSIRO"^^xsd:string .
 
 csiro:A000625 a org:Organisation ;
@@ -6873,6 +7055,7 @@ csiro:A000625 a org:Organisation ;
         csiro:A000623 ;
     prov:generatedAtTime "1978-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineral Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Mineral Engineering"^^xsd:string .
 
 csiro:A000639 a org:Organisation ;
@@ -6893,6 +7076,7 @@ csiro:A000639 a org:Organisation ;
         csiro:A000885 ;
     prov:generatedAtTime "1972-10-12"^^xsd:date ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineral Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Mineral Physics"^^xsd:string .
 
 csiro:A000642 a org:Organisation ;
@@ -6916,6 +7100,7 @@ csiro:A000642 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Chemicals and Polymers"^^xsd:string ;
     foaf:name "CSIRO Division of Chemicals and Polymers"^^xsd:string .
 
 csiro:A000643 a org:Organisation ;
@@ -6936,6 +7121,7 @@ csiro:A000643 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1978-12-15"^^xsd:date ;
     prov:invalidatedAtTime "1988-01-01"^^xsd:date ;
+	rdfs:label "Institute of Physical Sciences - CSIRO"^^xsd:string ;
     foaf:name "Institute of Physical Sciences - CSIRO"^^xsd:string .
 
 csiro:A000644 a org:Organisation ;
@@ -6958,6 +7144,7 @@ csiro:A000644 a org:Organisation ;
         csiro:A000643 ;
     prov:generatedAtTime "1971-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Atmospheric Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Atmospheric Physics"^^xsd:string .
 
 csiro:A000661 a org:Organisation ;
@@ -6975,6 +7162,7 @@ csiro:A000661 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1981-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fisheries Research"^^xsd:string ;
     foaf:name "CSIRO Division of Fisheries Research"^^xsd:string .
 
 csiro:A000662 a org:Organisation ;
@@ -6995,6 +7183,7 @@ csiro:A000662 a org:Organisation ;
         csiro:A000645 ;
     prov:generatedAtTime "1981-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-02-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Oceanography"^^xsd:string ;
     foaf:name "CSIRO Division of Oceanography"^^xsd:string .
 
 csiro:A000663 a org:Organisation ;
@@ -7013,6 +7202,7 @@ csiro:A000663 a org:Organisation ;
         csiro:A000645 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-02-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fisheries"^^xsd:string ;
     foaf:name "CSIRO Division of Fisheries"^^xsd:string .
 
 csiro:A000673 a org:Organisation ;
@@ -7032,6 +7222,7 @@ csiro:A000673 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1982-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Groundwater Research"^^xsd:string ;
     foaf:name "CSIRO Division of Groundwater Research"^^xsd:string .
 
 csiro:A000676 a org:Organisation ;
@@ -7051,6 +7242,7 @@ csiro:A000676 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1973-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1982-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Land Use Research"^^xsd:string ;
     foaf:name "CSIRO Division of Land Use Research"^^xsd:string .
 
 csiro:A000677 a org:Organisation ;
@@ -7074,6 +7266,7 @@ csiro:A000677 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1965-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1973-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Land Research"^^xsd:string ;
     foaf:name "CSIRO Division of Land Research"^^xsd:string .
 
 csiro:A000681 a org:Organisation ;
@@ -7094,6 +7287,7 @@ csiro:A000681 a org:Organisation ;
         csiro:A000656 ;
     prov:generatedAtTime "1979-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-09-20"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Physics"^^xsd:string .
 
 csiro:A000682 a org:Organisation ;
@@ -7114,6 +7308,7 @@ csiro:A000682 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1945-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1973-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Physics"^^xsd:string .
 
 csiro:A000685 a org:Organisation ;
@@ -7130,6 +7325,7 @@ csiro:A000685 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1945-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1962-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Metrology"^^xsd:string ;
     foaf:name "CSIRO Division of Metrology"^^xsd:string .
 
 csiro:A000697 a org:Organisation ;
@@ -7147,6 +7343,7 @@ csiro:A000697 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1962-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1970-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Mineralogy"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Mineralogy"^^xsd:string .
 
 csiro:A000698 a org:Organisation ;
@@ -7163,6 +7360,7 @@ csiro:A000698 a org:Organisation ;
         csiro:A000619 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineral Products"^^xsd:string ;
     foaf:name "CSIRO Division of Mineral Products"^^xsd:string .
 
 csiro:A000699 a org:Organisation ;
@@ -7179,6 +7377,7 @@ csiro:A000699 a org:Organisation ;
         csiro:A000623 ;
     prov:generatedAtTime "1975-10-14"^^xsd:date ;
     prov:invalidatedAtTime "1980-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Process Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Process Technology"^^xsd:string .
 
 csiro:A000701 a org:Organisation ;
@@ -7196,6 +7395,7 @@ csiro:A000701 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1934-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1970-02-28"^^xsd:date ;
+	rdfs:label "CSIRO Ore Dressing Investigations"^^xsd:string ;
     foaf:name "CSIRO Ore Dressing Investigations"^^xsd:string .
 
 csiro:A000708 a org:Organisation ;
@@ -7212,6 +7412,7 @@ csiro:A000708 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1977-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1980-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Fuel Geoscience Unit"^^xsd:string ;
     foaf:name "CSIRO Fuel Geoscience Unit"^^xsd:string .
 
 csiro:A000709 a org:Organisation ;
@@ -7234,6 +7435,7 @@ csiro:A000709 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1992-12-31"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Food Science and Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Food Science and Technology"^^xsd:string .
 
 csiro:A000740 a org:Organisation ;
@@ -7252,6 +7454,7 @@ csiro:A000740 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1971-05-24"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Building Research [II]"^^xsd:string ;
     foaf:name "CSIRO Division of Building Research [II]"^^xsd:string .
 
 csiro:A000742 a org:Organisation ;
@@ -7276,6 +7479,7 @@ csiro:A000742 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1997-07-01"^^xsd:date ;
     prov:invalidatedAtTime "2005-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Molecular Science"^^xsd:string ;
     foaf:name "CSIRO Division of Molecular Science"^^xsd:string .
 
 csiro:A000749 a org:Organisation ;
@@ -7297,6 +7501,7 @@ csiro:A000749 a org:Organisation ;
     org:resultedFrom csiro:A000749-i ;
     prov:generatedAtTime "1952-11-27"^^xsd:date ;
     prov:invalidatedAtTime "1981-03-31"^^xsd:date ;
+	rdfs:label "Australian Atomic Energy Commission"^^xsd:string ;
     foaf:name "Australian Atomic Energy Commission"^^xsd:string .
 
 csiro:A000789 a org:Organisation ;
@@ -7314,6 +7519,7 @@ csiro:A000789 a org:Organisation ;
         csiro:A000672 ;
     prov:generatedAtTime "1955-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1967-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Soil Mechanics Section"^^xsd:string ;
     foaf:name "CSIRO Soil Mechanics Section"^^xsd:string .
 
 csiro:A000790 a org:Organisation ;
@@ -7330,6 +7536,7 @@ csiro:A000790 a org:Organisation ;
         csiro:A000672 ;
     prov:generatedAtTime "1943-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1955-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Soil Physics and Mechanics Section"^^xsd:string ;
     foaf:name "CSIRO Soil Physics and Mechanics Section"^^xsd:string .
 
 csiro:A000799 a org:Organisation ;
@@ -7346,6 +7553,7 @@ csiro:A000799 a org:Organisation ;
         csiro:A000668 ;
     prov:generatedAtTime "1992-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1998-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Grain Quality Research Laboratory"^^xsd:string ;
     foaf:name "CSIRO Grain Quality Research Laboratory"^^xsd:string .
 
 csiro:A000885 a org:Organisation ;
@@ -7366,6 +7574,7 @@ csiro:A000885 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1972-10-31"^^xsd:date ;
     prov:invalidatedAtTime "1980-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Minerals Research Laboratories"^^xsd:string ;
     foaf:name "CSIRO Minerals Research Laboratories"^^xsd:string .
 
 csiro:A001685 a org:Organisation ;
@@ -7380,6 +7589,7 @@ csiro:A001685 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1990-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forest Products (mark II)"^^xsd:string ;
     foaf:name "CSIRO Division of Forest Products (mark II)"^^xsd:string .
 
 csiro:Griffith a org:Site ;
@@ -7405,6 +7615,7 @@ csiro:A000572 a org:Organisation ;
         csiro:A000885 ;
     prov:generatedAtTime "1962-07-02"^^xsd:date ;
     prov:invalidatedAtTime "1978-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Chemical Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Chemical Engineering"^^xsd:string .
 
 csiro:A000579 a org:Organisation ;
@@ -7436,6 +7647,7 @@ operations from 1 January 1988."""^^xsd:string ;
         csiro:A000196 ;
     prov:generatedAtTime "1928-07-05"^^xsd:date ;
     prov:invalidatedAtTime "1971-05-24"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forest Products (mark I)"^^xsd:string ;
     foaf:name "CSIRO Division of Forest Products (mark I)"^^xsd:string .
 
 csiro:A000580 a org:Organisation ;
@@ -7463,6 +7675,7 @@ csiro:A000580 a org:Organisation ;
         csiro:A000634 ;
     prov:generatedAtTime "1975-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forest Research"^^xsd:string ;
     foaf:name "CSIRO Division of Forest Research"^^xsd:string .
 
 csiro:A000583 a org:Organisation ;
@@ -7484,6 +7697,7 @@ csiro:A000583 a org:Organisation ;
         csiro:A000656 ;
     prov:generatedAtTime "1987-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Materials Science and Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Materials Science and Technology"^^xsd:string .
 
 csiro:A000596 a org:Organisation ;
@@ -7505,6 +7719,7 @@ csiro:A000596 a org:Organisation ;
         csiro:A000636 ;
     prov:generatedAtTime "1976-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tropical Crops and Pastures"^^xsd:string ;
     foaf:name "CSIRO Division of Tropical Crops and Pastures"^^xsd:string .
 
 csiro:A000613 a org:Organisation ;
@@ -7524,6 +7739,7 @@ csiro:A000613 a org:Organisation ;
         csiro:A000629 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1999-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Wool Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Wool Technology"^^xsd:string .
 
 csiro:A000626 a org:Organisation ;
@@ -7541,6 +7757,7 @@ csiro:A000626 a org:Organisation ;
         csiro:A000619 ;
     prov:generatedAtTime "1987-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineral and Process Engineering"^^xsd:string ;
     foaf:name "CSIRO Division of Mineral and Process Engineering"^^xsd:string .
 
 csiro:A000628 a org:Organisation ;
@@ -7558,6 +7775,7 @@ csiro:A000628 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1992-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Food Processing"^^xsd:string ;
     foaf:name "CSIRO Division of Food Processing"^^xsd:string .
 
 csiro:A000645 a org:Organisation ;
@@ -7577,6 +7795,7 @@ csiro:A000645 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-06-30"^^xsd:date ;
+	rdfs:label "Institute of Natural Resources and Environment - CSIRO"^^xsd:string ;
     foaf:name "Institute of Natural Resources and Environment - CSIRO"^^xsd:string .
 
 csiro:A000649 a org:Organisation ;
@@ -7597,6 +7816,7 @@ csiro:A000649 a org:Organisation ;
         csiro:A000647 ;
     prov:generatedAtTime "1962-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1974-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Physics"^^xsd:string .
 
 csiro:A000655 a org:Organisation ;
@@ -7613,6 +7833,7 @@ csiro:A000655 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1978-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Materials Science"^^xsd:string ;
     foaf:name "CSIRO Division of Materials Science"^^xsd:string .
 
 csiro:A000660 a org:Organisation ;
@@ -7631,6 +7852,7 @@ csiro:A000660 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1956-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1981-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Fisheries and Oceanography"^^xsd:string ;
     foaf:name "CSIRO Division of Fisheries and Oceanography"^^xsd:string .
 
 csiro:A000690 a org:Organisation ;
@@ -7649,6 +7871,7 @@ csiro:A000690 a org:Organisation ;
         csiro:A000220 ;
     prov:generatedAtTime "1963-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2001-12-31"^^xsd:date ;
+	rdfs:label "CSIRO McMaster Laboratory"^^xsd:string ;
     foaf:name "CSIRO McMaster Laboratory"^^xsd:string .
 
 csiro:A000728 a org:Organisation ;
@@ -7667,6 +7890,7 @@ csiro:A000728 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1975-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Human Nutrition"^^xsd:string ;
     foaf:name "CSIRO Division of Human Nutrition"^^xsd:string .
 
 csiro:A000757 a org:Organisation ;
@@ -7685,6 +7909,7 @@ csiro:A000757 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1990-06-30"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Coal and Energy Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Coal and Energy Technology"^^xsd:string .
 
 csiro:A000761 a org:Organisation ;
@@ -7702,6 +7927,7 @@ csiro:A000761 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1981-09-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Energy Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Energy Chemistry"^^xsd:string .
 
 csiro:A000782 a org:Organisation ;
@@ -7721,6 +7947,7 @@ csiro:A000782 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1993-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Exploration and Geoscience"^^xsd:string ;
     foaf:name "CSIRO Division of Exploration and Geoscience"^^xsd:string .
 
 csiro:A001684 a org:Organisation ;
@@ -7741,6 +7968,7 @@ csiro:A001684 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1991-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forestry"^^xsd:string ;
     foaf:name "CSIRO Division of Forestry"^^xsd:string .
 
 csiro:A000592 a org:Organisation ;
@@ -7768,6 +7996,7 @@ csiro:A000592 a org:Organisation ;
         csiro:A000643 ;
     prov:generatedAtTime "1958-10-09"^^xsd:date ;
     prov:invalidatedAtTime "1987-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Chemical Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Chemical Physics"^^xsd:string .
 
 csiro:A000598 a org:Organisation ;
@@ -7799,6 +8028,7 @@ csiro:A000598 a org:Organisation ;
         csiro:A000645 ;
     prov:generatedAtTime "1987-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2000-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Wildlife and Ecology"^^xsd:string ;
     foaf:name "CSIRO Division of Wildlife and Ecology"^^xsd:string .
 
 csiro:A000623 a org:Organisation ;
@@ -7822,6 +8052,7 @@ csiro:A000623 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1981-09-01"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "Institute of Energy and Earth Resources - CSIRO"^^xsd:string ;
     foaf:name "Institute of Energy and Earth Resources - CSIRO"^^xsd:string .
 
 csiro:A000636 a org:Organisation ;
@@ -7841,6 +8072,7 @@ csiro:A000636 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1995-12-31"^^xsd:date ;
+	rdfs:label "Institute of Plant Production and Processing - CSIRO"^^xsd:string ;
     foaf:name "Institute of Plant Production and Processing - CSIRO"^^xsd:string .
 
 csiro:A000638 a org:Organisation ;
@@ -7857,6 +8089,7 @@ csiro:A000638 a org:Organisation ;
         csiro:A000619 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1990-06-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Coal Technology"^^xsd:string ;
     foaf:name "CSIRO Division of Coal Technology"^^xsd:string .
 
 csiro:A000665 a org:Organisation ;
@@ -7878,6 +8111,7 @@ csiro:A000665 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1996-01-01"^^xsd:date ;
     prov:invalidatedAtTime "2000-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Tropical Agriculture"^^xsd:string ;
     foaf:name "CSIRO Division of Tropical Agriculture"^^xsd:string .
 
 csiro:A000671 a org:Organisation ;
@@ -7896,6 +8130,7 @@ csiro:A000671 a org:Organisation ;
         csiro:A000645 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Water Resources"^^xsd:string ;
     foaf:name "CSIRO Division of Water Resources"^^xsd:string .
 
 csiro:A000694 a org:Organisation ;
@@ -7918,6 +8153,7 @@ csiro:A000694 a org:Organisation ;
         csiro:A000578 ;
     prov:generatedAtTime "1949-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Wool Textile Research Laboratories"^^xsd:string ;
     foaf:name "CSIRO Wool Textile Research Laboratories"^^xsd:string .
 
 csiro:A000727 a org:Organisation ;
@@ -7940,6 +8176,7 @@ csiro:A000727 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1975-11-10"^^xsd:date ;
     prov:invalidatedAtTime "2000-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Animal Production"^^xsd:string ;
     foaf:name "CSIRO Division of Animal Production"^^xsd:string .
 
 csiro:A000733 a org:Organisation ;
@@ -7962,6 +8199,7 @@ csiro:A000733 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1944-08-18"^^xsd:date ;
     prov:invalidatedAtTime "1959-11-22"^^xsd:date ;
+	rdfs:label "CSIRO Division of Animal Health and Production"^^xsd:string ;
     foaf:name "CSIRO Division of Animal Health and Production"^^xsd:string .
 
 csiro:A000734 a org:Organisation ;
@@ -7980,6 +8218,7 @@ csiro:A000734 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1936-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1944-08-17"^^xsd:date ;
+	rdfs:label "CSIR Division of Animal Health and Nutrition"^^xsd:string ;
     foaf:name "CSIR Division of Animal Health and Nutrition"^^xsd:string .
 
 csiro:A000752 a org:Organisation ;
@@ -7997,6 +8236,7 @@ csiro:A000752 a org:Organisation ;
         csiro:A000656 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1989-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Biotechnology"^^xsd:string ;
     foaf:name "CSIRO Division of Biotechnology"^^xsd:string .
 
 csiro:A000779 a org:Organisation ;
@@ -8022,6 +8262,7 @@ From their Web site, November 2002: "As a leading global research enterprise, CS
     org:unitOf csiro:A000196,
         csiro:A000690 ;
     prov:generatedAtTime "2000-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Livestock Industries"^^xsd:string ;
     foaf:name "CSIRO Livestock Industries"^^xsd:string .
 
 ##########################################################################################
@@ -8048,7 +8289,8 @@ csiro:P005808b a org:Organisation ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "1950-03-22"^^xsd:date ;
 	prov:invalidatedAtTime "1986-11-25"^^xsd:date ;
-	foaf:name "CSIRO Advisory Council"^^xsd:string ; .
+	rdfs:label "CSIRO Advisory Council"^^xsd:string ;
+	foaf:name "CSIRO Advisory Council"^^xsd:string .
 
 csiro:IS00001-i a org:ChangeEvent ;
     rdfs:label "Impact Science - initiated"^^xsd:string ;
@@ -8071,7 +8313,8 @@ csiro:IS00001 a org:Organisation ;
 		csiro:X000004,
 		csiro:X000006 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Impact Science"^^xsd:string ; .
+	rdfs:label "Impact Science"^^xsd:string ;
+	foaf:name "Impact Science"^^xsd:string .
 
 csiro:NFC0001-i a org:ChangeEvent ;
     rdfs:label "National Facilities and Collections - initiated"^^xsd:string ;
@@ -8087,7 +8330,8 @@ csiro:NFC0001 a org:Organisation ;
 	org:hasUnit csiro:NFC0002,
 		csiro:NFC0003;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "National Facilities and Collections"^^xsd:string ; .
+	rdfs:label "National Facilities and Collections"^^xsd:string ;
+	foaf:name "National Facilities and Collections"^^xsd:string .
 
 csiro:NFC0002-i a org:ChangeEvent ;
     rdfs:label "National Facilities - initiated"^^xsd:string ;
@@ -8107,7 +8351,8 @@ csiro:NFC0002 a org:Organisation ;
 		csiro:X000018,
         csiro:X000019 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "National Facilities"^^xsd:string ; .
+	rdfs:label "National Facilities"^^xsd:string ;
+	foaf:name "National Facilities"^^xsd:string .
 
 csiro:NFC0003-i a org:ChangeEvent ;
     rdfs:label "National Collections - initiated"^^xsd:string ;
@@ -8121,7 +8366,8 @@ csiro:NFC0003 a org:Organisation ;
 	org:resultedFrom csiro:NFC0003-i ;
 	org:unitOf csiro:NFC0001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "National Collections"^^xsd:string ; .
+	rdfs:label "National Collections"^^xsd:string ;
+	foaf:name "National Collections"^^xsd:string .
 
 csiro:S000001-i a org:ChangeEvent ;
     rdfs:label "CSIRO Services - initiated"^^xsd:string ;
@@ -8135,7 +8381,8 @@ csiro:S000001 a org:Organisation ;
 	org:resultedFrom csiro:S000001-i ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "CSIRO Services"^^xsd:string ; .	
+	rdfs:label "CSIRO Services"^^xsd:string ;
+	foaf:name "CSIRO Services"^^xsd:string .	
 	
 csiro:A002292-X000001 a org:ChangeEvent ;
     rdfs:label "Agriculture and Food - initiated"^^xsd:string ;
@@ -8173,7 +8420,8 @@ csiro:X000001 a org:Organisation ;
 		csiro:X000023-X000001 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Agriculture and Food"^^xsd:string ; .
+	rdfs:label "Agriculture and Food"^^xsd:string ;
+	foaf:name "Agriculture and Food"^^xsd:string .
 
 csiro:X000002-i a org:ChangeEvent ;
     rdfs:label "Energy - initiated"^^xsd:string ;
@@ -8199,7 +8447,8 @@ csiro:X000002 a org:Organisation ;
 		csiro:X000022-X000002 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Energy"^^xsd:string ; .
+	rdfs:label "Energy"^^xsd:string ;
+	foaf:name "Energy"^^xsd:string .
 
 csiro:X000031-X000003 a org:ChangeEvent ;
     rdfs:label "Manufacturing - initiated"^^xsd:string ;
@@ -8225,7 +8474,8 @@ csiro:X000003 a org:Organisation ;
 		csiro:X000027-X000003 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Manufacturing"^^xsd:string ; .
+	rdfs:label "Manufacturing"^^xsd:string ;
+	foaf:name "Manufacturing"^^xsd:string .
 
 csiro:X000004-i a org:ChangeEvent ;
     rdfs:label "Mineral Resources - initiated"^^xsd:string ;
@@ -8257,7 +8507,8 @@ csiro:X000004 a org:Organisation ;
 		csiro:X000010-X000004 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Mineral Resources"^^xsd:string ; .
+	rdfs:label "Mineral Resources"^^xsd:string ;
+	foaf:name "Mineral Resources"^^xsd:string .
 
 csiro:A002292-X000005 a org:ChangeEvent ;
     rdfs:label "Land and Water - initiated"^^xsd:string ;
@@ -8301,7 +8552,8 @@ csiro:X000005 a org:Organisation ;
 		csiro:X000023-X000005 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Land and Water"^^xsd:string ; .
+	rdfs:label "Land and Water"^^xsd:string ;
+	foaf:name "Land and Water"^^xsd:string .
 
 csiro:A002292-X000006 a org:ChangeEvent ;
     rdfs:label "Oceans and Atmosphere - initiated"^^xsd:string ;
@@ -8333,7 +8585,8 @@ csiro:X000006 a org:Organisation ;
 		csiro:A000670-X000006 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Oceans and Atmosphere"^^xsd:string ; .	
+	rdfs:label "Oceans and Atmosphere"^^xsd:string ;
+	foaf:name "Oceans and Atmosphere"^^xsd:string .	
 
 csiro:X000007-i a org:ChangeEvent ;
     rdfs:label "Health and Biosecurity - initiated"^^xsd:string ;
@@ -8347,7 +8600,8 @@ csiro:X000007 a org:Organisation ;
 	org:resultedFrom csiro:X000007-i ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Health and Biosecurity"^^xsd:string ; .	
+	rdfs:label "Health and Biosecurity"^^xsd:string ;
+	foaf:name "Health and Biosecurity"^^xsd:string .	
 
 csiro:X000008-i a org:ChangeEvent ;
     rdfs:label "Data61 - initiated"^^xsd:string ;
@@ -8373,7 +8627,8 @@ csiro:X000008 a org:Organisation ;
 		csiro:X000029-X000008 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2015-08-28"^^xsd:date ;
-	foaf:name "Data61"^^xsd:string ; .	
+	rdfs:label "Data61"^^xsd:string ;
+	foaf:name "Data61"^^xsd:string .	
 
 csiro:X000009-i a org:ChangeEvent ;
     rdfs:label "Astronomy & Space Science - initiated"^^xsd:string ;
@@ -8399,7 +8654,8 @@ csiro:X000009 a org:Organisation ;
 		csiro:A002115-X000009 ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
-	foaf:name "Astronomy & Space Science"^^xsd:string ; .	
+	rdfs:label "Astronomy & Space Science"^^xsd:string ;
+	foaf:name "Astronomy & Space Science"^^xsd:string .	
 	
 csiro:X000010-i a org:ChangeEvent ;
     rdfs:label "Computational Informatics - initiated"^^xsd:string ;
@@ -8429,7 +8685,8 @@ csiro:X000010 a org:Organisation ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2013-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Computational Informatics"^^xsd:string ; .		
+	rdfs:label "Computational Informatics"^^xsd:string ;
+	foaf:name "Computational Informatics"^^xsd:string .		
 
 csiro:X000011-i a org:ChangeEvent ;
     rdfs:label "Biosecurity - initiated"^^xsd:string ;
@@ -8449,7 +8706,8 @@ csiro:X000011 a org:Organisation ;
 		csiro:X000023-X000011 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Biosecurity"^^xsd:string ; .
+	rdfs:label "Biosecurity"^^xsd:string ;
+	foaf:name "Biosecurity"^^xsd:string .
 
 csiro:X000012-i a org:ChangeEvent ;
     rdfs:label "Food & Nutrition - initiated"^^xsd:string ;
@@ -8469,7 +8727,8 @@ csiro:X000012 a org:Organisation ;
 		csiro:X000023-X000012 ;
 	org:unitOf csiro:IS00001 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Food & Nutrition"^^xsd:string ; .	
+	rdfs:label "Food & Nutrition"^^xsd:string ;
+	foaf:name "Food & Nutrition"^^xsd:string .	
 
 csiro:X000013-i a org:ChangeEvent ;
     rdfs:label "Digital Products and Services - initiated"^^xsd:string ;
@@ -8495,7 +8754,8 @@ csiro:X000013 a org:Organisation ;
 		csiro:X000010-X000013 ;
 	org:unitOf csiro:A000196 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Digital Products and Services"^^xsd:string ; .
+	rdfs:label "Digital Products and Services"^^xsd:string ;
+	foaf:name "Digital Products and Services"^^xsd:string .
 
 csiro:X000014-i a org:ChangeEvent ;
     rdfs:label "Australian Animal Health Laboratory - initiated"^^xsd:string ;
@@ -8509,7 +8769,8 @@ csiro:X000014 a org:Organisation ;
 	org:resultedFrom csiro:X000014-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Australian Animal Health Laboratory"^^xsd:string ; .
+	rdfs:label "Australian Animal Health Laboratory"^^xsd:string ;
+	foaf:name "Australian Animal Health Laboratory"^^xsd:string .
 
 csiro:X000015-i a org:ChangeEvent ;
     rdfs:label "Australia Telescope National Facility - initiated"^^xsd:string ;
@@ -8523,7 +8784,8 @@ csiro:X000015 a org:Organisation ;
 	org:resultedFrom csiro:X000015-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Australia Telescope National Facility"^^xsd:string ; .
+	rdfs:label "Australia Telescope National Facility"^^xsd:string ;
+	foaf:name "Australia Telescope National Facility"^^xsd:string .
 
 csiro:X000016-i a org:ChangeEvent ;
     rdfs:label "Canberra Deep Space Communication Complex - initiated"^^xsd:string ;
@@ -8537,7 +8799,8 @@ csiro:X000016 a org:Organisation ;
 	org:resultedFrom csiro:X000016-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Canberra Deep Space Communication Complex"^^xsd:string ; .	
+	rdfs:label "Canberra Deep Space Communication Complex"^^xsd:string ;
+	foaf:name "Canberra Deep Space Communication Complex"^^xsd:string .	
 
 csiro:X000017-i a org:ChangeEvent ;
     rdfs:label "Marine National Facility - initiated"^^xsd:string ;
@@ -8551,7 +8814,8 @@ csiro:X000017 a org:Organisation ;
 	org:resultedFrom csiro:X000017-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Marine National Facility"^^xsd:string ; .	
+	rdfs:label "Marine National Facility"^^xsd:string ;
+	foaf:name "Marine National Facility"^^xsd:string .	
 
 csiro:X000018-i a org:ChangeEvent ;
     rdfs:label "NovaSAR-1 - initiated"^^xsd:string ;
@@ -8565,7 +8829,8 @@ csiro:X000018 a org:Organisation ;
 	org:resultedFrom csiro:X000018-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "NovaSAR-1"^^xsd:string ; .
+	rdfs:label "NovaSAR-1"^^xsd:string ;
+	foaf:name "NovaSAR-1"^^xsd:string .
 
 csiro:X000019-i a org:ChangeEvent ;
     rdfs:label "Pawsey Supercomputing Centre - initiated"^^xsd:string ;
@@ -8579,7 +8844,8 @@ csiro:X000019 a org:Organisation ;
 	org:resultedFrom csiro:X000019-i ;
 	org:unitOf csiro:NFC0002 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Pawsey Supercomputing Centre"^^xsd:string ; .
+	rdfs:label "Pawsey Supercomputing Centre"^^xsd:string ;
+	foaf:name "Pawsey Supercomputing Centre"^^xsd:string .
 
 csiro:X000020-i a org:ChangeEvent ;
     rdfs:label "Australian National Algae Culture Collection - initiated"^^xsd:string ;
@@ -8593,7 +8859,8 @@ csiro:X000020 a org:Organisation ;
 	org:resultedFrom csiro:X000020-i ;
 	org:unitOf csiro:NFC0003 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Australian National Algae Culture Collection"^^xsd:string ; .	
+	rdfs:label "Australian National Algae Culture Collection"^^xsd:string ;
+	foaf:name "Australian National Algae Culture Collection"^^xsd:string .	
 
 csiro:X000021-i a org:ChangeEvent ;
     rdfs:label "Exploration & Mining - initiated"^^xsd:string ;
@@ -8623,7 +8890,8 @@ csiro:X000021 a org:Organisation ;
 		csiro:A000786-X000021 ;
 	prov:generatedAtTime "1993-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2009-01-01"^^xsd:date ;
-	foaf:name "Exploration & Mining"^^xsd:string ; .		
+	rdfs:label "Exploration & Mining"^^xsd:string ;
+	foaf:name "Exploration & Mining"^^xsd:string .		
 
 csiro:X000022-i a org:ChangeEvent ;
     rdfs:label "Earth Science & Resource Engineering - initiated"^^xsd:string ;
@@ -8649,7 +8917,8 @@ csiro:X000022 a org:Organisation ;
 	org:resultedFrom csiro:X000022-i ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Earth Science & Resource Engineering"^^xsd:string ; .
+	rdfs:label "Earth Science & Resource Engineering"^^xsd:string ;
+	foaf:name "Earth Science & Resource Engineering"^^xsd:string .
 
 csiro:X000023-i a org:ChangeEvent ;
     rdfs:label "Ecosystem Sciences - initiated"^^xsd:string ;
@@ -8677,7 +8946,8 @@ csiro:X000023 a org:Organisation ;
 		csiro:A001687-X000023 ;
 	prov:generatedAtTime "2011-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Ecosystem Sciences"^^xsd:string ; .
+	rdfs:label "Ecosystem Sciences"^^xsd:string ;
+	foaf:name "Ecosystem Sciences"^^xsd:string .
 	
 csiro:X000024 a org:Organisation ;
 	dc:subject "Mathematics, Informatics and Statistics"^^xsd:string ;
@@ -8686,7 +8956,8 @@ csiro:X000024 a org:Organisation ;
 	org:resultedFrom csiro:X000024-i ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2013-01-01"^^xsd:date ;
-	foaf:name "Mathematics, Informatics and Statistics"^^xsd:string ; .
+	rdfs:label "Mathematics, Informatics and Statistics"^^xsd:string ;
+	foaf:name "Mathematics, Informatics and Statistics"^^xsd:string .
 
 csiro:X000025-i a org:ChangeEvent ;
     rdfs:label "ICT Centre - initiated"^^xsd:string ;
@@ -8706,7 +8977,8 @@ csiro:X000025 a org:Organisation ;
 	org:resultedFrom csiro:X000025-i ;
 	prov:generatedAtTime "2003-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2013-01-01"^^xsd:date ;
-	foaf:name "ICT Centre"^^xsd:string ; .
+	rdfs:label "ICT Centre"^^xsd:string ;
+	foaf:name "ICT Centre"^^xsd:string .
 
 csiro:X000026-i a org:ChangeEvent ;
     rdfs:label "Industrial Physics - initiated"^^xsd:string ;
@@ -8731,7 +9003,8 @@ csiro:X000026 a org:Organisation ;
 		csiro:A000746-X000026 ;
 	prov:generatedAtTime "2004-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2007-01-01"^^xsd:date ;
-	foaf:name "Industrial Physics"^^xsd:string ; .
+	rdfs:label "Industrial Physics"^^xsd:string ;
+	foaf:name "Industrial Physics"^^xsd:string .
 
 csiro:X000027-i a org:ChangeEvent ;
     rdfs:label "Industrial Physics - initiated"^^xsd:string ;
@@ -8751,7 +9024,8 @@ csiro:X000027 a org:Organisation ;
 	org:resultedFrom csiro:X000027-i ;
 	prov:generatedAtTime "2009-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Process Science & Engineering"^^xsd:string ; .
+	rdfs:label "Process Science & Engineering"^^xsd:string ;
+	foaf:name "Process Science & Engineering"^^xsd:string .
 	
 csiro:X000028-i a org:ChangeEvent ;
     rdfs:label "Space Science & Technology - initiated"^^xsd:string ;
@@ -8776,7 +9050,8 @@ csiro:X000028 a org:Organisation ;
 		csiro:X000025-X000028 ;
 	prov:generatedAtTime "2008-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2009-01-01"^^xsd:date ;
-	foaf:name "Space Science & Technology"^^xsd:string ; .
+	rdfs:label "Space Science & Technology"^^xsd:string ;
+	foaf:name "Space Science & Technology"^^xsd:string .
 
 csiro:X000029-i a org:ChangeEvent ;
     rdfs:label "Digital Productivity - initiated"^^xsd:string ;
@@ -8801,7 +9076,8 @@ csiro:X000029 a org:Organisation ;
 		csiro:X000013-X000029 ;
 	prov:generatedAtTime "2014-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2015-01-01"^^xsd:date ;
-	foaf:name "Digital Productivity"^^xsd:string ; .
+	rdfs:label "Digital Productivity"^^xsd:string ;
+	foaf:name "Digital Productivity"^^xsd:string .
 	
 csiro:X000030-i a org:ChangeEvent ;
     rdfs:label "NICTA (non-CSIRO) - initiated"^^xsd:string ;
@@ -8820,7 +9096,8 @@ csiro:X000030 a org:Organisation ;
 	org:resultedFrom csiro:X000030-i ;
 	prov:generatedAtTime "2002-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2015-08-28"^^xsd:date ;
-	foaf:name "NICTA (non-CSIRO)"^^xsd:string ; .
+	rdfs:label "NICTA (non-CSIRO)"^^xsd:string ;
+	foaf:name "NICTA (non-CSIRO)"^^xsd:string .
 
 csiro:X000031-i a org:ChangeEvent ;
     rdfs:label "Materials Science & Engineering - initiated"^^xsd:string ;
@@ -8859,7 +9136,8 @@ csiro:X000031 a org:Organisation ;
 		csiro:A000751-X000031 ;
 	prov:generatedAtTime "2007-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2014-01-01"^^xsd:date ;
-	foaf:name "Materials Science & Engineering"^^xsd:string ; .
+	rdfs:label "Materials Science & Engineering"^^xsd:string ;
+	foaf:name "Materials Science & Engineering"^^xsd:string .
 
 csiro:X000032-i a org:ChangeEvent ;
     rdfs:label "Manufacturing & Materials Technology - initiated"^^xsd:string ;
@@ -8883,7 +9161,8 @@ csiro:X000032 a org:Organisation ;
 		csiro:X000032-X000031 ;
 	prov:generatedAtTime "2005-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2006-01-01"^^xsd:date ;
-	foaf:name "Manufacturing & Materials Technology"^^xsd:string ; .
+	rdfs:label "Manufacturing & Materials Technology"^^xsd:string ;
+	foaf:name "Manufacturing & Materials Technology"^^xsd:string .
 	
 csiro:X000033-i a org:ChangeEvent ;
     rdfs:label "Forest Biosciences - initiated"^^xsd:string ;
@@ -8907,7 +9186,8 @@ csiro:X000033 a org:Organisation ;
 	org:resultedFrom csiro:X000033-i ;
 	prov:generatedAtTime "2007-01-01"^^xsd:date ;
 	prov:invalidatedAtTime "2008-01-01"^^xsd:date ;
-	foaf:name "Forest Biosciences"^^xsd:string ; .
+	rdfs:label "Forest Biosciences"^^xsd:string ;
+	foaf:name "Forest Biosciences"^^xsd:string .
 	
 ##########################################################################################
 ##########################################################################################
@@ -8930,6 +9210,7 @@ csiro:A002117 a org:Organisation ;
         csiro:A000735 ;
     prov:generatedAtTime "1931-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1963-12-31"^^xsd:date ;
+	rdfs:label "F. D. McMaster Animal Health Laboratory - CSIRO"^^xsd:string ;
     foaf:name "F. D. McMaster Animal Health Laboratory - CSIRO"^^xsd:string .
 
 csiro:Canberra a org:Site ;
@@ -8987,6 +9268,7 @@ csiro:A000219 a org:Organisation ;
         csiro:A000693 ;
     prov:generatedAtTime "1940-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-09-20"^^xsd:date ;
+	rdfs:label "CSIRO Division of Radiophysics"^^xsd:string ;
     foaf:name "CSIRO Division of Radiophysics"^^xsd:string .
 
 csiro:A000314 a org:Organisation ;
@@ -9010,6 +9292,7 @@ csiro:A000314 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1966-08-21"^^xsd:date ;
     prov:invalidatedAtTime "1974-02-24"^^xsd:date ;
+	rdfs:label "CSIRO Division of Applied Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Applied Chemistry"^^xsd:string .
 
 csiro:A000614 a org:Organisation ;
@@ -9030,6 +9313,7 @@ csiro:A000614 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1978-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "Institute of Industrial Technology - CSIRO"^^xsd:string ;
     foaf:name "Institute of Industrial Technology - CSIRO"^^xsd:string .
 
 csiro:A000617 a org:Organisation ;
@@ -9053,6 +9337,7 @@ csiro:A000617 a org:Organisation ;
         csiro:A000614 ;
     prov:generatedAtTime "1958-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Textile Physics"^^xsd:string ;
     foaf:name "CSIRO Division of Textile Physics"^^xsd:string .
 
 csiro:A000629 a org:Organisation ;
@@ -9074,6 +9359,7 @@ csiro:A000629 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1996-06-30"^^xsd:date ;
+	rdfs:label "Institute of Animal Production and Processing - CSIRO"^^xsd:string ;
     foaf:name "Institute of Animal Production and Processing - CSIRO"^^xsd:string .
 
 csiro:A000647 a org:Organisation ;
@@ -9098,6 +9384,7 @@ csiro:A000647 a org:Organisation ;
     org:unitOf csiro:A000195 ;
     prov:generatedAtTime "1939-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1973-12-31"^^xsd:date ;
+	rdfs:label "CSIR National Standards Laboratory"^^xsd:string ;
     foaf:name "CSIR National Standards Laboratory"^^xsd:string .
 
 csiro:Clayton a org:Site ;
@@ -9142,6 +9429,7 @@ csiro:A000220 a org:Organisation ;
         csiro:A000632 ;
     prov:generatedAtTime "1959-11-23"^^xsd:date ;
     prov:invalidatedAtTime "2000-07-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Animal Health"^^xsd:string ;
     foaf:name "CSIRO Division of Animal Health"^^xsd:string .
 
 csiro:A000634 a org:Organisation ;
@@ -9163,6 +9451,7 @@ csiro:A000634 a org:Organisation ;
     org:resultedFrom csiro:A000634-i ;
     org:unitOf csiro:A000196 ;
     prov:invalidatedAtTime "1986-12-31"^^xsd:date ;
+	rdfs:label "Institute of Biological Resources - CSIRO"^^xsd:string ;
     foaf:name "Institute of Biological Resources - CSIRO"^^xsd:string .
 
 csiro:A000635 a org:Organisation ;
@@ -9186,6 +9475,7 @@ csiro:A000635 a org:Organisation ;
         csiro:A000637 ;
     prov:generatedAtTime "1988-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1990-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Forestry and Forest Products (mark I)"^^xsd:string ;
     foaf:name "CSIRO Division of Forestry and Forest Products (mark I)"^^xsd:string .
 
 csiro:A000696 a org:Organisation ;
@@ -9208,6 +9498,7 @@ csiro:A000696 a org:Organisation ;
         csiro:A000885 ;
     prov:generatedAtTime "1971-01-01"^^xsd:date ;
     prov:invalidatedAtTime "1984-09-30"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineralogy"^^xsd:string ;
     foaf:name "CSIRO Division of Mineralogy"^^xsd:string .
 
 csiro:FishermansBend a org:Site ;
@@ -9242,6 +9533,7 @@ csiro:A000624 a org:Organisation ;
         csiro:A000885 ;
     prov:generatedAtTime "1959-05-26"^^xsd:date ;
     prov:invalidatedAtTime "1988-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Mineral Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Mineral Chemistry"^^xsd:string .
 
 csiro:A000632 a org:Organisation ;
@@ -9265,6 +9557,7 @@ csiro:A000632 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1978-12-12"^^xsd:date ;
     prov:invalidatedAtTime "1987-12-31"^^xsd:date ;
+	rdfs:label "Institute of Animal and Food Sciences - CSIRO"^^xsd:string ;
     foaf:name "Institute of Animal and Food Sciences - CSIRO"^^xsd:string .
 
 csiro:A000668 a org:Organisation ;
@@ -9327,6 +9620,7 @@ csiro:A000668 a org:Organisation ;
     org:unitOf csiro:A000196,
         csiro:A000636 ;
     prov:generatedAtTime "1929-01-01"^^xsd:date ;
+	rdfs:label "CSIRO Division of Plant Industry"^^xsd:string ;
     foaf:name "CSIRO Division of Plant Industry"^^xsd:string .
 
 csiro:A000672 a org:Organisation ;
@@ -9356,6 +9650,7 @@ csiro:A000672 a org:Organisation ;
         csiro:A000636 ;
     prov:generatedAtTime "1929-08-01"^^xsd:date ;
     prov:invalidatedAtTime "1997-12-31"^^xsd:date ;
+	rdfs:label "CSIRO Division of Soils"^^xsd:string ;
     foaf:name "CSIRO Division of Soils"^^xsd:string .
 
 csiro:BlackMountain a org:Site ;
@@ -9406,6 +9701,7 @@ csiro:A000578 a org:Organisation ;
     org:unitOf csiro:A000196 ;
     prov:generatedAtTime "1940-07-01"^^xsd:date ;
     prov:invalidatedAtTime "1958-10-08"^^xsd:date ;
+	rdfs:label "CSIRO Division of Industrial Chemistry"^^xsd:string ;
     foaf:name "CSIRO Division of Industrial Chemistry"^^xsd:string .
 
 csiro:NorthRyde a org:Site ;
@@ -9450,6 +9746,7 @@ csiro:A000195 a org:Organisation ;
     org:unitOf csiro:A000725 ;
     prov:generatedAtTime "1926-06-21"^^xsd:date ;
     prov:invalidatedAtTime "1949-05-19"^^xsd:date ;
+	rdfs:label "Council for Scientific and Industrial Research (CSIR)"^^xsd:string ;
     foaf:name "Council for Scientific and Industrial Research (CSIR)"^^xsd:string .
 
 csiro:Australia a org:Site ;
@@ -9729,6 +10026,7 @@ csiro:A000196 a org:Organisation ;
     org:resultedFrom csiro:A000196-i ;
     org:unitOf csiro:A000724 ;
     prov:generatedAtTime "1949-05-19"^^xsd:date ;
+	rdfs:label "Commonwealth Scientific and Industrial Research Organisation (CSIRO)"^^xsd:string ;
     foaf:name "Commonwealth Scientific and Industrial Research Organisation (CSIRO)"^^xsd:string .
 
 	
