@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="generator" content="Responsive Site Designer 1.5.1390">
+  <title>Pie chart</title>
+  <link rel="stylesheet" href="css/coffeegrinder.min.css">
+  <link rel="stylesheet" href="css/wireframe-theme.min.css">
+  <script>document.createElement( "picture" );</script>
+  <script src="js/picturefill.min.js" class="picturefill" async="async"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,b">
+</head>
+
+<body class="grid-1">
+  <div class="row">
+    <div class="coffee-span-12">
+      <h1 class="page-title">Pie chart</h1>
+    </div>
+  </div>
+  <header class="row nav-row">
+    <nav class="coffee-span-12 centered-content"><a class="link-button nav" href="index.html">Home</a><a class="link-button nav" href="Vis.html">Visualise</a><a class="link-button nav" href="#">Query</a>
+    </nav>
+  </header>
+  <header class="row">
+    <header class="coffee-span-12 hero-column">
+      <div class="responsive-picture hero-image">
+
+        </picture>
+      </div>
+    </header>
+  </header>
+  <main class="row">
+    <div class="coffee-span-12">
+
+    </div>
+
+  <main class="row">
+    <main class="coffee-span-12 centered-content">
+      <p class="action-paragraph paragraph">Pie chart
+    </main>
+
+
+    <head>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="js/d3sparql.js"></script>
+      <script>
+      function exec() {
+        var endpoint = d3.select("#endpoint").property("value")
+        var sparql = d3.select("#sparql").property("value")
+        d3sparql.query(endpoint, sparql, render)
+      }
+  /*/----------------------------------------------------------------
+      function render(json) {
+        var config = {
+          "selector": "#result"
+        }
+        d3sparql.htmltable(json, config)
+      }
+  //-------------------------------------------------------------------*/
+
+  function render(json) {
+    var config = {
+      "label": "Organisation",
+      "size": "Number_of_Members",
+      "width":  600,  // canvas width
+      "height": 600,  // canvas height
+      "margin":  10,  // canvas margin
+      "hole":   200,  // doughnut hole: 0 for pie, r > 0 for doughnut
+      "selector": "#result"
+    }
+    d3sparql.piechart(json, config)
+  }
+
+
+  //------------------------------------------------------------------------
+
+
+      function exec_offline() {
+        d3.json("cache/interpro/1117-hk.json", render)
+      }
+      function toggle() {
+        d3sparql.toggle()
+      }
+      </script>
+    </head>
+    <body>
+      <div id="query" style="margin: 10px">
+        <h1>Chart</h1>
+        <form class="form-inline">
+          <label>SPARQL endpoint:</label>
+          <div class="input-append">
+            <input id="endpoint" class="span5" value="http://13.236.186.87:7200/repositories/SIT764" type="text">
+            <button class="btn" type="button" onclick="exec()">Query</button>
+            <button class="btn" type="button" onclick="toggle()"><i id="button" class="icon-chevron-up">Hide Query</i></button>
+
+          </div>
+        </form>
+        <textarea id="sparql" class="span9" rows=15>
+  PREFIX csiro: <http://network.csiro.au/data/csiro/>
+  PREFIX dc: <http://purl.org/dc/elements/1.1/>
+  PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+  PREFIX gn: <http://www.geonames.org/ontology#>
+  PREFIX locn: <http://www.w3.org/ns/locn#>
+  PREFIX org: <http://www.w3.org/ns/org#>
+  PREFIX owl: <http://www.w3.org/2002/07/owl#>
+  PREFIX prov: <http://www.w3.org/ns/prov#>
+  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+  PREFIX wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+  PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+  SELECT Distinct (?x AS ?Organisation) (count(?y) As ?Number_of_Members)
+  WHERE{
+     ?x org:hasMember ?y.
+
+  }
+  GROUP BY ?x
+        </textarea>
+      </div>
+      <div id="result"></div>
+
+
+</p><a class="link-button action-button" href="SPARQL.txt">Sample Queries</a>
+</body>
+
+</html>
